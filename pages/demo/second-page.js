@@ -434,7 +434,7 @@ const FAQList = ({ question, answer,index }) => {
       <React.Fragment>
         <ul onClick={onClickButton}>
           <li>
-            <h4>{question}</h4>
+            <h4 className={Styles.faqQuestion}>{question}</h4>
           </li>
           <li>
             <AddIcon  style={{

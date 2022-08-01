@@ -10,7 +10,22 @@ const Demo = () => {
 <>
     <Header2 />
     <div className="mainpage">
-      <section className={Styles.bannersection}>
+      <div className={Styles.bannerImage}>
+        <Image src="/images/background/banner.png" width={1700} height={800} priority />
+        <div className={Styles.absolutePart}>
+          <div className={` ${Styles.mobileRes} row`}>
+            <div className="col-md-12">
+              <div className={Styles.bannertext}>
+                <h1 className={Styles.mobileH1}> Best in E commerce uploading</h1>
+                <p>
+                Sell more with appealing product entry services from OMRA Solutions!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <section className={Styles.bannersection}>
         <div className="container">
           <div className="row">
             <div className="col-md-12">
@@ -23,7 +38,7 @@ const Demo = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className={Styles.sectiont}>
         <div className="container">
@@ -421,7 +436,7 @@ const FAQList = ({ question, answer,index }) => {
     <React.Fragment>
       <ul onClick={onClickButton}>
         <li>
-          <h4>{question}</h4>
+          <h4 className={Styles.faqQuestion}>{question}</h4>
         </li>
         <li>
           <AddIcon  style={{

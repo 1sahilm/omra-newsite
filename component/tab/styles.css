@@ -332,14 +332,21 @@ section.mydiv10 ul li img {
     section.mydiv7 {
     justify-content: center;
     }
+    .nav-tabs a{
+        font-size: 14px;
+    }
+    .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+        font-size: 14px;
+        letter-spacing: 0;
+    }
     section.mydiv6 h1 {
         color: #7B45D9;
-        font-size: 42px;
+        font-size: 32px;
+        font-weight: 100;
         text-align: center;
         position: relative;
         left: 0px;
-        top: 17px;
-        font-family: sans-serif;
+        top: 14px;
     }
     section.mydiv10 ul {
         flex-wrap: wrap;
@@ -380,14 +387,14 @@ section.mydiv10 ul li img {
     }
     .valueimage2:after {
         content: "";
-        border: 2px solid #fff;
-        position: absolute;
-        top: 30px;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 22px;
+    bottom: 0;
+    left: 27px;
+    right: 0;
+    width: 85%;
+    height: 100%;
     }
     .valuecontents {
         border: 1px solid #fff;
@@ -445,6 +452,9 @@ section.mydiv10 ul li img {
       
       padding-left: 0;
   }
+  section.mydiv9 h1 {
+    font-size: 20px;
+}
   img.hireimages1 {
     width: 100%;
     position: relative;

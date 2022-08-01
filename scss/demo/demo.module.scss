@@ -1,10 +1,13 @@
-.bannersection {
+.bannerImage{
   position: relative;
-  padding: 242px 0px;
-  background-image: url("../../public/images/background/banner.png");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  .absolutePart{
+    position: absolute;
+    top: 43%;
+    left: 7%;
+  }
+}
+
+.bannerImage {
 
   .bannertext {
     position: relative;
@@ -12,7 +15,7 @@
       position: relative ;
       margin: 0;
       padding: 0;
-      font-size: 43px !important;
+      font-size: 43px ;
     }
     p{
       position: relative;
@@ -262,9 +265,41 @@ section.deliversection h3 {
   section.deliversection ul {
     flex-wrap: wrap;
   }
+  .mobileH1{
+    font-size: 25px !important;
+  }
+  .bannerImage{
+    img{
+      height: 380px !important;
+    }
+   
+  }
+  
+  .mobileRes{
+        max-width: 100% !important;
+     
+  }
   .box551 {
 margin: 0 auto;
 
+  }
+  .faqQuestion{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .sectionFive {
+    h2 {
+      color: #ff0000;
+      margin-top: 0;
+      padding-top: 0;
+      font-size: 3.2em;
+      font-weight: 700;
+      position: relative;
+      top: -16px;
+    right: 0px;
+    padding-bottom: 0px !important;
+    margin-bottom: 0;
+    }
   }
   .box551 + h2 {
     text-align: center;
@@ -310,4 +345,90 @@ section.mydiv88 h1, section.mydiv77 h1 {
   margin-bottom: 0px;
 }
 
+.sectiont {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  &:after {
+    content: "";
+    width: 34%;
+    height: 100%;
+    background-color: #7b45d9;
+    opacity: 1;
+  }
+  .imageouter {
+    position: relative;
+    &:after {
+      content: "";
+
+      width: 66%;
+      height: 80%;
+      border: 2px solid #ffffff;
+      position: absolute;
+      opacity: 1;
+      left: 146px;
+      top: 70px;
+    }
+    
+  }
+  &:before {
+    position: absolute;
+    background-color: #7b45d9;
+    width: 80%;
+    height: 100%;
+  }
+  
+
+  
 }
+
+.faqcontent {
+  h1 {
+    color: #f65517;
+    font-size: 21px;
+  }
+}
+
+}
+
+@media (max-width:600px) {
+
+  .sectiont {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  
+    &:after {
+      content: "";
+      width: 34%;
+      height: 100%;
+      background-color: #7b45d9;
+      opacity: 1;
+    }
+    .imageouter {
+      position: relative;
+      &:after {
+        content: "";
+  
+        width: 66%;
+        height: 80%;
+        border: 2px solid #ffffff;
+        position: absolute;
+        opacity: 1;
+        left: 65px;
+    top: 70px;
+      }
+      
+    }
+    &:before {
+      position: absolute;
+      background-color: #7b45d9;
+      width: 80%;
+      height: 100%;
+    }
+    
+  
+    
+  }
+}
+
+
