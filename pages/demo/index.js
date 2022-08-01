@@ -327,9 +327,9 @@ const Demo = () => {
       <section className={Styles.sectionf}>
         <div className={` ${Styles.heading} container`}>
           <div className="row">
-            <div className="col-md-6">
-              <h2 className={Styles.sectionheading}>
-                Quality Experience to On-Board Merchant
+            <div className="col-md-7">
+              <h2 className={Styles.sectionheading} style={{color:"#FF5818", fontSize:"30px", fontWeight:"800"}}>
+                Why Choose us to hire developers
               </h2>
               <ul className={Styles.arrowlist}>
                 <li>
@@ -379,7 +379,7 @@ const Demo = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-5">
               <img src="/image/Building-customer-centric-websites-compressed.png" />{" "}
             </div>
           </div>

@@ -7,6 +7,18 @@
 
   .bannertext {
     position: relative;
+    h1{
+      position: relative ;
+      margin: 0;
+      padding: 0;
+      font-size: 43px !important;
+    }
+    p{
+      position: relative;
+      padding: 0;
+      font-weight: 400;
+    font-size: 18px !important;
+    }
   }
 }
 
@@ -51,10 +63,12 @@
       color: #ff0000;
       font-family: sans-serif;
       font-size: 45px;
+      font-weight: 100;
     }
     p {
       position: relative;
       padding-left: 0px;
+      font-weight: 300;
     }
   }
 
@@ -92,16 +106,19 @@ h2.sectionheading {
     margin-top: 0;
     padding-top: 0;
     font-size: 3.2em;
-    font-weight: 800;
-    font-family: system-ui !important;
+    font-weight: 700;
     position: relative;
     top: -30px;
     right: -55px;
   }
+  h3{
+    font-size: 48px;
+    font-weight: 100;
+  }
 }
 
 .newsectionbox {
-  background: #682ad5;
+  background: #280a5cde;
   padding: 40px 0px;
   .textblock2 {
     border: 2px solid #ffffff;
@@ -134,7 +151,7 @@ h2.sectionheading {
 
 section.deliversection h1 {
   text-align: center;
-  font-family: sans-serif;
+  font-weight: 800;
   font-size: 40px;
   margin: 0 0 10px 0;
   color: #7b45d9;
@@ -146,11 +163,11 @@ section.deliversection p {
   font-family: sans-serif;
   line-height: 22px;
   color: #7b45d9;
-  font-weight: 600;
+  font-weight: 400;
 }
 section.deliversection {
   background-color: #00000029;
-  padding: 30px 0 0;
+  padding: 0px 0 0;
 }
 section.deliversection ul {
   display: flex;
@@ -170,15 +187,15 @@ section.deliversection h3 {
   color: #7b45d9;
   font-size: 18px;
   font-family: sans-serif;
-  font-weight: 100;
+  font-weight: 600;
 }
 
 .deliversection {
   background: #fff !important;
 }
 .box551 {
-  width: 134px;
-  height: 134px;
+  width: 100px;
+  height: 100px;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -226,5 +243,17 @@ section.deliversection h3 {
   h1 {
     color: #f65517;
     font-size: 28px;
+  }
+}
+.sectionf {
+
+  .arrowlist {
+    img {
+      margin-top: 0px;
+    }
+  }
+  img {
+    width: 100%;
+    margin-top: 20px;
   }
 }

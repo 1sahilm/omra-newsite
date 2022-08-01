@@ -169,15 +169,15 @@ section.mydiv4 {
 
 section.mydiv4 h1 {
     color: #fff;
-    font-size: 35px;
-    font-family: sans-serif;
-    font-weight: 200;
+    font-size: 48px;
+    font-weight: 100;
 }
 
 section.mydiv4 h2 {
     color: #FF5818;
     margin-left: 35px;
-    font-size: 50px;
+    font-size: 3.2em;
+    font-weight: 700;
     margin-top: -28px;
     font-family: sans-serif;
 } 
@@ -226,8 +226,7 @@ section.mydiv6 h1 {
     font-family: sans-serif;
 }
 .valuecontents p {
-    color: #dcadad;
-    font-family: sans-serif;
+    color: #fff;
     max-width: 440px;
     line-height: 20px;
 }
