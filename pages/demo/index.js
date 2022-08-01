@@ -380,7 +380,7 @@ const Demo = () => {
               </ul>
             </div>
             <div className="col-md-6">
-              <img src="..image/Building-customer-centric-websites-compressed.png" />{" "}
+              <img src="/image/Building-customer-centric-websites-compressed.png" />{" "}
             </div>
           </div>
         </div>
