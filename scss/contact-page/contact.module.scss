@@ -1,0 +1,162 @@
+.omracontact{
+    background-image: url("/images/eye.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0px;
+    width: 100%;
+    height: 570px;
+
+}
+.omracontact strong{
+    color: white;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    
+    
+}
+.omracontact p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+.omracontact1{
+    background-color: #151515
+    
+
+}
+    
+    .omracontact1 h2{
+    
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 80px;
+    font-weight: 700;
+}
+.omracontact1 p{
+    color: #fff;
+    
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.Collection {
+    background-color: #151515;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.Collection a .a{background-image: url("/images/usaCol1.jpg") ;
+     background-repeat: no-repeat;
+     background-image: cover;
+     height: 500px;
+     
+     background-position: top;
+     
+     
+}
+.Collection a p{
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 300px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-family: 'Montserrat', sans-serif;
+}
+.Collection a  div {
+background-size: 100% 100% ;
+}
+
+.Collection a .b{background-image: url("/images/south-americaCol2.jpg") ;
+    background-repeat: no-repeat;
+    background-image: cover;
+    height: 500px;
+    background-position: top;
+    
+
+}
+.Collection a .c{background-image: url("/images/usaCol1.jpg") ;
+    background-repeat: no-repeat;
+    background-image: cover;
+    height: 500px;
+    background-position: top;
+    
+
+}
+
+.Collectionrow {
+    .collectionbox {
+        width: calc(100%/8);
+    }
+}
+.Collection a .d{background-image: url("/images/south-americaCol2.jpg") ;
+    background-repeat: no-repeat;
+    background-image: cover;
+    height: 500px;
+    background-position: top;
+}
+.Collection a:hover div{
+    display: block;
+    position: relative;
+     transition: all 1s;
+     opacity: 50%;
+     height: 550px;
+     margin-top: -25px;
+     background-color:  tomato;
+    
+}
+.Collection a:hover::after{background-color: tomato;}
+.Contact  h3{
+    font-size: 50px;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 40px;
+}
+ .subheading p{
+    font-size: 16px;
+    padding-bottom: 45px;
+    color: #fff;
+}
+.Contact {
+    background-color: #000;
+}
+.Form {
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px solid #a3a3a3;
+    
+}
+.Form form{
+    display: flex;   
+}
+.Form label #terms{
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.formTerms {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    margin-left: 15px;
+    }
+    .submit{
+        width:147px ;
+        height: 40px;
+        cursor: not-allowed;
+        margin-left: 15px;
+        font-size: 14px;
+        border: none;
+        font-weight: 600;
+        letter-spacing: 2px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        background-color: #8B8B8B;
+        color: #666666;
+}

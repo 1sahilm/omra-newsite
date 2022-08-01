@@ -1,0 +1,33 @@
+.leaderheading{
+       background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    position: absolute;
+    top: 10px;
+    z-index: 999;
+    left: 0;
+    font-size: 71px;
+    font-family:sans-serif!important;
+}
+.leaderpara {
+    margin-bottom: 1rem;
+    color: #fff;
+    line-height: 22px;
+    margin-top: 11px;
+    font-size: 18px;
+    letter-spacing: .4px;
+    font-weight: 300!important;
+    font-family:sans-serif!important;
+}
+.leaderarrow{
+    height: 35px;
+    padding: 0 10px;
+    filter: brightness(0) invert(1);
+    display: flex;
+    float: right;
+    margin-top: 50px;
+}
+.leaderarrow :hover{
+    cursor: pointer;
+}

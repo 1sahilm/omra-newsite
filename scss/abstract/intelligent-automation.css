@@ -1,0 +1,74 @@
+
+.section2-img img ,.section1 img ,.section47 .section1 img {
+    width: 100%;
+    height: auto;
+}
+/* footer */
+img.logofooter {
+    margin-top: 15px;
+    width: 115px;
+  }
+  
+   
+  
+  form.form-section {
+    display: flex !important;
+    align-items: center !important;
+   
+  }
+  
+   
+  
+  .footernewssection .footer-txt-1 form.form-section {
+    margin-left: 0px;
+  }
+  
+  .footernewssection .footer-txt-1 form.form-section input.news-section-box {
+    margin-left: 0px;
+  }
+@media (max-width: 600px){
+    .section-box {
+        margin-left: 0px;
+    }  
+    .section1 img {
+        height: auto;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    }
+
+  
+    .section44 .row {
+        flex-direction: column-reverse;
+    }
+    
+    .section45 img {
+        margin: 0;
+        height: auto;
+        padding-top: 0;
+        margin-bottom: 15px;
+        margin-top: 25px;
+    }
+    
+    .section45 .section-text {
+        margin: 0;
+    }
+
+    .section46 .row .col-3 {
+        width: calc(100%/2);
+        flex: inherit;
+        max-width: none;
+        padding: 10px;
+    }
+
+    .section47 .row {
+        flex-direction: column-reverse;
+    }
+}
+/* extra media */
+.bullets li {
+    background: url(/intelligentautomationimages/red-arw.png) no-repeat 0 5px;
+    padding: 0 0 12px 25px !important;
+    text-align: justify;
+    margin: 9px 17px;
+}
