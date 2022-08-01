@@ -63,54 +63,54 @@ const Demo = () => {
               </h2>
               <ul className={Styles.arrowlist}>
                 <li>
-                  <img src="/image/4.png" alt="icon" /> Own Developed Software
+                  <img src="image/4.png" alt="icon" /> Own Developed Software
                   As A Service (Saas) Based Product For Enterprises Segment.
                 </li>
                 <li>
-                  <img src="/image/4.png" alt="icon" /> Developer Platform On
+                  <img src="image/4.png" alt="icon" /> Developer Platform On
                   Advanced Technology.
                 </li>
                 <li>
-                  <img src="/image/4.png" alt="icon" /> Voice Call & Sales
+                  <img src="image/4.png" alt="icon" /> Voice Call & Sales
                   Process- Pan India On-Boarding-Sold Successfully 150+
                   Licenses.
                 </li>
                 <li>
-                  <img src="/image/4.png" alt="icon" /> For Telecom Industry –
+                  <img src="image/4.png" alt="icon" /> For Telecom Industry –
                   Service delivery Platform{" "}
                 </li>
                 <li>
-                  <img src="/image/4.png" alt="icon" /> Developed Platform to
+                  <img src="image/4.png" alt="icon" /> Developed Platform to
                   Manage Mobile Content Delivery And Billing
                 </li>
                 <li>
-                  <img src="/image/4.png" alt="icon" /> Sales & Marketing
+                  <img src="image/4.png" alt="icon" /> Sales & Marketing
                   Experience to Handle Telecom Vas Business Operations.
                 </li>
                 <li>
-                  <img src="/image/4.png" alt="icon" /> Pan India Merchant
+                  <img src="image/4.png" alt="icon" /> Pan India Merchant
                   Onboarding Process For{" "}
                 </li>
                 <li>
-                  <img src="/image/4.png" alt="icon" /> Manage The Business
+                  <img src="image/4.png" alt="icon" /> Manage The Business
                   Operation For Merchant -Onboarding Process.{" "}
                 </li>
                 <li>
-                  <img src="/image/4.png" alt="icon" /> Voice Call Process-
+                  <img src="image/4.png" alt="icon" /> Voice Call Process-
                   Digital Catalogue Sales And Fulfillment{" "}
                 </li>
                 <li>
-                  <img src="/image/4.png" alt="icon" /> Lead Generation for
+                  <img src="image/4.png" alt="icon" /> Lead Generation for
                   Various Industries.
                 </li>
                 <li>
-                  <img src="/image/4.png" alt="icon" /> Voice Call Process To
+                  <img src="image/4.png" alt="icon" /> Voice Call Process To
                   Generate Leads For Travel, Hospitals & Education Sectors.
                 </li>
               </ul>
             </div>
             <div className="col-md-6">
-              <img src="../image/3.svg" />{" "}
+              <img src="/image/newbg.SVG" />{" "}
             </div>
           </div>
         </div>
@@ -231,7 +231,7 @@ const Demo = () => {
           <div className="row">
             <div className="col-md-3">
               <div className={` ${Styles.box551} box1 `}>
-                <img src="/image/q.svg" alt="img" />
+                <img src="image/q.svg" alt="img" />
               </div>
               <h2>Understanding your business and marketing objectives</h2>
               <p>
@@ -242,7 +242,7 @@ const Demo = () => {
             </div>
             <div className="col-md-3">
               <div className={` ${Styles.box551} box1 `}>
-                <img src="/image/w.svg" alt="img" />
+                <img src="image/w.svg" alt="img" />
               </div>
               <h2>Understanding your consumers’ behaviors and data</h2>
               <p>
@@ -253,7 +253,7 @@ const Demo = () => {
             </div>
             <div className="col-md-3">
               <div className={` ${Styles.box551} box1 `}>
-                <img src="/image/e.svg" alt="img" />
+                <img src="image/e.svg" alt="img" />
               </div>
               <h2>Drawing insights to set targets</h2>
               <p>
@@ -264,7 +264,7 @@ const Demo = () => {
             </div>
             <div className="col-md-3">
               <div className={` ${Styles.box551} box1 `}>
-                <img src="/image/r.svg" alt="img" />
+                <img src="image/r.svg" alt="img" />
               </div>
               <h2>Restructuring to enable digital transformation</h2>
               <p>
@@ -291,31 +291,31 @@ const Demo = () => {
               </p>
               <ul>
                 <li>
-                  <img src="/image/ask1.png" alt="img" />
+                  <img src="image/ask1.png" alt="img" />
                   <h3>Ask</h3>
                 </li>
                 <li>
-                  <img src="/image/re1.png" alt="img" />
+                  <img src="image/re1.png" alt="img" />
                   <h3>Research</h3>
                 </li>
                 <li>
-                  <img src="/image/id.png" alt="img" />
+                  <img src="image/id.png" alt="img" />
                   <h3>Ideate</h3>
                 </li>
                 <li>
-                  <img src="/image/de.png" alt="img" />
+                  <img src="image/de.png" alt="img" />
                   <h3>Design</h3>
                 </li>
                 <li>
-                  <img src="/image/dep2.png" alt="img" />
+                  <img src="image/dep2.png" alt="img" />
                   <h3>Develop</h3>
                 </li>
                 <li>
-                  <img src="/image/dep.png" alt="img" />
+                  <img src="image/dep.png" alt="img" />
                   <h3>Deploy</h3>
                 </li>
                 <li>
-                  <img src="/image/sup.png" alt="img" />
+                  <img src="image/sup.png" alt="img" />
                   <h3>Support</h3>
                 </li>
               </ul>
@@ -333,54 +333,54 @@ const Demo = () => {
               </h2>
               <ul className={Styles.arrowlist}>
                 <li>
-                  <img src="/image/4.png" alt="icon" /> Own Developed Software
+                  <img src="image/4.png" alt="icon" /> Own Developed Software
                   As A Service (Saas) Based Product For Enterprises Segment.
                 </li>
                 <li>
-                  <img src="/image/4.png" alt="icon" /> Developer Platform On
+                  <img src="image/4.png" alt="icon" /> Developer Platform On
                   Advanced Technology.
                 </li>
                 <li>
-                  <img src="/image/4.png" alt="icon" /> Voice Call & Sales
+                  <img src="image/4.png" alt="icon" /> Voice Call & Sales
                   Process- Pan India On-Boarding-Sold Successfully 150+
                   Licenses.
                 </li>
                 <li>
-                  <img src="/image/4.png" alt="icon" /> For Telecom Industry –
+                  <img src="image/4.png" alt="icon" /> For Telecom Industry –
                   Service delivery Platform{" "}
                 </li>
                 <li>
-                  <img src="/image/4.png" alt="icon" /> Developed Platform to
+                  <img src="image/4.png" alt="icon" /> Developed Platform to
                   Manage Mobile Content Delivery And Billing
                 </li>
                 <li>
-                  <img src="/image/4.png" alt="icon" /> Sales & Marketing
+                  <img src="image/4.png" alt="icon" /> Sales & Marketing
                   Experience to Handle Telecom Vas Business Operations.
                 </li>
                 <li>
-                  <img src="/image/4.png" alt="icon" /> Pan India Merchant
+                  <img src="image/4.png" alt="icon" /> Pan India Merchant
                   Onboarding Process For{" "}
                 </li>
                 <li>
-                  <img src="/image/4.png" alt="icon" /> Manage The Business
+                  <img src="image/4.png" alt="icon" /> Manage The Business
                   Operation For Merchant -Onboarding Process.{" "}
                 </li>
                 <li>
-                  <img src="/image/4.png" alt="icon" /> Voice Call Process-
+                  <img src="image/4.png" alt="icon" /> Voice Call Process-
                   Digital Catalogue Sales And Fulfillment{" "}
                 </li>
                 <li>
-                  <img src="/image/4.png" alt="icon" /> Lead Generation for
+                  <img src="image/4.png" alt="icon" /> Lead Generation for
                   Various Industries.
                 </li>
                 <li>
-                  <img src="/image/4.png" alt="icon" /> Voice Call Process To
+                  <img src="image/4.png" alt="icon" /> Voice Call Process To
                   Generate Leads For Travel, Hospitals & Education Sectors.
                 </li>
               </ul>
             </div>
             <div className="col-md-6">
-              <img src="../image/Building-customer-centric-websites-compressed.png" />{" "}
+              <img src="..image/Building-customer-centric-websites-compressed.png" />{" "}
             </div>
           </div>
         </div>
