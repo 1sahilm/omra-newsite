@@ -662,6 +662,7 @@ section.mydiv11 p {
 font-family: sans-serif;
 font-size: 18px;
 color: #F5EEEE;
+text-align: inherit;
 line-height: 25px;
 }
 section.mydiv11 h1 {
@@ -669,9 +670,9 @@ padding-top: 110px;
 /* text-align: center; */
 color: linear-gradient(#FF5818, #FF0000);
 color: #FF0000;
-font-family: sans-serif;
-font-size: 54px;
-margin-bottom: 0;
+font-size: 43px;
+    font-weight: 500;
+    margin-bottom: 0;
 }
 /* .valuecontent1 {
 margin-left: 200px;
@@ -695,13 +696,13 @@ height: 112%;;
 
 .valueimage1 {
 position: relative;
-left: -69px;
+left: 0px;
 }
 .valueimage1 img {
 position: relative;
 padding: 90px 0 0 60px;
-width: 550px;
-right: 140px;
+width: 100%;
+right: 0;
 
 }
 .valueimage1:after {
@@ -733,9 +734,9 @@ section.mydiv22 {
     padding-top: 36px; */
 }
 img.hireimages1 {
-    width: 750px;
+    width: 100%;
     position: relative;
-    left: 41px;
+    left: 0px;
 }
 .hirecontent1 ul {
     margin-left: -40px;
@@ -766,8 +767,7 @@ img.hireimages1 {
     padding-right: 8px;
 }
 section.mydiv44 {
-    background-color: #000;
-    margin-left: -358px;
+    background-color: #000; 
 }
  
 section.mydiv44 h1 {
@@ -855,8 +855,7 @@ valuecontent1{
 .mydiv77{
     background-color: #000;
     padding-bottom: 30px;
-     color: white;
-     margin-left: -382px;
+     color: white; 
     /* padding-left: 154px;
     padding-right: 756px;
     padding-bottom: 246px;
@@ -881,7 +880,7 @@ section.mydiv77 ul li{
 }
 section.mydiv77 h2 {
     margin: 0px;
-    font-size: 28px;
+    font-size: 22px;
 }
 section.mydiv77 p{
     margin-top: 10px;
@@ -904,8 +903,7 @@ section.mydiv77 p img {
     padding-bottom: 30px;
     color: white;
     /* padding-left: 154px;
-    padding-right: 255px; */
-    margin-left: -382px;
+    padding-right: 255px; */ 
     
   
     margin-top: 0px;
@@ -973,7 +971,7 @@ margin-top: 15px !important;
   }
  
 .hirecontent1 {
-    margin-left: -176px !important;
+    margin-left: 0px !important;
 }
 .right div h1{
     font-size: 27px;
@@ -991,3 +989,52 @@ margin-top: 15px !important;
 .valuecontent1 {
     padding-top: 45px;
 }
+
+@media (max-width:600px) {
+    .valueimage1 img {
+        position: relative;
+        padding: 11px;
+        width: 100%;
+        right: 0;
+    }
+    .valueimage1 {
+        left: 0px;
+    }
+    .valueimage1:before {
+        content: "";
+        background-color: #7B45D9;
+        position: absolute;
+        top: 0;
+        left: 0px;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .valueimage1:after {
+        content: "";
+        border: 2px solid #fff;
+        position: absolute;
+        top: 50%;
+        bottom: 0px;
+        left: 50%;
+        right: 0;
+        width: 80%;
+        height: 80%;
+        transform: translate(-50% , -50%);
+    }
+    section.mydiv11 h1 {
+        padding: 0px;
+        font-size: 7vw;
+        margin-bottom: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    section.mydiv11 {
+        padding-bottom: 30px;
+    }
+    section.mydiv001 h1 {
+        font-size: 6vw;
+        width: 100%;
+    }
+ }

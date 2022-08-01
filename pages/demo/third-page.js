@@ -75,12 +75,10 @@ function Third() {
               We have a complete setup and experienced team to understand and
               execute any back-end sales process.{" "}
             </p>
-            <ul>
-              <li>
+            
                 <img src="/image/4.svg" alt="icon" />
-                QUALITY, EXPERIENCE WITH RENOWNED BRANDS.
-              </li>
-            </ul>
+                &nbsp; QUALITY, EXPERIENCE WITH RENOWNED BRANDS. <br />  <br /> 
+              
             <p style={{padding:"0"}}>
               We have great experience in voice &amp; on-field sales process.
               We, OMRA Solutions are a leading organization in the space of IT

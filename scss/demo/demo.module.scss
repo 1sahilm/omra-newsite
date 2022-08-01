@@ -1,9 +1,10 @@
 .bannersection {
   position: relative;
-  padding: 292px 0px;
+  padding: 242px 0px;
   background-image: url("../../public/images/background/banner.png");
   background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
 
   .bannertext {
     position: relative;
@@ -191,7 +192,7 @@ section.deliversection h3 {
 }
 
 .deliversection {
-  background: #fff !important;
+  background: #EBEBEB !important;
 }
 .box551 {
   width: 100px;
@@ -227,8 +228,7 @@ section.deliversection h3 {
   padding-top: 40px;
   ul {
     display: flex;
-    justify-content: space-between;
-    text-align: center;
+    justify-content: space-between; 
     align-items: center;
     li {
       img {
@@ -256,4 +256,58 @@ section.deliversection h3 {
     width: 100%;
     margin-top: 20px;
   }
+}
+
+@media (max-width:600px) {
+  section.deliversection ul {
+    flex-wrap: wrap;
+  }
+  .box551 {
+margin: 0 auto;
+
+  }
+  .box551 + h2 {
+    text-align: center;
+  }
+  .box551 + h2 + p {
+    text-align: center;
+  }
+
+  .mydiv001 {
+    /* background-image: url(./image/1.png); */
+    
+    padding: 200px 0px;
+    
+    padding-left: 0;
+}
+img.hireimages1 {
+  width: 100%;
+  position: relative;
+  left: 0px;
+}
+
+.mydiv77 {
+  
+  padding-bottom: 30px;
+   
+  margin-left: 0px;
+}
+.mydiv88 {
+   
+  padding-bottom: 30px;
+   
+  margin-left: 0px;
+  margin-top: 0px;
+  padding-top: 36px;
+}
+.hirecontent1 {
+  margin-left: 0px;
+}
+section.mydiv88 h1, section.mydiv77 h1 {
+  
+  font-size: 6vw;
+   
+  margin-bottom: 0px;
+}
+
 }

@@ -56,15 +56,16 @@ section.mydiv p {
     font-family: sans-serif;
 }
 section.mydiv1 p {
-    max-width: 460px;
+    max-width: 660px;
     font-family: sans-serif;
+    padding: 0;
+    text-align: inherit;
     font-size: 18px;
     color: #d9c8c8;
     line-height: 25px;
 }
 section.mydiv1 h1 {
     padding-top: 110px;
-    text-align: center;
     color: #FF0000;
     font-family: sans-serif;
     font-size: 45px;
@@ -115,11 +116,11 @@ img.hireimages {
     height: 780px;
 }
 .hirecontent ul {
-    margin-left: -40px;
+    margin-left: 0px;
 }
 .hirecontent ul li {
     list-style: none;
-    color: #d1b7b7;
+    color: #fff;
     margin-bottom: 15px;
     line-height: 15px;
     font-size: 13px;
@@ -131,8 +132,9 @@ img.hireimages {
     font-family: sans-serif;
 }
 .hirecontent p {
-    color: #bd9e9e;
-    font-family: sans-serif;
+    color: #fff;
+    padding: 0;
+    text-align: inherit;
     font-size: 15px;
     line-height: 22px;
 }
@@ -153,15 +155,16 @@ section.mydiv3 h1 {
 
 section.mydiv3  h2 {
     color: #FF5818;
-    margin-left: 135px;
+    margin-left: 95px;
     font-size: 50px;
-    margin-top: -20px;
+    margin-top: -40px;
     font-family: sans-serif;
 }
 section.mydiv3  p {
-    font-family: sans-serif;
-    color: #d4b9b9;
-    line-height: 20px;
+    color: #fff;
+    line-height: 23px;
+    padding: 0;
+    text-align: inherit;
 }
 section.mydiv4 {
     background-color: #000;
@@ -178,7 +181,7 @@ section.mydiv4 h2 {
     margin-left: 35px;
     font-size: 3.2em;
     font-weight: 700;
-    margin-top: -28px;
+    margin-top: -40px;
     font-family: sans-serif;
 } 
 section.mydiv5 {
@@ -200,7 +203,7 @@ section.mydiv5 h2.active {
     content: "";
     border: 2px solid #fff;
     position: absolute;
-    top: 112px;
+    top: 95px;
     bottom: 0;
     left: 55px;
     right: 0;
@@ -212,7 +215,7 @@ section.mydiv5 h2.active {
 }
 .valueimage2 img {
     position: relative;
-    padding: 40px 0 0 60px;
+    padding: 0px 0 0 60px;
     right: 100px;
 }
 section.mydiv6 {
@@ -223,6 +226,8 @@ section.mydiv6 h1 {
     color: #7B45D9;
     font-size: 42px;
     text-align: center;
+    position: relative;
+    left: -21px;
     font-family: sans-serif;
 }
 .valuecontents p {
@@ -233,13 +238,14 @@ section.mydiv6 h1 {
 .valuecontents {
     border: 1px solid #fff;
     padding: 10px 28px;
-    width: 400px;
+    width: 500px;
 }
 section.mydiv7 p {
-    color: #daa9a9;
+    color: #fff;
     font-family: sans-serif;
     font-size: 17px;
     max-width: 1120px;
+    padding: 0;
 }
 section.mydiv7 {
     background-color: #000;
@@ -265,7 +271,7 @@ section.mydiv8 h2 {
     font-family: sans-serif;
 }
 section.mydiv8 p {
-    color: #da9e9e;
+    color: rgb(209, 207, 207);
     text-align: left;
     font-size: 16px;
     font-family: sans-serif;
@@ -274,6 +280,7 @@ section.mydiv9 h1 {
     font-size: 40px;
     font-family: sans-serif;
     color: #ff5818;
+    font-weight: 300;
 }
 
 section.mydiv9 {
@@ -308,11 +315,9 @@ section.mydiv10 ul li img {
 }
 .productul {
     position: relative;
-    right: 100px;
 }
 .productul2 {
     position: relative;
-    right: 120px;
     margin-bottom: 60px;
 }
 .approachimage img {
@@ -323,7 +328,154 @@ section.mydiv10 ul li img {
 
 
 
+@media (max-width:600px) {
+    section.mydiv7 {
+    justify-content: center;
+    }
+    section.mydiv6 h1 {
+        color: #7B45D9;
+        font-size: 42px;
+        text-align: center;
+        position: relative;
+        left: 0px;
+        top: 17px;
+        font-family: sans-serif;
+    }
+    section.mydiv10 ul {
+        flex-wrap: wrap;
+    }
+    .mydiv {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .mydiv2 img {
+        width: 100%;
+    height: auto !important;
+    left: 0;
+    }
 
+    .mydiv8 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    .mydiv8  .box1 {
+        margin: 0 auto;
+    }
+    .hirecontent ul {
+        margin: 0px !important;
+    }
+    .approachimage img {
+        width: 100%;
+        position: relative;
+        left: 0px;
+    }
+    .valueimage2 img {
+        position: relative;
+        padding: 0px 0 0 0px;
+        right: 0;
+        width: 100%;
+    }
+    .valueimage2:after {
+        content: "";
+        border: 2px solid #fff;
+        position: absolute;
+        top: 30px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .valuecontents {
+        border: 1px solid #fff;
+        padding: 10px 28px;
+        width: 100%;
+    }
+    .productul {
+        position: relative;
+        right: 0;
+    }
+    section.mydiv10 ul li { 
+        margin-left: 0px; 
+    }
+    .productul2 { 
+        right: 0px;
+        margin-bottom: 60px;
+    }
+    .valueimage img {
+        position: relative;
+        padding: 40px 0 0 0px;
+        width: 100%;
+        right: 0;
+    }
+    .valueimage:after {
+        content: "";
+        border: 2px solid #fff;
+        position: absolute;
+        top: 54px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 350px;
+        height: 280px;
+    }
+}
+@media (max-width:600px) {
+    section.deliversection ul {
+      flex-wrap: wrap;
+    }
+    .box551 {
+  margin: 0 auto;
+  
+    }
+    .box551 + h2 {
+      text-align: center;
+    }
+    .box551 + h2 + p {
+      text-align: center;
+    }
+  
+    .mydiv001 {
+      /* background-image: url(./image/1.png); */
+      
+      padding: 200px 0px;
+      
+      padding-left: 0;
+  }
+  img.hireimages1 {
+    width: 100%;
+    position: relative;
+    left: 0px;
+  }
+  
+  .mydiv77 {
+    
+    padding-bottom: 30px;
+     
+    margin-left: 0px;
+  }
+  .mydiv88 {
+     
+    padding-bottom: 30px;
+     
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+    padding-top: 36px;
+  }
+  .hirecontent1 {
+    margin-left: 0px !important;
+  }
+  section.mydiv88 h1, section.mydiv77 h1 {
+    text-align: center;
+    
+    font-size: 6vw;
+     
+    margin-bottom: 0px;
+  }
+  }
 
 
 

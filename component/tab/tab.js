@@ -25,11 +25,11 @@ function Tabsn() {
       <div className="row">
         <div className="col-md-6">
           <div className="valueimage2">
-            <img src="/image/5.png" alt="img" width="440px" height="240px" />
+            <img src="/image/istockphoto-1206800961-612x612.png" alt="img" width="440px" height="240px" />
           </div>
         </div>
         <div className="col-md-6">
-          <h1>Business writing</h1>
+          <h1>Blog Writing</h1>
           <div className="valuecontents">
             <p>
               Effective emails, powerful presentations, compelling case studies
@@ -50,11 +50,11 @@ function Tabsn() {
       <div className="row">
         <div className="col-md-6">
           <div className="valueimage2">
-            <img src="/image/5.png" alt="img" width="440px" height="240px" />
+            <img src="/image/istockphoto-1206800961-612x612.png" alt="img" width="440px" height="240px" />
           </div>
         </div>
         <div className="col-md-6">
-          <h1>Business writing</h1>
+          <h1>Blog Writing</h1>
           <div className="valuecontents">
             <p>
               Effective emails, powerful presentations, compelling case studies
@@ -75,11 +75,11 @@ function Tabsn() {
       <div className="row">
         <div className="col-md-6">
           <div className="valueimage2">
-            <img src="/image/5.png" alt="img" width="440px" height="240px" />
+            <img src="/image/istockphoto-1206800961-612x612.png" alt="img" width="440px" height="240px" />
           </div>
         </div>
         <div className="col-md-6">
-          <h1>Business writing</h1>
+          <h1>Blog Writing</h1>
           <div className="valuecontents">
             <p>
               Effective emails, powerful presentations, compelling case studies
@@ -100,11 +100,11 @@ function Tabsn() {
       <div className="row">
         <div className="col-md-6">
           <div className="valueimage2">
-            <img src="/image/5.png" alt="img" width="440px" height="240px" />
+            <img src="/image/istockphoto-1206800961-612x612.png" alt="img" width="440px" height="240px" />
           </div>
         </div>
         <div className="col-md-6">
-          <h1>Business writing</h1>
+          <h1>Blog Writing</h1>
           <div className="valuecontents">
             <p>
               Effective emails, powerful presentations, compelling case studies

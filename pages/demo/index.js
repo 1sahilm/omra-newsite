@@ -17,8 +17,7 @@ const Demo = () => {
               <div className={Styles.bannertext}>
                 <h1> Best in E commerce uploading</h1>
                 <p>
-                  Deliver superior experiences through intelligent automation
-                  with AQT
+                Sell more with appealing product entry services from OMRA Solutions!
                 </p>
               </div>
             </div>
@@ -329,7 +328,7 @@ const Demo = () => {
           <div className="row">
             <div className="col-md-7">
               <h2 className={Styles.sectionheading} style={{color:"#FF5818", fontSize:"30px", fontWeight:"800"}}>
-                Why Choose us to hire developers
+              Why choose us for E-commerce product uploading?
               </h2>
               <ul className={Styles.arrowlist}>
                 <li>
