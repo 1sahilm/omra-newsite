@@ -41,6 +41,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 section.mydiv h1 {
     text-align: center;
@@ -67,7 +68,9 @@ section.mydiv1 p {
 }
 section.mydiv1 h1 {
     padding-top: 110px;
-    color: #FF0000;
+    background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: sans-serif;
     font-size: 45px;
 }
@@ -155,7 +158,9 @@ section.mydiv3 h1 {
 }
 
 section.mydiv3  h2 {
-    color: #FF5818;
+    background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-left: 95px;
     font-size: 50px;
     margin-top: -40px;
@@ -178,7 +183,9 @@ section.mydiv4 h1 {
 }
 
 section.mydiv4 h2 {
-    color: #FF5818;
+    background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-left: 35px;
     font-size: 3.2em;
     font-weight: 700;
@@ -280,7 +287,9 @@ section.mydiv8 p {
 section.mydiv9 h1 {
     font-size: 40px;
     font-family: sans-serif;
-    color: #ff5818;
+    background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: 300;
 }
 

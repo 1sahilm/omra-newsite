@@ -668,8 +668,9 @@ line-height: 25px;
 section.mydiv11 h1 {
 padding-top: 110px;
 /* text-align: center; */
-color: linear-gradient(#FF5818, #FF0000);
-color: #FF0000;
+background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 font-size: 43px;
     font-weight: 500;
     margin-bottom: 0;
@@ -778,7 +779,9 @@ section.mydiv44 h1 {
 }
  
 section.mydiv44 h2 {
-    color: #FF5818;
+    background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-left: 35px;
     font-size: 50px;
     margin-top: -28px;
@@ -865,10 +868,12 @@ valuecontent1{
 
   }
   section.mydiv77 h1 {
-    color: #FF1305;
-    font-size: 91px;
+    background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
     font-family: sans-serif;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     margin-top: 0px;
     padding-top: 30px;
 }
@@ -907,15 +912,17 @@ section.mydiv77 p img {
     
   
     margin-top: 0px;
-    padding-top: 36px;
+    /* padding-top: 36px; */
 
   }
   section.mydiv88 h1 {
-    color: #FF0000;
-    font-size: 91px;
+    background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
    
     font-family: sans-serif;
-   margin-bottom: 30px;
+   /* margin-bottom: 30px; */
 }
 section.mydiv88 p {
     margin-top: 10px;

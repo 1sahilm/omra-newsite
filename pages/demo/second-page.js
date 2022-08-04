@@ -63,7 +63,7 @@ function Second() {
 
                   <div className="col-md-6">
                     <img src="/image/4.png" alt="icon" />
-                    Confluance
+                    Confluence
                   </div>
                   <div className="col-md-6">
                     <img src="/image/4.png" alt="icon" /> Basecamp
@@ -83,35 +83,27 @@ function Second() {
           <div className="row">
             <div className="col-md-6">
               <div className="hirecontent">
-                <h1>WHY CHOOSE US TO HIRE DEVELOPERS?</h1>
+                <h1>IT Development Company in India </h1>
                 <p>
-                  From app conceptualization to development, we cover the entire
-                  mobile app development cycle, regardless of the diversity and
-                  complexity of your project requirements. Our confidence in
-                  delivering high-quality mobile app development services stems
-                  from our dedicated team of mobile app developers who have rich
-                  experience in global app solution services and product
-                  engineering industries. We, at OMRA Solutions, endeavor to
-                  streamline business workflow, integrate critical functions
-                  into one seamless pattern, and increase your business
-                  productivity.
+                  We deliver delightful experiences with design and technology!
+                  OMRA Solutions is top-notch and premier IT Development Company
+                  in India. With complete client contentment in mind, we are
+                  deeply committed to producing extremely interesting mobile
+                  apps that rigorously satisfy corporate needs and cater to a
+                  wide range of mobile application development projects. The
+                  apps serve as powerful business tools that add value to your
+                  business, and enhance productivity.
                 </p>
                 <p>
-                  Our team of dedicated developers can build exceptional
-                  applications across a breadth of devices including desktop,
-                  mobile, and tablet. With the help of our industry expertise,
-                  we are able to give the end-user the best application
-                  experience across multiple channels. Our dedicated team of
-                  expert developers can help scale up your business and take
-                  projects to the next level without hiring, training &amp;
-                  retention issues.
+                  With Smart mobile applications, you can extend the reach of
+                  the business by establishing a connection with the customers.
+                  As an IT Development company in Delhi/NCR, we promise to do
+                  the best-in-class mobile app services and solutions to
+                  industry verticals. We have a track record of delivering
+                  hundreds of successful mobile applications to our global
+                  clientele with 100% client satisfaction.
                 </p>
-                <p>
-                  We are serving mobile application development services that
-                  identify the gap and opportunities, and craft mobile and
-                  IT-based solutions that help you disrupt, attain efficiency
-                  &amp; accelerated business performance.
-                </p>
+
                 <h1>Why choose us for your IT development?</h1>
                 <ul>
                   <li>
@@ -178,47 +170,48 @@ function Second() {
                 development services that identify the gap and opportunities,
                 and craft mobile and IT-based solutions that help you disrupt,
                 attain efficiency & accelerated business performance.
-                <p>The development process involves:</p>
+                <br /> <br />
+                <p>The creative process involves following technologies: </p>
                 <div className="row">
-                  <div className="col-md-6">
+                  <div className="col-md-4">
                     <img src="/image/4.png" alt="icon" />
                     Next
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-md-4">
                     <img src="/image/4.png" alt="icon" />
                     React
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-md-4">
                     <img src="/image/4.png" alt="icon" />
                     Node
                   </div>
 
-                  <div className="col-md-6">
+                  <div className="col-md-4">
                     <img src="/image/4.png" alt="icon" />
                     Java
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-md-4">
                     <img src="/image/4.png" alt="icon" />
                     PHP, Python
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-md-4">
                     <img src="/image/4.png" alt="icon" />
                     AWS
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-md-4">
                     <img src="/image/4.png" alt="icon" />
                     Digital Ocean
                   </div>
 
-                  <div className="col-md-6">
+                  <div className="col-md-4">
                     <img src="/image/4.png" alt="icon" />
                     Angular
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-md-4">
                     <img src="/image/4.png" alt="icon" />
                     HTML,CSS
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-md-4">
                     <img src="/image/4.png" alt="icon" />
                     CMS
                   </div>
@@ -251,7 +244,7 @@ function Second() {
             heading: "Simple & professional",
             imageUrl: "/image/istockphoto-1206800961-612x612.png",
             description:
-              "We believe 'Simplicity is the best policy' and so, we make software like platform development, mobile application development, CRM Development, Software development that appears simple and professional. Our approach is to be professional in all aspects.",
+              "We believe 'Simplicity is the best policy' and so, we make softwares  like platform development, mobile application development, CRM Development, Software development that appears simple and professional. Our approach is to be professional in all aspects.",
             eventKey: "first",
           },
           {
@@ -407,7 +400,7 @@ function Second() {
                   <li>
                     <a href="#">
                       <img src="/image/f.png" alt="img" />
-                      Confluance
+                      Confluence
                     </a>
                   </li>
                   <li>

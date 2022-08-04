@@ -206,9 +206,7 @@ function Third() {
               with supportive systems, guidance, and resources. You will provide
               technology that streamlines the sales process, collects and
               organizes information on the customers & will list the required
-              activities for team members to follow it. You will create systems
-              and resources to support our experienced sales team’s use of the
-              technology during the sales process, such as these:
+              activities for team members to follow it.
             </p>
             {/* <h2>
               There are checklists to make sure all steps are performed in
@@ -264,30 +262,6 @@ function Third() {
               any media channel, any device, anywhere with a personalized,
               effortless, and consistent customer experience throughout their
               journey. Our support channels include Phone, Chat, and Email.
-            </p>
-            <p>The benefits of collaborating with us:</p>
-            <p>
-              <img src="/image/redicon.svg" alt="icon" />
-              Content and video to demonstrate the importance of the stages and
-              milestones.{" "}
-            </p>
-            <p className="parastyle">
-              <img src="/image/redicon.svg" alt="icon" />
-              Buyer-focused content is tied to where they are in the sales
-              process.
-            </p>
-            <p className="parastyle">
-              <img src="/image/redicon.svg" alt="icon" />
-              There are reminders to prevent salespeople from skipping steps{" "}
-            </p>
-            <p className="parastyle">
-              <img src="/image/redicon.svg" alt="icon" /> Training content for
-              each step in the sales process.{" "}
-            </p>
-            <p className="parastyle">
-              <img src="/image/redicon.svg" alt="icon" /># without a sales
-              process, the company’s sales team is unlikely to reach its true
-              potential{" "}
             </p>
           </div>
         </section>
@@ -365,9 +339,9 @@ const FAQArray = [
     },
   },
   {
-    question: "Will my website development be search engine friendly?",
+    question: "Can you provide multilingual support",
     get answer() {
-      return " Can you provide multilingual support?";
+      return " Yes, we do provide multilingual support.";
     },
   },
   {

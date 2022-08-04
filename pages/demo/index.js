@@ -112,6 +112,13 @@ const Demo = () => {
                   </li>
                   <li>
                     <img src="image/4.png" alt="icon" />
+                    Once You Are Connected Buyers Can Consult Latest Data From
+                    Suppliers And Can Search Any Product Information I.E.,
+                    Product Information, Product Images, Product Specification,
+                    Etc From Them.
+                  </li>
+                  <li>
+                    <img src="image/4.png" alt="icon" />
                     The Digital Catalogue Is A Complete Plinth To Expand Your
                     Business Which Will Enable You To Get More Exposure For Your
                     Business At Global Level.
@@ -409,7 +416,7 @@ const Demo = () => {
           </div>
         </section>
 
-        <section className="mydiv4">
+        {/* <section className="mydiv4">
           <div className="container">
             <div className="row">
               <div className="col-md-6">
@@ -419,8 +426,8 @@ const Demo = () => {
               <div className="col-md-6"></div>
             </div>
           </div>
-        </section>
-        <section className={` ${Styles.mydifdgdfg} mydiv7`}>
+        </section> */}
+        {/* <section className={` ${Styles.mydifdgdfg} mydiv7`}>
           <div className="container">
             <div className="row">
               <div className="col-md-12">
@@ -438,7 +445,7 @@ const Demo = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         <section className="mydiv4">
           <div className="container">
@@ -630,7 +637,7 @@ const FAQArray = [
   {
     question: "What exposure we have with the e-commerce industry?",
     get answer() {
-      return "It has been for over years that we have been working in the e-commerce domain and know exactly what it takes to get it right and increase the online conversions.";
+      return "It has been over four years  that we have been working in the e-commerce domain and know exactly what it takes to get it right and increase the online conversions.";
     },
   },
   {
