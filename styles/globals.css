@@ -442,13 +442,51 @@ p.leader_leaderpara__2uIkn a {
     height: 299px;
   }
 
-.new-about-section1{
+  .new-about-section{
 
-    background-image: url(/intelligentautomationimages/notebook.jpg);
+ 
+    background-image: url(/intelligentautomationimages/blockchain-banner.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 150vh;
+    width: 100%;
+    position: relative;
+
+}
+.new-about-section .content {
+    position: absolute;
+    top: 591px;
+    left: 10px;
+    background: rgb(0, 0, 0);
+    background: WHITE;
+    color: #000000;
+    width: 49%;
+    padding: 20px;
+    height: 299px;
+  }
+
+  .new-about-section .content333 {
+    position: absolute;
+    top: 276px;
+    left: 683px;
+    background: rgb(0, 0, 0);
+    background: WHITE;
+    color: #000000;
+    width: 49%;
+    padding: 20px;
+    height: 299px;
+  }
+.section_heading3{    color: black;
+    font-size: 21px;}
+  
+.new-about-section1{
+
+    background-image: url(/intelligentautomationimages/notebook.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
     width: 100%;
     position: relative;
 
@@ -456,14 +494,15 @@ p.leader_leaderpara__2uIkn a {
 
 .new-about-section1 .content1 {
     position: absolute;
-    top: 116px;
-    left: 6px;
-    background: rgb(0, 0, 0); /* Fallback color */
-    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    top: 0px;
+    left: 896px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
-    width: 40%;
-    padding: 20px;
-    height: 299px;
+    width: 28%;
+    padding: 17px;
+    height: 80vh;
+    font-size: 25px;
   }
 
 
@@ -1045,3 +1084,6 @@ margin-top: 15px !important;
         width: 100%;
     }
  }
+ .back_box {
+    background-color: white;
+  }

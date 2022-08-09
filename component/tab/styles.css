@@ -297,7 +297,9 @@ section.mydiv9 {
     background-color: #000;
 }
 section.mydiv10 {
-    background-color: #000;
+    background-color: white;
+    height: 40vh;
+    padding: 24px 0px;
 }
 section.mydiv10 ul {
     display: flex;
@@ -325,6 +327,7 @@ section.mydiv10 ul li img {
 }
 .productul {
     position: relative;
+    margin: 10px;
 }
 .productul2 {
     position: relative;

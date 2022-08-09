@@ -1,0 +1,152 @@
+.section1 {
+  height: 490px;
+  width: 570px;
+  background-color: white;
+  color: black;
+  padding-top: 57px;
+}
+
+.para {
+  padding: 5px 33px 7px 33px;
+  font-size: 13px;
+  color: #707070;
+}
+
+.heading {
+  text-align: center;
+  color: black;
+  font-weight: 700;
+}
+
+.heading3 {
+  min-height: 55px;
+  background-color: #f3c20f;
+  text-align: end;
+  /* min-width: 52px; */
+  width: 569px;
+  line-height: 36px;
+}
+
+.about_heading {
+  color: #ff0000;
+
+  font-weight: 700;
+
+  font-size: 52px;
+}
+
+.section_box {
+  padding-top: 3rem;
+
+  min-height: 66vh;
+
+  background: black;
+}
+
+.padding_section {
+  padding-top: 126px;
+
+  // padding-right: 66px;
+}
+
+.section2 {
+  max-height: 115vh;
+
+  margin-top: 18px;
+}
+
+.padding_box {
+  margin-bottom: 30px;
+}
+
+.progress_bar {
+  display: -ms-flexbox;
+
+  display: flex;
+
+  -ms-flex-direction: column;
+
+  flex-direction: column;
+
+  -ms-flex-pack: center;
+
+  justify-content: center;
+
+  overflow: hidden;
+
+  color: #fff;
+
+  text-align: center;
+
+  white-space: nowrap;
+
+  background-color: #db239b;
+
+  transition: width 0.6s ease;
+}
+
+.bannerImage {
+  position: relative;
+  .absolutePart {
+    position: absolute;
+    top: 43%;
+    left: 7%;
+  }
+}
+
+.bannerImage {
+  .bannertext {
+    position: relative;
+    h1 {
+      position: relative;
+      margin: 0;
+      padding: 0;
+      font-size: 43px;
+    }
+    p {
+      position: relative;
+      padding: 0;
+      font-weight: 400;
+      font-size: 18px !important;
+    }
+  }
+}
+
+.box551 {
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.box551 + h2 {
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 18px !important;
+  font-weight: 100 !important;
+}
+.box551 + h2 + p {
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 15px !important;
+  font-weight: 100 !important;
+  color: #fff !important;
+  margin-bottom: 30px;
+  opacity: 0.7;
+  margin-top: 15px;
+}
+.mydiv9h1 {
+  text-align: center;
+  font-weight: 700;
+}
+
+// .mydiv10 {
+//   background-color: white !important;
+//   height: 100vh;
+// }
+
+.back_box {
+  background-color: white;
+}
