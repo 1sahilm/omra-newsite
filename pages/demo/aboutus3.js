@@ -6,6 +6,7 @@ import AddIcon from "../../component/icons/Add";
 import Header2 from "../../layout/header-2";
 import Footer from "../../layout/footer";
 import Blog2 from "../../element/blog-2";
+import Slider33 from "../../component/slider33.js"
 const Aboutus = () => {
   return (
     <>
@@ -20,7 +21,7 @@ const Aboutus = () => {
           />
           <div className={Styles.absolutePart}>
             <div className={` ${Styles.mobileRes} row`}>
-              <div className="col-md-12">
+              {/* <div className="col-md-12">
                 <div className={Styles.bannertext}>
                   <h1 className={Styles.mobileH1}>
                     {" "}
@@ -31,7 +32,7 @@ const Aboutus = () => {
                     Solutions!
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -102,38 +103,52 @@ const Aboutus = () => {
               </div>
 
               <div className="col-sm-6">
-                <p styles={{ color: "white" }}>IT DEVLOPMENT</p>
+                <p className={Styles.paraprogress}>IT DEVLOPMENT</p>
                 <div className={Styles.padding_box}>
-                  <div className={Styles.progress} styles={{ height: "7px" }}>
+                  <div className={Styles.progress} styles={{ height: "7px", color: "red" }}>
                     <div
                       className={Styles.progressbar}
                       styles={{ width: "40%", height: "7px" }}
                     ></div>
                   </div>
                 </div>
-                <p styles={{ color: "white" }}>IT DEVLOPMENT</p>
+
+                <p className={Styles.paraprogress}>E-COMMERECE PRODUCT UPLOADING</p>
                 <div className={Styles.padding_box}>
-                  <div className={Styles.progress} styles={{ height: "7px" }}>
+                  <div className={Styles.progress} styles={{ height: "7px", color: "red" }}>
+                    <div
+                      className={Styles.progressbar}
+                      styles={{ width: "60%", height: "7px" }}
+                    ></div>
+                  </div>
+                </div>
+                <p className={Styles.paraprogress}>VOICE BLEND PROCESS</p>
+                <div className={Styles.padding_box}>
+                  <div className={Styles.progress} styles={{ height: "7px", color: "red" }}>
                     <div
                       className={Styles.progressbar}
                       styles={{ width: "40%", height: "7px" }}
                     ></div>
                   </div>
                 </div>
-                <p styles={{ color: "white" }}>IT DEVLOPMENT</p>
-                <div className={Styles.padding_box}>
-                  <div className={Styles.progress} styles={{ height: "7px" }}>
-                    <div
-                      className={Styles.progressbar}
-                      styles={{ width: "40%", height: "7px" }}
-                    ></div>
-                  </div>
-                </div>
+
+
               </div>
             </div>
           </div>
         </section>
-        <Blog2 />
+        {/* <Blog2 /> */}
+        <div className="slidercontain">
+          <h1 className="what_box">WHAT ARE WE DOING</h1>
+          <div className="container">
+
+            <Slider33 />
+            </div>
+            </div>
+
+
+       
+
         <section className="mydiv9">
           <div className="container">
             <div className="row">
@@ -151,7 +166,7 @@ const Aboutus = () => {
             <div className="row">
               <div className="col-md-4">
                 <div className={` ${Styles.box551} box13 `}>
-                  <img src="/image/w.svg" alt="img" />
+                  <img src="/image/31.png" alt="img" />
                 </div>
 
                 <h2>Cost-effective solutions</h2>
@@ -163,7 +178,7 @@ const Aboutus = () => {
               </div>
               <div className="col-md-4">
                 <div className={` ${Styles.box551} box13 `}>
-                  <img src="/image/w.svg" alt="img" />
+                  <img src="/image/33333333.png" alt="img" />
                 </div>
                 <h2>Dedicated Teams</h2>
                 <p>
@@ -174,7 +189,7 @@ const Aboutus = () => {
               </div>
               <div className="col-md-4">
                 <div className={` ${Styles.box551} box13 `}>
-                  <img src="/image/r.svg" alt="img" />
+                  <img src="/image/24.png" alt="img" />
                 </div>
                 <h2>24/7 communication</h2>
                 <p>
@@ -184,7 +199,7 @@ const Aboutus = () => {
               </div>
               <div className="col-md-4">
                 <div className={` ${Styles.box551} box13 `}>
-                  <img src="/image/q.svg" alt="img" />
+                  <img src="/image/ph.png" alt="img" />
                 </div>
                 <h2>Brainstorming Ideas</h2>
                 <p>
@@ -195,7 +210,7 @@ const Aboutus = () => {
               </div>
               <div className="col-md-4">
                 <div className={` ${Styles.box551} box13 `}>
-                  <img src="/image/q.svg" alt="img" />
+                  <img src="/image/cc.png" alt="img" />
                 </div>
                 <h2>Compliance & Security</h2>
                 <p>
@@ -206,7 +221,7 @@ const Aboutus = () => {
               </div>
               <div className="col-md-4">
                 <div className={` ${Styles.box551} box13 `}>
-                  <img src="/image/q.svg" alt="img" />
+                  <img src="/image/core.png" alt="img" />
                 </div>
                 <h2>Core Values</h2>
                 <p>
@@ -266,20 +281,19 @@ const Aboutus = () => {
               </div>
             </div>
           </div>
-          <div className="container">
-            <div className="row">
-              <div className="col-md-6">
-                <div>
-                  <img
-                    src="/image/brown.jpg"
-                    alt="Cinque Terre"
-                    width="500px"
-                    height="200px"
-                    className={Styles.apple_img}
-                  />
-                </div>
+          <div className={Styles.div_sections}>
+            <div className={Styles.section_flex}>
+              <div>
+                <img
+                  src="/image/brown.jpg"
+                  alt="Cinque Terre"
+                  width="580px"
+                  height="255px"
+                  className={Styles.apple_img}
+                />
               </div>
-              <div className="col-md-6 background_section">
+
+              <div className=" background_section">
                 <h1 className={Styles.section_heading3}>
                   Mind-blowing ideas to work
                 </h1>
@@ -289,11 +303,11 @@ const Aboutus = () => {
                   steps make our work into smarter & decent solution.
                 </p>
 
-                <button type="button" class="btn btn-dark">
+                <button type="button" className={Styles.watch_button1}>
                   WATCH NOW
                 </button>
-              </div>
-              <div className="col-md-6 background_section">
+              </div></div> <div className={Styles.section_flex}>
+              <div className=" background_section">
                 <h1 className={Styles.section_heading3}>
                   Elegant solutions for the outcome
                 </h1>
@@ -304,24 +318,22 @@ const Aboutus = () => {
                   compliance, security as a certified ISO 9001:2015 company.
                 </p>
 
-                <button type="button" class="btn btn-dark">
+                <button type="button" className={Styles.watch_button}>
                   WATCH NOW
                 </button>
               </div>
 
-              <div className="col-md-6 ">
-                <div>
-                  <img
-                    src="/image/brown.jpg"
-                    alt="Cinque Terre"
-                    width="500px"
-                    height="200px"
-                    className={Styles.apple_img}
-                  />
-                </div>
+
+              <div>
+                <img
+                  src="/image/brown.jpg"
+                  alt="Cinque Terre"
+                  width="580px"
+                  height="255px"
+                  className={Styles.apple_img}
+                />
               </div>
-            </div>
-          </div>
+            </div></div>
         </section>
 
         <section className="mydiv10">
