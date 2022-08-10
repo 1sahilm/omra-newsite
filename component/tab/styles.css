@@ -291,6 +291,8 @@ section.mydiv9 h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 300;
+    border: solid 1px white;
+    margin-bottom: 73px;
 }
 
 section.mydiv9 {

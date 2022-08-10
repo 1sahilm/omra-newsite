@@ -63,8 +63,36 @@ const Blog = () => {
                   </div>
                   <div className={Styles.top_heading}>
                     <h2>Daniya Kapoor</h2>
-                    <p>10-March-2022</p>
-                    <p className={Styles.purple_color}>189k views</p>
+                    <p>18-August-2022</p>
+                    <p className={Styles.purple_color}>
+                      300k views
+                      <span className={Styles.social_icon}>
+                        <img
+                          src="/image/insta.svg"
+                          alt="img"
+                          width="15px"
+                          height="15px"
+                        />
+                        <img
+                          src="/image/fb.svg"
+                          alt="img"
+                          width="15px"
+                          height="15px"
+                        />
+                        <img
+                          src="/image/link.svg"
+                          alt="img"
+                          width="15px"
+                          height="15px"
+                        />
+                        <img
+                          src="/image/twitter.svg"
+                          alt="img"
+                          width="15px"
+                          height="15px"
+                        />
+                      </span>
+                    </p>
                   </div>
 
                   <div>
@@ -130,14 +158,14 @@ const Blog = () => {
                 <div className={Styles.image_flex}>
                   <div>
                     <img
-                      src="/image/3333.png"
+                      src="/image/p3.svg"
                       alt="Cinque Terre"
                       width="70px"
                       height="70px"
                       className={Styles.apple_img}
                     />
                   </div>
-                  <div>
+                  <div className={Styles.box333}>
                     <p>Ishmat Jahan</p>
                     <p>10-March-2022</p>
                     <p className={Styles.purple_color}>189k views</p>

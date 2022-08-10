@@ -36,18 +36,20 @@ function Third() {
                   <h1>Our Value proposition</h1>
                   <p style={{ padding: "0" }}>
                     We have great experience in voice & on-field sales process.
-                    We, OMRA Solutions are a leading organization in the space
-                    of IT and have on the team to handle every sales operation
-                    with the help of automation. One can easily understand our
-                    experience by knowing the point that, we are handling
-                    Back-end sales process for Trade India, Stars Tell and other
-                    renowned brands. We are one of the best companies For Voice
-                    Blend Process in Delhi/NCR. We enhance Customer Experience:
-                    Always looking for moments of truth and opportunity to
-                    delight customers. We are utilizing lower-cost channels to
-                    effectively and efficiently manage customer queries. We
-                    value our offerings to customers lead to increased loyalty
-                    and revenues.
+                    We, OMRA Solutions are an organization having
+                    Inbound/Outbound processes, as we are operating voice blend
+                    processes. We have our team to handle every sales and
+                    Inbound/Outbound process operation with the help of
+                    automation. One can easily understand our experience by
+                    knowing the point that, we are handling Back-end sales
+                    process for the renowned brands. We are one of the best
+                    companies for Voice Blend Process in India, as we working in
+                    top 5 metropolitan cities of India. We enhances our Customer
+                    Experience by putting our dedication into Inbound/Outbound
+                    processes, CRM and LMS through our diallers, as we are We
+                    are utilizing lower-cost channels to effectively and
+                    efficiently manage customer queries. We value our offerings
+                    to customers lead to increased loyalty and revenues.
                   </p>
                 </div>
               </div>
