@@ -289,10 +289,10 @@ const Blog = () => {
             <div className="col-md-6">
               <img
                 src="/image/midbanner.png"
-                className=""
+                className={Styles.video_box3}
                 alt="Cinque Terre"
-                width="580px"
-                height="480px"
+                // width="580px"
+                // height="480px"
               />
               <h2>CAREERS</h2>
               <h1 className={Styles.fontbox}>
