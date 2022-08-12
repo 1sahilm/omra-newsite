@@ -17,6 +17,7 @@ const Aboutus = () => {
             src="/images/background/aboutt.png"
             width={1700}
             height={800}
+            className={Styles.Imagestyle}
             priority
           />
           <div className={Styles.absolutePart}>
@@ -138,7 +139,8 @@ const Aboutus = () => {
           </div>
         </section>
         {/* <Blog2 /> */}
-        <div className="slidercontain">
+        {/* <div className="slidercontain"> */}
+        <div className={` ${Styles.mobileResslidercontain} slidercontain`}>
           <h1 className="what_box">WHAT ARE WE DOING</h1>
           <div className="container">
 
@@ -163,7 +165,7 @@ const Aboutus = () => {
         </section>
         <section className="mydiv8">
           <div className="container">
-            <div className="row">
+            <div className="row" >
               <div className="col-md-4">
                 <div className={` ${Styles.box551} box13 `}>
                   <img src="/image/31.png" alt="img" />
@@ -234,8 +236,8 @@ const Aboutus = () => {
           </div>
         </section>
 
-        <section className="new-about-section1">
-          <div class="content1">
+        <section className={`${Styles.section21} new-about-section1`} >
+          <div class= {`${Styles.content11} content1`}>
             <p>
               We push ourselves! We push technology! We push the boundaries of
               conventional thinking!
@@ -243,7 +245,7 @@ const Aboutus = () => {
           </div>
         </section>
 
-        <section className="new-about-section">
+        <section className={`${Styles.section01} new-about-section`}>
           {/* <div class="content">
             <h1 className="section_heading3">Unique Design</h1>
             <p>
@@ -293,7 +295,7 @@ const Aboutus = () => {
                 />
               </div>
 
-              <div className=" background_section">
+              <div  className={`${Styles.background_sectionmob} background_section`}>
                 <h1 className={Styles.section_heading3}>
                   Mind-blowing ideas to work
                 </h1>
@@ -307,7 +309,7 @@ const Aboutus = () => {
                   WATCH NOW
                 </button>
               </div></div> <div className={Styles.section_flex}>
-              <div className=" background_section">
+              <div  className={`${Styles.background_sectionmob} background_section`}>
                 <h1 className={Styles.section_heading3}>
                   Elegant solutions for the outcome
                 </h1>
@@ -336,7 +338,7 @@ const Aboutus = () => {
             </div></div>
         </section>
 
-        <section className="mydiv10">
+        <section className={`${Styles.div10formob} mydiv10`}>
           <div className="container">
             <div className="row">
               <div className="col-md-12">

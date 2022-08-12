@@ -1186,3 +1186,27 @@ margin-top: 15px !important;
         text-align: center;
             font-size: 43px;
             margin-bottom: 24px;}
+
+
+
+            @media (max-width:576px){
+                .slick-next {
+                    right: 0px !important;
+                }
+                .slick-dots {
+                    position: relative;
+                    left: -15px;
+                    bottom: -14px !important;
+                    display: block;
+                    width: 100%;
+                    padding: 0px;
+                    margin: 0;
+                    list-style: none;
+                    text-align: justify !important;
+                }
+                .slick-slide>div {
+                    padding: 0 34px;
+                    
+                }
+               
+            }
