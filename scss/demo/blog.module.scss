@@ -318,14 +318,14 @@
 
 @media (max-width: 600px) {
   .Featurebox {
-    height: 68vh;
+    height: 60vh;
     background: #0a0a0a;
 
   }
 
   .newsection1 {
     background-color: #0a0a0a;
-    height: 32vh;
+    height: 28vh;
   }
 
   .new_box3 {
@@ -421,6 +421,7 @@
     width: 100% !important;
     height: 480px !important;
     margin: 27px 0px !important;
+    object-fit: cover;
   }
 
   .bannerImage{
@@ -438,7 +439,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 2rem;
   padding: 0px 17px;
 }
 
@@ -454,5 +455,14 @@
   flex-direction: column;
   align-items: center;
 }
+
+
+.image_margin
+{h4 {
+  text-align: center;
+  font-weight: 100;
+  font-size: 18px;}
+}
+
 
 }

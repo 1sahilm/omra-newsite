@@ -349,7 +349,7 @@ element.style {
     background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding: 1px 15px;
+    /* padding: 1px 15px; */
 }
 
 /* .carousel .slider-wrapper.axis-horizontal .slider .slide>div {
@@ -445,7 +445,7 @@ p.leader_leaderpara__2uIkn a {
   .new-about-section{
 
  
-    background-image: url(/intelligentautomationimages/blockchain-banner.png);
+    background-image: url(/intelligentautomationimages/bbanner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -480,9 +480,11 @@ p.leader_leaderpara__2uIkn a {
    
   }
   .section_heading333 {
-    color: black;
-    font-size: 35px;
-    text-align: center;}
+    color: white;
+    font-size: 39px;
+    text-align: center;
+
+}
   
 .new-about-section1{
 
@@ -499,11 +501,11 @@ p.leader_leaderpara__2uIkn a {
 .new-about-section1 .content1 {
     position: absolute;
     top: 0px;
-    left: 896px;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5);
+    left: 656px;
+    /* background: rgb(0, 0, 0); */
+    background: rgb(11 7 7 / 67%);
     color: #f1f1f1;
-    width: 28%;
+    width: 38%;
     padding: 17px;
     height: 80vh;
     font-size: 25px;
@@ -1102,7 +1104,7 @@ margin-top: 15px !important;
 
     margin-top: 0;
     margin-bottom: 1rem;
-
+    text-align: left;
     padding: 11px 0px;
   }
   
@@ -1110,7 +1112,7 @@ margin-top: 15px !important;
 
     margin-top: 0;
     margin-bottom: 1rem;
-   
+    text-align: left;
     padding: 11px 0px;
   }
   
@@ -1210,3 +1212,10 @@ margin-top: 15px !important;
                 }
                
             }
+
+
+            /* .tou_main{
+                margin: 5px 5px;
+            } */
+
+            .section45{ margin: 5px 16px;}

@@ -427,7 +427,7 @@ const Demo = () => {
             </div>
           </div>
         </section> */}
-        <section className={` ${Styles.mydifdgdfg} mydiv7`}>
+        {/* <section className={` ${Styles.mydifdgdfg} mydiv7`}>
           <div className="container">
             <div className="row">
               <div className="col-md-12">
@@ -445,7 +445,7 @@ const Demo = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         <section className="mydiv4">
           <div className="container">

@@ -137,7 +137,7 @@ const Blog = () => {
                   </div>
                 </div>
                 <img
-                  src="/image/p3.svg"
+                  src="/image/tp.png"
                   className={Styles.img_thumbnail1}
                   alt="Cinque Terre"
                   width="270px"

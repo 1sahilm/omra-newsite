@@ -238,7 +238,7 @@ const Aboutus = () => {
 
         <section className={`${Styles.section21} new-about-section1`} >
           <div class= {`${Styles.content11} content1`}>
-            <p>
+            <p className={Styles.table_para}>
               We push ourselves! We push technology! We push the boundaries of
               conventional thinking!
             </p>
@@ -273,10 +273,10 @@ const Aboutus = () => {
             <div className="row">
               <div className="col-md-12">
                 <h1 className="section_heading333">RECENT PROJECTS</h1>
-                <p className={Styles.tex_color}>
+                <p className={Styles.textt_color}>
                   OMRA Solutions are working with Justdial, DU Telecom, Jeena
                   Seekho to attain their business operation targets. We are
-                  <br />
+                
                   having wealthy experience with Interactive content & smooth
                   communication tools.
                 </p>
@@ -328,7 +328,7 @@ const Aboutus = () => {
 
               <div>
                 <img
-                  src="/image/brown.jpg"
+                  src="/image/3333.png"
                   alt="Cinque Terre"
                   width="580px"
                   height="255px"

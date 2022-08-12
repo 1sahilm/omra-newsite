@@ -9,7 +9,7 @@ function termsOfUse() {
     <>
       <Header2 />
 
-      <section>
+      <section >
         <div className="image-it">
           <div className="container">
             <h1 className="banner-title">Terms Of Use</h1>
