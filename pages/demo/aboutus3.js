@@ -220,7 +220,7 @@ const Aboutus = () => {
         </section>
 
         <section className={`${Styles.section21} new-about-section1`} >
-          <div class={`${Styles.content11} content1`}>
+          <div className={`${Styles.content11} content1`}>
             <p className={Styles.table_para}>
               We push ourselves! We push technology! We push the boundaries of
               conventional thinking!
