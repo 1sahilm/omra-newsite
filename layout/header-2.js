@@ -56,10 +56,10 @@ function Header2() {
                 <Link href="/">
                   <a>
                     <Image
-                      width={70}
+                      width={100}
                       height={70}
                       className="custom-logo-white"
-                      src="/images/cropped-Omra_Branding_logo.png"
+                      src="/images/newlogo.png"
                       alt=""
                     />
 

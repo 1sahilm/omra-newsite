@@ -92,35 +92,74 @@ function Third() {
                   &nbsp; Manage more calls <br />
                   <img src="/image/4.svg" alt="icon" />
                   &nbsp; Experts are available for Quality Check
-                  <br />
-                  <h1>
-                    OMRA SOLUTIONS ARE PROCESS-ORIENTED ORGANIZATION. WE ARE
-                    CERTIFIED BY ISO 9001:2015
-                  </h1>
-                  <p style={{ padding: "0" }}>
-                    We have a complete setup and experienced team to understand
-                    and execute any back-end sales process.{" "}
-                  </p>
-                  <img src="/image/4.svg" alt="icon" />
-                  &nbsp; QUALITY, EXPERIENCE WITH RENOWNED BRANDS. <br /> <br />
-                  <p style={{ padding: "0" }}>
-                    We have great experience in voice &amp; on-field sales
-                    process. We, OMRA Solutions are a leading organization in
-                    the space of IT and have on the team to handle every sales
-                    operation with the help of automation. One can easily
-                    understand our experience by knowing the point that, we are
-                    handling Back-end sales process for Trade India, Stars Tell
-                    and other renowned brands. We are one of the best companies
-                    For Voice Blend Process in Delhi/NCR.
-                  </p>
+                  <br />   <br /> <br />
+                  
+                  {/* <img src="/image/side3.png" alt="img" className="hireimages1" /> */}
+
                 </div>
               </div>
               <div className="col-md-6">
                 <img src="/image/2.SVG" alt="img" className="hireimages1" />
+                <br />  <br />
+                
               </div>
             </div>
           </div>
         </section>
+
+
+        <section className="mydiv22">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-6">
+                <div className="hirecontent1" style={{ marginLeft: "-178p" }}>
+                 
+                  <br />   <br /> <br /><img src="/image/side3.png" alt="img" className="hireimages1" />
+
+                </div>
+              </div>
+              <div className="col-md-6">
+               
+                <br />  <br />
+                <h1 className="hirecontent1333">
+                  OMRA SOLUTIONS ARE PROCESS-ORIENTED ORGANIZATION. WE ARE
+                  CERTIFIED BY ISO 9001:2015
+                </h1>
+                <p style={{ padding: "0" }}>
+                  We have a complete setup and experienced team to understand
+                  and execute any back-end sales process.{" "}
+                </p>
+                <img src="/image/4.svg" alt="icon" />
+                &nbsp; QUALITY, EXPERIENCE WITH RENOWNED BRANDS. <br /> <br />
+                <p style={{ padding: "0" }}>
+                  We have great experience in voice &amp; on-field sales
+                  process. We, OMRA Solutions are a leading organization in
+                  the space of IT and have on the team to handle every sales
+                  operation with the help of automation. One can easily
+                  understand our experience by knowing the point that, we are
+                  handling Back-end sales process for Trade India, Stars Tell
+                  and other renowned brands. We are one of the best companies
+                  For Voice Blend Process in Delhi/NCR.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <section className="mydiv44">
           <div className="container">
             <div className="row">
@@ -247,7 +286,7 @@ function Third() {
               which we work, and determine their goals. Along the way, you
               decide if it works together & you are a match. If this is the
               case, the relationship can proceed & can grow. At OMRA Solutions,
-              we have 05 years of demonstrated experience in offering
+              we have years of demonstrated experience in offering
               high-quality, cost-effective, and secure voice blend services to
               clients, helping them optimize operations, increase business
               efficiency and boost the bottom line, all this while improving the

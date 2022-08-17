@@ -9,7 +9,7 @@ const Demo = () => {
   return (
     <>
       <Header2 />
-      <div className="mainpage">
+      <div className="whole_width">
         <div className={Styles.bannerImage}>
           <Image
             src="/images/background/banner.png"

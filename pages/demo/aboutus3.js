@@ -43,11 +43,12 @@ const Aboutus = () => {
             <div className="row">
               <div className={Styles.padding_section}>
                 <div className="col-sm-6">
-                  <h2 className={Styles.heading3}>USER SUPPORT</h2>
+                  <h2 className={Styles.heading3}>Process- Oriented</h2>
 
-                  <h2 className={Styles.heading3}>EMOTIONAL CONNECTION</h2>
+                  <h2 className={Styles.heading3}>Cost-Effective/ Secure Service Provider
+</h2>
 
-                  <h2 className={Styles.heading33}>MATURE & SMART SERVICE</h2>
+                  <h2 className={Styles.heading33}>Global Satisfied Clientele</h2>
 
                   <h1 className={Styles.about_heading}>About us</h1>
 
@@ -72,10 +73,7 @@ const Aboutus = () => {
                   </p>
 
                   <p className={Styles.para}>
-                    Objectively incubate high-quality supply chains through
-                    high- quality results. Monotonectally restore ubiquitous
-                    customer service rather than brincks-and clicks scenarios.
-                    Quickly promote sticky testing.
+                  We are enabling business transformation that can be agile, intuitive and transparent to stay competitive through our radical solutions. We are global leader to outsource in B2B & B2C sales.
                   </p>
                 </div>
               </div>

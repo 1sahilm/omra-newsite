@@ -87,7 +87,7 @@ $mobile: 576px;
   line-height: 36px;
   color: black;
   padding-right: 10px;
-  font-size: 31px;
+  font-size: 29px;
 }
 
 .heading33 {
@@ -480,4 +480,32 @@ $mobile: 576px;
   margin-bottom: 24px;
 }
 
+}
+.semicircle{
+
+  height: 30px;
+  width: 50px;
+}
+
+.semi_imagebox{
+border-radius: 50%;
+border: 1px solid red;
+
+
+}
+
+.full_imagebox
+{
+  border-radius: 50%;
+  border: 1px solid black;
+  height: 90px;
+  width: 100px;
+}
+
+.semi_color{
+  color:black;
+}
+
+.full_box{
+  display: flex;
 }

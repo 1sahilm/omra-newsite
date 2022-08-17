@@ -31,7 +31,7 @@ function Second() {
               </div>
             </div>
             <div className="col-md-6">
-              <div className="valuecontent">
+              <div className="valuecontentth">
                 <h1>Our Value proposition</h1>
                 <p>
                   OMRA Solutions have extensive experience in developing
@@ -175,7 +175,7 @@ function Second() {
                 <div className="row">
                   <div className="col-md-4">
                     <img src="/image/4.png" alt="icon" />
-                    Next
+                   Next
                   </div>
                   <div className="col-md-4">
                     <img src="/image/4.png" alt="icon" />
@@ -192,6 +192,7 @@ function Second() {
                   </div>
                   <div className="col-md-4">
                     <img src="/image/4.png" alt="icon" />
+                    
                     PHP, Python
                   </div>
                   <div className="col-md-4">
@@ -358,7 +359,7 @@ function Second() {
           </div>
         </div>
       </section>
-      <section className="mydiv9">
+      <section className="mydiv999">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
@@ -367,46 +368,46 @@ function Second() {
           </div>
         </div>
       </section>
-      <section className="mydiv10">
+      <section className="mydiv100">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <div className="productul">
+              <div className="productul3">
                 <ul>
                   <li>
                     <a href="#">
                       <img src="/image/d.png" alt="img" />
-                      Jira
+                      <p>Jira</p>
                     </a>
                   </li>
                   <li>
                     <a href="#">
                       <img src="/image/s.png" alt="img" />
-                      Adobe XD
+                     <p> Adobe XD</p>
                     </a>
                   </li>
                   <li>
                     <a href="#">
                       <img src="/image/g.png" alt="img" />
-                      Trello
+                   <p>   Trello</p>
                     </a>
                   </li>
                   <li>
                     <a href="#">
                       <img src="/image/a.png" alt="img" />
-                      Figma
+                      <p>Figma</p>
                     </a>
                   </li>
                   <li>
                     <a href="#">
                       <img src="/image/f.png" alt="img" />
-                      Confluence
+                      <p>Confluence</p>
                     </a>
                   </li>
                   <li>
                     <a href="#">
                       <img src="/image/h.png" alt="img" />
-                      Basecamp
+                    <p>Basecamp</p>  
                     </a>
                   </li>
                 </ul>
@@ -415,7 +416,7 @@ function Second() {
           </div>
         </div>
       </section>
-      <section className="mydiv9">
+      <section className="mydiv999">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
@@ -424,7 +425,7 @@ function Second() {
           </div>
         </div>
       </section>
-      <section className="mydiv10">
+      <section className="mydiv100">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
@@ -433,37 +434,37 @@ function Second() {
                   <li>
                     <a href="#">
                       <img src="/image/j.png" alt="img" />
-                      Java
+                      <p>Java</p>
                     </a>
                   </li>
                   <li>
                     <a href="#">
                       <img src="/image/p.png" alt="img" />
-                      Php
+                      <p>Php</p>
                     </a>
                   </li>
                   <li>
                     <a href="#">
                       <img src="/image/n.png" alt="img" />
-                      Node
+                      <p>Node</p>
                     </a>
                   </li>
                   <li>
                     <a href="#">
                       <img src="/image/an.png" alt="img" />
-                      Angular
+                      <p>Angular</p>
                     </a>
                   </li>
                   <li>
                     <a href="#">
                       <img src="/image/ht.png" alt="img" />
-                      Html 5
+                     <p> Html 5</p>
                     </a>
                   </li>
                   <li>
                     <a href="#">
                       <img src="/image/aw.png" alt="img" />
-                      aws
+                      <p>aws</p>
                     </a>
                   </li>
                 </ul>
@@ -473,37 +474,37 @@ function Second() {
                   <li>
                     <a href="#">
                       <img src="/image/re.png" alt="img" />
-                      React
+                      <p>React</p>
                     </a>
                   </li>
                   <li>
                     <a href="#">
                       <img src="/image/ne.png" alt="img" />
-                      Next
+                      <p>Next</p>
                     </a>
                   </li>
                   <li>
                     <a href="#">
                       <img src="/image/py.png" alt="img" />
-                      Python
+                      <p>Python</p>
                     </a>
                   </li>
                   <li>
                     <a href="#">
                       <img src="/image/dio.png" alt="img" />
-                      Digital Ocean
+                     <p> Digital Ocean</p>
                     </a>
                   </li>
                   <li>
                     <a href="#">
                       <img src="/image/css.png" alt="img" />
-                      Css
+                      <p>Css</p>
                     </a>
                   </li>
                   <li>
                     <a href="#">
                       <img src="/image/cm.jpg" alt="img" />
-                      Cms
+                      <p>Cms</p>
                     </a>
                   </li>
                 </ul>

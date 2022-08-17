@@ -1,11 +1,14 @@
 .nav-tabs {
     border-bottom: 01px solid transparent;
 }
+
 .nav-link {
     justify-content: center;
     margin: 0 auto;
 }
-.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
     color: #fff;
     border-color: transparent;
     border-bottom-color: #7B45D9;
@@ -14,19 +17,23 @@
     font-weight: 300;
     font-size: 18px;
 }
-.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link:focus {
     border-color: transparent;
     border-bottom-color: #7B45D9;
     color: #fff;
     font-weight: 300;
     font-size: 18px;
 }
-.nav-tabs a{
+
+.nav-tabs a {
     color: #fff;
     font-weight: 300;
     font-size: 18px;
 }
-.tab-content{
+
+.tab-content {
     margin-top: 62px;
     justify-content: center;
     text-align: center;
@@ -37,12 +44,13 @@
 .mydiv {
     /* background-image: url(../image/2.png); */
     background-image: url(../../public/image/2a.png);
-    padding: 200px;
+    padding: 267px 0px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 }
+
 section.mydiv h1 {
     text-align: center;
     margin: 0 !important;
@@ -50,6 +58,7 @@ section.mydiv h1 {
     font-size: 35px;
     font-family: sans-serif;
 }
+
 section.mydiv p {
     text-align: center;
     font-size: 18px;
@@ -57,6 +66,7 @@ section.mydiv p {
     font-weight: 100;
     font-family: sans-serif;
 }
+
 section.mydiv1 p {
     max-width: 660px;
     font-family: sans-serif;
@@ -66,6 +76,7 @@ section.mydiv1 p {
     color: #d9c8c8;
     line-height: 25px;
 }
+
 section.mydiv1 h1 {
     padding-top: 110px;
     background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
@@ -74,10 +85,12 @@ section.mydiv1 h1 {
     font-family: sans-serif;
     font-size: 45px;
 }
+
 section.mydiv1 {
     background-color: #000000;
     padding-bottom: 70px;
 }
+
 .valueimage:before {
     content: "";
     background-color: #7B45D9;
@@ -93,12 +106,14 @@ section.mydiv1 {
 .valueimage {
     position: relative;
 }
+
 .valueimage img {
     position: relative;
     padding: 90px 0 0 60px;
     width: 475px;
     right: 100px;
 }
+
 .valueimage:after {
     content: "";
     border: 2px solid #fff;
@@ -110,18 +125,22 @@ section.mydiv1 {
     width: 350px;
     height: 280px;
 }
+
 section.mydiv2 {
     background-color: #000;
 }
+
 img.hireimages {
     width: 560px;
     position: relative;
-    left: 80px;
+    left: 56px;
     height: 780px;
 }
+
 .hirecontent ul {
     margin-left: 0px;
 }
+
 .hirecontent ul li {
     list-style: none;
     color: #fff;
@@ -130,11 +149,13 @@ img.hireimages {
     font-size: 13px;
     font-family: sans-serif;
 }
+
 .hirecontent h1 {
     font-size: 27px;
     color: #7B45D9;
     font-family: sans-serif;
 }
+
 .hirecontent p {
     color: #fff;
     padding: 0;
@@ -142,10 +163,12 @@ img.hireimages {
     font-size: 15px;
     line-height: 22px;
 }
+
 .hirecontent ul li img {
     width: 14px;
     padding-right: 8px;
 }
+
 section.mydiv3 {
     background-color: #000;
 }
@@ -157,7 +180,7 @@ section.mydiv3 h1 {
     font-weight: 200;
 }
 
-section.mydiv3  h2 {
+section.mydiv3 h2 {
     background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -166,12 +189,14 @@ section.mydiv3  h2 {
     margin-top: -40px;
     font-family: sans-serif;
 }
-section.mydiv3  p {
+
+section.mydiv3 p {
     color: #fff;
     line-height: 23px;
     padding: 0;
     text-align: inherit;
 }
+
 section.mydiv4 {
     background-color: #000;
 }
@@ -191,10 +216,12 @@ section.mydiv4 h2 {
     font-weight: 700;
     margin-top: -40px;
     font-family: sans-serif;
-} 
+}
+
 section.mydiv5 {
     background-color: #000;
 }
+
 section.mydiv5 h2 {
     color: #d5a4a4;
     font-family: sans-serif;
@@ -207,6 +234,7 @@ section.mydiv5 h2.active {
     border-bottom: 1px solid blue;
     width: 153px;
 }
+
 .valueimage2:after {
     content: "";
     border: 2px solid #fff;
@@ -218,18 +246,22 @@ section.mydiv5 h2.active {
     width: 400px;
     height: 180px;
 }
+
 .valueimage2 {
     position: relative;
 }
+
 .valueimage2 img {
     position: relative;
     padding: 0px 0 0 60px;
     right: 100px;
 }
+
 section.mydiv6 {
     background-color: #000;
     padding-bottom: 30px;
 }
+
 section.mydiv6 h1 {
     color: #7B45D9;
     font-size: 42px;
@@ -238,16 +270,19 @@ section.mydiv6 h1 {
     left: -21px;
     font-family: sans-serif;
 }
+
 .valuecontents p {
     color: #fff;
     max-width: 440px;
     line-height: 20px;
 }
+
 .valuecontents {
     border: 1px solid #fff;
     padding: 10px 28px;
     width: 500px;
 }
+
 section.mydiv7 p {
     color: #fff;
     font-family: sans-serif;
@@ -255,12 +290,15 @@ section.mydiv7 p {
     max-width: 1120px;
     padding: 0;
 }
+
 section.mydiv7 {
     background-color: #000;
 }
+
 section.mydiv8 {
     background-color: #000;
 }
+
 .box1 {
     border: 2px solid #fff;
     width: 105px;
@@ -268,22 +306,26 @@ section.mydiv8 {
     border-radius: 90px;
     margin-left: 90px;
 }
+
 .box1 img {
     width: 65px;
     height: 65px;
 }
+
 section.mydiv8 h2 {
     color: #fff;
     text-align: center;
     font-size: 19px;
     font-family: sans-serif;
 }
+
 section.mydiv8 p {
     color: rgb(209, 207, 207);
     text-align: left;
     font-size: 16px;
     font-family: sans-serif;
 }
+
 section.mydiv9 h1 {
     font-size: 40px;
     font-family: sans-serif;
@@ -300,11 +342,13 @@ section.mydiv9 {
     margin-top: 44px;
 
 }
+
 section.mydiv10 {
     background-color: white;
     height: 40vh;
     padding: 24px 0px;
 }
+
 section.mydiv10 ul {
     display: flex;
     justify-content: space-between;
@@ -318,25 +362,30 @@ section.mydiv10 ul li {
     font-family: sans-serif;
     font-size: 12px;
 }
+
 section.mydiv10 ul li a {
     text-decoration: none;
     color: #fff;
     font-size: 14px;
 }
+/* 
 section.mydiv10 ul li img {
     width: 135px;
     height: 85px;
     padding-bottom: 10px;
     object-fit: contain;
-}
+} */
+
 .productul {
     position: relative;
     margin: 10px;
 }
+
 .productul2 {
     position: relative;
     margin-bottom: 60px;
 }
+
 .approachimage img {
     width: 500px;
     position: relative;
@@ -347,15 +396,19 @@ section.mydiv10 ul li img {
 
 @media (max-width:600px) {
     section.mydiv7 {
-    justify-content: center;
+        justify-content: center;
     }
-    .nav-tabs a{
+
+    .nav-tabs a {
         font-size: 14px;
     }
-    .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+
+    .nav-tabs .nav-link.active,
+    .nav-tabs .nav-item.show .nav-link {
         font-size: 14px;
         letter-spacing: 0;
     }
+
     section.mydiv6 h1 {
         color: #7B45D9;
         font-size: 32px;
@@ -365,17 +418,20 @@ section.mydiv10 ul li img {
         left: 0px;
         top: 14px;
     }
+
     section.mydiv10 ul {
         flex-wrap: wrap;
     }
+
     .mydiv {
         padding-left: 0px;
         padding-right: 0px;
     }
+
     .mydiv2 img {
         width: 100%;
-    height: auto !important;
-    left: 0;
+        height: auto !important;
+        left: 0;
     }
 
     .mydiv8 {
@@ -383,58 +439,69 @@ section.mydiv10 ul li img {
         flex-wrap: wrap;
         justify-content: center;
         text-align: center;
-        
+
     }
-    .mydiv8  .box1 {
+
+    .mydiv8 .box1 {
         margin: 0 auto;
     }
+
     .hirecontent ul {
         margin: 0px !important;
     }
+
     .approachimage img {
         width: 100%;
         position: relative;
         left: 0px;
     }
+
     .valueimage2 img {
         position: relative;
         padding: 0px 0 0 0px;
         right: 0;
         width: 100%;
     }
+
     .valueimage2:after {
         content: "";
-    border: 2px solid #fff;
-    position: absolute;
-    top: 22px;
-    bottom: 0;
-    left: 27px;
-    right: 0;
-    width: 85%;
-    height: 100%;
+        border: 2px solid #fff;
+        position: absolute;
+        top: 22px;
+        bottom: 0;
+        left: 27px;
+        right: 0;
+        width: 85%;
+        height: 100%;
     }
+
     .valuecontents {
         border: 1px solid #fff;
         padding: 10px 28px;
         width: 100%;
     }
+
     .productul {
         position: relative;
         right: 0;
     }
-    section.mydiv10 ul li { 
-        margin-left: 0px; 
+
+    section.mydiv10 ul li {
+        margin-left: 0px;
     }
-    .productul2 { 
+
+    .productul2 {
         right: 0px;
         margin-bottom: 60px;
     }
+
     .valueimage img {
         position: relative;
         padding: 40px 0 0 0px;
         width: 100%;
         right: 0;
     }
+
     .valueimage:after {
         content: "";
         border: 2px solid #fff;
@@ -447,84 +514,174 @@ section.mydiv10 ul li img {
         height: 280px;
     }
 }
+
 @media (max-width:600px) {
     section.deliversection ul {
-      flex-wrap: wrap;
+        flex-wrap: wrap;
     }
+
     .box551 {
-  margin: 0 auto;
-  
+        margin: 0 auto;
+
     }
-    .box551 + h2 {
-      text-align: center;
+
+    .box551+h2 {
+        text-align: center;
     }
-    .box551 + h2 + p {
-      text-align: center;
+
+    .box551+h2+p {
+        text-align: center;
     }
-  
+
     .mydiv001 {
-      /* background-image: url(./image/1.png); */
-      
-      padding: 200px 0px;
-      
-      padding-left: 0;
-  }
-  section.mydiv9 h1 {
-    font-size: 20px;
-}
-  img.hireimages1 {
-    width: 100%;
-    position: relative;
-    left: 0px;
-  }
-  
-  .mydiv77 {
-    
-    padding-bottom: 30px;
-     
-    margin-left: 0px;
-  }
-  .mydiv88 {
-     
-    padding-bottom: 30px;
-     
-    margin-left: 0px !important;
-    margin-top: 0px !important;
-    padding-top: 36px;
-  }
-  .hirecontent1 {
-    margin-left: 0px !important;
-  }
-  section.mydiv88 h1, section.mydiv77 h1 {
-    text-align: center;
-    
-    font-size: 6vw;
-     
-    margin-bottom: 0px;
-  }
+        /* background-image: url(./image/1.png); */
 
-  section.mydiv10 ul li {
-    width: calc(100%/2 - 20px);
+        padding: 200px 0px;
+
+        padding-left: 0;
+    }
+
+    section.mydiv9 h1 {
+        font-size: 20px;
+    }
+
+    img.hireimages1 {
+        width: 100%;
+        position: relative;
+        left: 0px;
+    }
+
+    .mydiv77 {
+
+        padding-bottom: 30px;
+
+        margin-left: 0px;
+    }
+
+    .mydiv88 {
+
+        padding-bottom: 30px;
+
+        margin-left: 0px !important;
+        margin-top: 0px !important;
+        padding-top: 36px;
+    }
+
+    .hirecontent1 {
+        margin-left: 0px !important;
+    }
+
+    section.mydiv88 h1,
+    section.mydiv77 h1 {
+        text-align: center;
+
+        font-size: 6vw;
+
+        margin-bottom: 0px;
+    }
+
+    section.mydiv100 ul li {
+        width: calc(100%/2 - 20px);
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    section.mydiv100 ul li img {
+        display: block;
+    }
+
+    section.mydiv100 ul {
+        gap: 25px;
+    }
+
+
+
+    section.mydiv100 ul li {
+        margin-left: 0px;
+    }
+
+    section.mydiv100 ul li {
+        margin-left: 0px;
+    }
+
+
+    section.mydiv100 ul li {
+        width: calc(100%/2 - 20px);
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    section.mydiv100 ul li img {
+        display: block;
+    }
+
+    section.mydiv100 ul {
+        gap: 25px;
+    }
+
+}
+
+
+section.mydiv999 {
+    background-color: #000;
+    /* margin-top: 44px; */
+}
+
+section.mydiv999 h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 300;
+    /* border: solid 1px white; */
+    /* margin-bottom: 73px; */
+}
+
+section.mydiv100 {
+    background-color: black;
+
+}
+
+section.mydiv100 ul {
     display: flex;
-    justify-items: center;
-    justify-content: center;
+    /* justify-content: space-between; */
+    text-align: center;
+    flex-wrap: wrap;
+
 }
 
-section.mydiv10 ul li img {
-    display: block;
+section.mydiv100 ul li {
+    list-style: none;
+    /* margin-left: 60px; */
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 12px;
 }
 
-section.mydiv10 ul {
-    gap: 25px;
+section.mydiv100 ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
 }
-  }
 
+section.mydiv100 ul li img {
+    width: 191px;
+    height: 85px;
+    padding-bottom: 10px;
+    object-fit: contain;
+}
 
+.productul3 {
+    position: relative;
+    margin: 10px;
+}
 
-
-
-
-
-
+.productul23 {
+    position: relative;
+    margin-bottom: 60px;
+}
 
 
