@@ -345,7 +345,7 @@ section.mydiv9 {
 
 section.mydiv10 {
     background-color: white;
-    height: 40vh;
+    height: 45vh;
     padding: 24px 0px;
 }
 
@@ -357,10 +357,12 @@ section.mydiv10 ul {
 
 section.mydiv10 ul li {
     list-style: none;
-    margin-left: 60px;
+    /* margin-left: 60px; */
     color: #fff;
     font-family: sans-serif;
     font-size: 12px;
+    max-width: 268px;
+    flex: 1;
 }
 
 section.mydiv10 ul li a {
@@ -487,7 +489,7 @@ section.mydiv10 ul li img {
     }
 
     section.mydiv10 ul li {
-        margin-left: 0px;
+        margin-left: 18px;
     }
 
     .productul2 {
@@ -502,6 +504,16 @@ section.mydiv10 ul li img {
         right: 0;
     }
 
+    .mydiv10 ul li {
+        list-style: none;
+        /* margin-left: 60px; */
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 12px;
+        max-width: 336px !important;
+        flex: 1 1;
+        margin: 11px 0px;
+    }
     .valueimage:after {
         content: "";
         border: 2px solid #fff;

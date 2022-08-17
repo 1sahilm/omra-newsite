@@ -46,7 +46,7 @@ const Aboutus = () => {
                   <h2 className={Styles.heading3}>Process- Oriented</h2>
 
                   <h2 className={Styles.heading3}>Cost-Effective/ Secure Service Provider
-</h2>
+                  </h2>
 
                   <h2 className={Styles.heading33}>Global Satisfied Clientele</h2>
 
@@ -73,7 +73,7 @@ const Aboutus = () => {
                   </p>
 
                   <p className={Styles.para}>
-                  We are enabling business transformation that can be agile, intuitive and transparent to stay competitive through our radical solutions. We are global leader to outsource in B2B & B2C sales.
+                    We are enabling business transformation that can be agile, intuitive and transparent to stay competitive through our radical solutions. We are global leader to outsource in B2B & B2C sales.
                   </p>
                 </div>
               </div>
@@ -102,33 +102,18 @@ const Aboutus = () => {
               </div>
 
               <div className="col-sm-6">
-                <p className={Styles.paraprogress}>IT DEVLOPMENT</p>
-                <div className={Styles.padding_box}>
-                  <div className={Styles.progress} styles={{ height: "7px", color: "red" }}>
-                    <div
-                      className={Styles.progressbar}
-                      styles={{ width: "40%", height: "7px" }}
-                    ></div>
-                  </div>
-                </div>
 
-                <p className={Styles.paraprogress}>E-COMMERECE PRODUCT UPLOADING</p>
-                <div className={Styles.padding_box}>
-                  <div className={Styles.progress} styles={{ height: "7px", color: "red" }}>
-                    <div
-                      className={Styles.progressbar}
-                      styles={{ width: "60%", height: "7px" }}
-                    ></div>
-                  </div>
-                </div>
-                <p className={Styles.paraprogress}>VOICE BLEND PROCESS</p>
-                <div className={Styles.padding_box}>
-                  <div className={Styles.progress} styles={{ height: "7px", color: "red" }}>
-                    <div
-                      className={Styles.progressbar}
-                      styles={{ width: "40%", height: "7px" }}
-                    ></div>
-                  </div>
+                <div className={Styles.relative_box}>
+                  <img src="/image/semicircle.png" alt="img" width="570px"
+                    height=" 286px" className={Styles.relative_image} />
+
+                  <h4 className={Styles.percnt_color}>54%</h4>
+                  <h4 className={Styles.percnt_color1}>72%</h4>
+                  <h4 className={Styles.percnt_color2}>92%</h4>
+                  <h6 className={Styles.heading6_box}>IT DEVELOPMENT</h6>
+                  <h6 className={Styles.heading6_box1}>VOICE BLEND PROCESS</h6>
+
+                  <h6 className={Styles.heading6_box2}>E-COMMERCE PRODUCT UPLOADING</h6>
                 </div>
 
 
@@ -143,11 +128,11 @@ const Aboutus = () => {
           <div className="container">
 
             <Slider33 />
-            </div>
-            </div>
+          </div>
+        </div>
 
 
-       
+
 
         <section className="mydiv9">
           <div className="container">
@@ -235,7 +220,7 @@ const Aboutus = () => {
         </section>
 
         <section className={`${Styles.section21} new-about-section1`} >
-          <div class= {`${Styles.content11} content1`}>
+          <div class={`${Styles.content11} content1`}>
             <p className={Styles.table_para}>
               We push ourselves! We push technology! We push the boundaries of
               conventional thinking!
@@ -274,7 +259,7 @@ const Aboutus = () => {
                 <p className={Styles.textt_color}>
                   OMRA Solutions are working with Justdial, DU Telecom, Jeena
                   Seekho to attain their business operation targets. We are
-                
+
                   having wealthy experience with Interactive content & smooth
                   communication tools.
                 </p>
@@ -293,7 +278,7 @@ const Aboutus = () => {
                 />
               </div>
 
-              <div  className={`${Styles.background_sectionmob} background_section`}>
+              <div className={`${Styles.background_sectionmob} background_section`}>
                 <h1 className={Styles.section_heading3}>
                   Mind-blowing ideas to work
                 </h1>
@@ -307,7 +292,7 @@ const Aboutus = () => {
                   WATCH NOW
                 </button>
               </div></div> <div className={Styles.section_flex}>
-              <div  className={`${Styles.background_sectionmob} background_section`}>
+              <div className={`${Styles.background_sectionmob} background_section`}>
                 <h1 className={Styles.section_heading3}>
                   Elegant solutions for the outcome
                 </h1>
@@ -343,24 +328,41 @@ const Aboutus = () => {
                 <div className="productul">
                   <ul>
                     <li>
-                      <a href="#">
-                        <img src="/image/new1.png" alt="img" />
-                      </a>
+                      <div className={Styles.full_box}>
+                        <div>
+                          <img src="/image/ECOM.png" alt="img" width="90px"
+                            height="90px" className={Styles.semi_imagebox} /></div>
+
+                        <div className={Styles.semi_color}>E-COMMERCE</div>
+                      </div>
                     </li>
                     <li>
-                      <a href="#">
-                        <img src="/image/new2.png" alt="img" />
-                      </a>
+                      <div className={Styles.full_box}>
+                        <div>
+                          <img src="/image/bl.png" alt="img" width="90px"
+                            height="90px" className={Styles.semi_imagebox} /></div>
+
+                        <div className={Styles.semi_color}>DATA ENRICHMENT</div>
+                      </div>
                     </li>
                     <li>
-                      <a href="#">
-                        <img src="/image/new3.png" alt="img" />
-                      </a>
+                      <div className={Styles.full_box}>
+                        <div>
+                          <img src="/image/yelow.png" alt="img" width="90px"
+                            height="90px" className={Styles.semi_imagebox} /></div>
+
+                        <div className={Styles.semi_color}>IT DEVELOPMENT
+                          & AUTOMATION</div>
+                      </div>
                     </li>
                     <li>
-                      <a href="#">
-                        <img src="/image/new4.png" alt="img" />
-                      </a>
+                      <div className={Styles.full_box}>
+                        <div>
+                          <img src="/image/chrome.png" alt="img" width="90px"
+                            height="90px" className={Styles.semi_imagebox} /></div>
+
+                        <div className={Styles.semi_color}>OUTSOURCE</div>
+                      </div>
                     </li>
                   </ul>
                 </div>
@@ -369,24 +371,40 @@ const Aboutus = () => {
                 <div className="productul">
                   <ul>
                     <li>
-                      <a href="#">
-                        <img src="/image/new1.png" alt="img" />
-                      </a>
+                      <div className={Styles.full_box}>
+                        <div>
+                          <img src="/image/vo.png" alt="img" width="90px"
+                            height="90px" className={Styles.semi_imagebox} /></div>
+
+                        <div className={Styles.semi_color}>TELECOM</div>
+                      </div>
                     </li>
                     <li>
-                      <a href="#">
-                        <img src="/image/new2.png" alt="img" />
-                      </a>
+                      <div className={Styles.full_box}>
+                        <div>
+                          <img src="/image/pitch.png" alt="img" width="90px"
+                            height="90px" className={Styles.semi_imagebox} /></div>
+
+                        <div className={Styles.semi_color}>VOICE PROCESS</div>
+                      </div>
                     </li>
                     <li>
-                      <a href="#">
-                        <img src="/image/new3.png" alt="img" />
-                      </a>
+                      <div className={Styles.full_box}>
+                        <div>
+                          <img src="/image/bfsi.png" alt="img" width="90px"
+                            height="90px" className={Styles.semi_imagebox} /></div>
+
+                        <div className={Styles.semi_color}>SAAS</div>
+                      </div>
                     </li>
                     <li>
-                      <a href="#">
-                        <img src="/image/new4.png" alt="img" />
-                      </a>
+                      <div className={Styles.full_box}>
+                        <div>
+                          <img src="/image/sass.svg" alt="img" width="90px"
+                            height="90px" className={Styles.semi_imagebox} /></div>
+
+                        <div className={Styles.semi_color}>BFSI</div>
+                      </div>
                     </li>
                   </ul>
                 </div>
