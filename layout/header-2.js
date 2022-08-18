@@ -99,7 +99,7 @@ function Header2() {
                         </Link>
                       </li>
                       <li>
-                        <Link href="/voiceblend-process">
+                        <Link href="/voice-process">
                           <a>Voice Blend Process</a>
                         </Link>
                       </li>

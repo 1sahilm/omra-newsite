@@ -99,11 +99,11 @@
 .newsection1 {
   background-color: rgb(10, 10, 10);
 
-  height: 37vh;
+  height: 31vh;
 }
 
 .Featurebox {
-  height: 87vh;
+  height: 76vh;
   background: #0a0a0a;
 }
 
@@ -318,7 +318,7 @@
 
 @media (max-width: 600px) {
   .Featurebox {
-    height: 60vh;
+    height: 76vh;
     background: #0a0a0a;
 
   }
@@ -350,7 +350,7 @@
     z-index: 1;
     position: absolute;
     top: 0px;
-    left: 206px;
+    left: 203px;
     /* border-radius: 0px; */
     height: 100%;
     width: 57%;
@@ -393,7 +393,7 @@
     position: relative;
     height: 87%;
     width: 80%;
-    border-radius: 0px 69px 43px 0px;
+    // border-radius: 0px 69px 43px 0px;
   }
 
   .top_box {

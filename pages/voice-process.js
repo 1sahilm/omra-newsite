@@ -1,9 +1,9 @@
 import React from "react";
-import AddIcon from "../../component/icons/Add";
-import ReusableTab from "../../component/tab/tab";
-import Footer from "../../layout/footer";
-import Header2 from "../../layout/header-2";
-import Styles from "../../scss/demo/demo.module.scss";
+import AddIcon from "../component/icons/Add";
+import ReusableTab from "../component/tab/tab";
+import Footer from "../layout/footer";
+import Header2 from "../layout/header-2";
+import Styles from "../scss/demo/demo.module.scss";
 
 function Third() {
   return (
