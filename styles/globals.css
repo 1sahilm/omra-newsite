@@ -518,7 +518,7 @@ p.leader_leaderpara__2uIkn a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 141vh;
+    height: inherit;
     width: 100%;
     position: relative;
 
@@ -571,7 +571,7 @@ p.leader_leaderpara__2uIkn a {
 
 .new-about-section1 .content1 {
     position: absolute;
-    top: 0px;
+    top: 0px !important;
     left: 656px;
     /* background: rgb(0, 0, 0); */
     background: rgb(11 7 7 / 67%);
@@ -761,7 +761,8 @@ p.leader_leaderpara__2uIkn a {
     /* background-image: url(./image/1.png); */
     background-image: url(../public/image/third.png);
     padding: 200px;
-    background-position: center center;
+    /* background-position: center center; */
+    background-position: 77% 46%;
     background-size: cover;
     background-repeat: no-repeat;
     padding-left: 127px;

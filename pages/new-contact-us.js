@@ -7,29 +7,8 @@ import Footer from "./../layout/footer";
 import { useEffect, useState } from "react";
 import { sendData } from "next/dist/next-server/server/api-utils";
 
-
-
 function Contact() {
-    // const {register,handleSubmit, formState:{erros}} = useForm();
-    // const myfun =() =>{
-    //     alert('button is clicked');
-    //     }
-    // const [Data ,setData]= useState(
 
-    //     First_Name="",
-    //     Last_Name="",
-    //     Email_Address ="",
-    //     Phone ="",
-    //     Job_Title  ="",
-    //     Organisation  ="",
-    //     Enquiry_Type ="",
-    //     Industry ="",
-    //     Enquiry_Type ="",
-    //     Comments=""
-
-
-
-    // )
     const [First_Name, setFirst_Name] = useState('')
     const [Last_Name, setLast_Name] = useState('')
     const [Email_Address, setEmail_Address] = useState('')
@@ -49,16 +28,8 @@ function Contact() {
 
         sendData = async () => {
             const payload = {
-                // force_replace:checkbox[1],
+
                 First_Name: First_Name,
-                // Last_Name: Last_Name,
-                // Email_Address: Email_Address,
-                // Phone: Phone,
-                // Job_Title: Job_Title,
-                // Organisation: Organisation,
-                // Enquiry_Type: Enquiry_Type,
-                // Industry: Industry,
-                // Comments: Comments,
 
 
 
@@ -72,19 +43,7 @@ function Contact() {
                     .then(async (response) => {
                         console.log(response)
 
-                        // if (response.data.success) {
 
-                        //     setCount(count + 1);
-
-
-
-
-                        // } else {
-
-                        //     setCount(count + 1);
-
-
-                        // }
 
                     });
 
@@ -95,21 +54,10 @@ function Contact() {
                 // toast( err?.message);
 
             }
-
-
-
         };
         sendData()
 
-
-
     }
-
-
-
-
-
-
 
     return (
         <>
@@ -139,24 +87,7 @@ function Contact() {
                     </div>
                 </div>
             </div>
-            {/* <div>
-            <div className={` ${Styles.Collection} `}>
-                <div className="container">
-                    <div className={` ${Styles.Collectionrow} row`}>
 
-                        <a href="#" className={Styles.collectionbox}> <div className={` ${Styles.a} col`}><p>North <br></br>Americas</p></div> </a>
-                        <a href="#" className={Styles.collectionbox}> <div className={` ${Styles.b} col`}><p>South <br></br>America</p></div> </a>
-                        <a href="#" className={Styles.collectionbox}> <div className={` ${Styles.c} col`}><p>Africa</p></div></a>
-                        <a href="#" className={Styles.collectionbox}> <div className={` ${Styles.d} col`}><p>Europe</p></div> </a>
-                        <a href="#" className={Styles.collectionbox}> <div className={` ${Styles.a} col`}><p>Middle <br></br>East</p></div> </a>
-                        <a href="#" className={Styles.collectionbox}> <div className={` ${Styles.b} col`}><p>Asia</p></div> </a>
-                        <a href="#" className={Styles.collectionbox}> <div className={` ${Styles.c} col`}><p>India</p></div></a>
-                        <a href="#" className={Styles.collectionbox}> <div className={` ${Styles.d} col`}><p>Australia & <br></br> New <br></br>Zealand</p></div> </a>
-
-                    </div>
-                </div>
-            </div>
-        </div> */}
             <div>
                 <div className={` ${Styles.Contact}`}>
                     <div className="container">
@@ -175,13 +106,9 @@ function Contact() {
                             <form className="row">
                                 <div className="col-4">
 
-
-
-
-
                                     <label htmlFor="fname">First Name* </label><br></br> <input type="text" id="fname" name="fname" class="form-control" onChange={event => setFirst_Name(event.target.value)} ></input><br></br>
-                                    <label for="phone">Phone* </label><br></br> <input type="tel" id="phone" class="form-control"></input><br></br>
-
+                                    <label for="lname">Last Name*</label><br></br>
+                                    <input type="text" id="lname" class="form-control"></input><br></br>
                                     <label for="any">Enquiry Type*</label><br></br>
                                     <select name="any" id="any" class="form-control">
 
@@ -191,58 +118,31 @@ function Contact() {
                                         <option value={'c'}>C</option>
                                         <option value={'d'}>D</option>
                                     </select>
+                                    
+                                        {/* <label for="formTerms" className={Styles.formTerms}>By clicking on the submit button, I agree with the Privacy Policy.</label>
+                                        <input type="submit" className={`${Styles.submit}`} title="Please read the Privacy Policy before submitting" value="SUBMIT" onClick={SubmitData}></input> */}
                                 </div>
                                 <div className="col-4">
                                     <div className="Second">
-                                        <label for="lname">Last Name*</label><br></br>
-                                        <input type="text" id="lname" class="form-control"></input><br></br>
-                                        {/* <label for="jtitle"> Job Title*</label><br></br>
-                                        <input type="text" id="jtitle" class="form-control"></input><br></br> */}
-
-                                        {/* <label for="country"> Country*</label><br></br>
-                                        <select name="x" id="x" class="form-control">
-                                            <option value={`coun`}>Select</option>
-                                            <option value={`coun`}>Afghanistan</option>
-                                            <option value={`coun`}>Aland Islans</option>
-                                            <option value={`coun`}>Albania</option>
-                                        </select> */}<label for="mail">Email Address*</label><br></br>
+                                       
+                                       
+                                        <label for="phone">Phone* </label><br></br> <input type="tel" id="phone" class="form-control"></input><br></br>
+                                        <label for="mail">Email Address*</label><br></br>
                                         <input type="email" id="email" class="form-control"></input><br></br>
-                                        
-                                        <div className="row">
+
+                                        {/* <div className="row">
+                                            <input type="submit" className={`${Styles.submit}`} title="Please read the Privacy Policy before submitting" value="SUBMIT" onClick={SubmitData}></input>
+                                        </div> */}
+
+<label for="formTerms" className={Styles.formTerms}>By clicking on the submit button, I agree with the Privacy Policy.</label>
                                         <input type="submit" className={`${Styles.submit}`} title="Please read the Privacy Policy before submitting" value="SUBMIT" onClick={SubmitData}></input>
-                                    </div>
                                     </div>
                                 </div>
                                 <div className="col-4">
                                     <div className="third">
-                                        {/* <label for="mail">Email Address*</label><br></br>
-                                        <input type="email" id="email" class="form-control"></input><br></br> */}
-
-                                        {/* <label for="company">Company/Organisation*</label><br></br>
-                                        <input type="text" id="Company" class="form-control"></input><br></br> */}
-
-                                        {/* <label for="industry">Industry</label><br></br>
-                                        <select name="y" id="y" class="form-control">
-                                            <option value={`ind`}>Select</option>
-                                            <option value={`ind`}>Communication</option>
-                                            <option value={`ind`}>Media & Entertainment</option>
+                                        <img src="/image/contact.png" alt="img" />
 
 
-                                            
-                                        </select> */}
-
-                                        {/* <p>lorem455lorem455lorem455lorem455lorem455lor
-
-                                        </p>
-                                        <p>lorem455lorem455lorem455lorem455lorem455lor
-
-</p>
-<p>lorem455lorem455lorem455lorem455lorem455lor
-
-</p>
-<p>lorem455lorem455lorem455lorem455lorem455lor
-
-</p> */}
                                     </div>
                                 </div>
                                 <div className="container">
@@ -254,17 +154,17 @@ function Contact() {
                                         </div> */}
                                     </div>
                                 </div>
-                                <div className="container">
+                                {/* <div className="container">
                                     <div className="row">
                                         <label for="formTerms" className={Styles.formTerms}>By clicking on the submit button, I agree with the Privacy Policy.</label>
                                     </div>
-                                </div>
-                                <div className="container">
+                                </div> */}
+                                {/* <div className="container">
                                     <div className="row">
                                         <input type="submit" className={`${Styles.submit}`} title="Please read the Privacy Policy before submitting" value="SUBMIT" onClick={SubmitData}></input>
                                     </div>
 
-                                </div>
+                                </div> */}
 
                             </form>
                         </div>

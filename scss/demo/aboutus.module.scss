@@ -29,7 +29,10 @@ $mobile: 576px;
   color: "white";
   padding:0px;
 }
-
+.dheading34{
+  color: "white";
+  padding:0px;
+}
 .dpara{
   color: "white";
   padding:0px;
@@ -156,6 +159,29 @@ $mobile: 576px;
 
 .padding_box {
   margin-bottom: 30px;
+}
+
+
+.about_headingnew {
+  background-image: linear-gradient(90deg,
+      #e62222,
+      #e62222,
+      #ef6d35,
+      #ef6d35,
+      #ef6d35);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-weight: 700;
+display:none;
+  font-size: 52px;
+}
+
+
+.dheadingnew{
+  color: "white";
+  padding:0px;
+display:none;
 }
 
 .progress_bar {
@@ -367,6 +393,7 @@ $mobile: 576px;
     background-color: white;
     color: black;
     padding-top: 57px;
+    margin-top: 6px;
   }
 
   .apple_img {
@@ -389,11 +416,12 @@ $mobile: 576px;
   }
 
   .section21 {
-    height: 41vh;
+    height: inherit;
+    padding: 30px 0px;
   }
 
   .content11 {
-    position: absolute;
+    position: relative !important;
     top: 44px !important;
     left: 33px !important;
     background: rgb(0, 0, 0);
@@ -401,7 +429,7 @@ $mobile: 576px;
     color: #f1f1f1;
     width: 84%;
     padding: 4px -9px;
-    height: 277px !important;
+    height: inherit !important;
     text-align: justify;
   }
 
@@ -440,21 +468,21 @@ $mobile: 576px;
   }
 
   .div10formob {
-    height: 119vh !important;
+    height: inherit !important;
   }
 
   .background_sectionmob {
     background-color: white;
-    // width: 580px;
-    height: 327px !important;
+    height: inherit !important;
     margin-bottom: 35px;
     border: 1px solid #707070;
     margin-left: 17px !important;
     margin-right: 17px !important;
+    padding-bottom: 10px;
   }
 
   .mobileResslidercontain {
-    height: 62vh;
+    height: inherit !important;
 
     background-repeat: no-repeat;
     margin-top: 41px;
@@ -509,6 +537,48 @@ $mobile: 576px;
     min-width: 254px;
 }
 
+.about_heading {
+  background-image: linear-gradient(90deg,
+      #e62222,
+      #e62222,
+      #ef6d35,
+      #ef6d35,
+      #ef6d35);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-weight: 700;
+display:none;
+  font-size: 52px;
+}
+
+
+.dheading{
+  color: "white";
+  padding:0px;
+display:none;
+}
+.about_headingnew {
+  background-image: linear-gradient(90deg,
+      #e62222,
+      #e62222,
+      #ef6d35,
+      #ef6d35,
+      #ef6d35);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-weight: 700;
+  display:block;
+  font-size: 52px;
+}
+
+
+.dheadingnew{
+  color: "white";
+  padding:0px;
+display:block;
+}
 }
 
 .semicircle {
@@ -520,7 +590,14 @@ $mobile: 576px;
 .semi_imagebox {
   border-radius: 50%;
   border: 1px solid #e50389;
+  padding: 11px;
 
+}
+
+.semi_imagebox13 {
+  border-radius: 50%;
+  border: 1px solid #e50389;
+ 
 
 }
 

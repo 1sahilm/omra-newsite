@@ -489,7 +489,7 @@ section.mydiv10 ul li img {
     }
 
     section.mydiv10 ul li {
-        margin-left: 18px;
+        margin-left: 0px;
     }
 
     .productul2 {
@@ -510,7 +510,7 @@ section.mydiv10 ul li img {
         color: #fff;
         font-family: sans-serif;
         font-size: 12px;
-        max-width: 336px !important;
+        max-width: 100% !important;
         flex: 1 1;
         margin: 11px 0px;
     }

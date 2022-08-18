@@ -22,18 +22,7 @@ const Aboutus = () => {
           />
           <div className={Styles.absolutePart}>
             <div className={` ${Styles.mobileRes} row`}>
-              {/* <div className="col-md-12">
-                <div className={Styles.bannertext}>
-                  <h1 className={Styles.mobileH1}>
-                    {" "}
-                    Best in E Commerce Uploading
-                  </h1>
-                  <p>
-                    Sell more with appealing product entry services from OMRA
-                    Solutions!
-                  </p>
-                </div>
-              </div> */}
+
             </div>
           </div>
         </div>
@@ -85,7 +74,13 @@ const Aboutus = () => {
           <div className="container">
             <div className="row">
               <div className="col-sm-6">
-                <p className={Styles.dheading}>
+
+              <h1 className={Styles.about_headingnew}>About us</h1>
+
+<p className={Styles.dheadingnew}>
+  Find out why we are different?
+</p>
+                <p className={Styles.dheading34}>
                   From Platform development to Sales, Inbound/Outbound calls,
                   Business Process Outsourcing, we specialize in all aspects of
                   our working area. With more than 34 completed projects, we are
@@ -97,23 +92,19 @@ const Aboutus = () => {
                   their potential. That is why we are recognized year after year
                   with Certifications and more industries. We at OMRA Solutions
                   have a principle of work: “THINK DIFFERENT TO MAKE YOUR
-                  VISION” <a href="">Read more</a>
+                  VISION”
+                  {/* <a href="">Read more</a> */}
                 </p>
               </div>
 
               <div className="col-sm-6">
 
+              
                 <div className={Styles.relative_box}>
-                  <img src="/image/semicircle2.png" alt="img" width="570px"
+                  <img src="/image/12.png" alt="img" width="570px"
                     height=" 286px" className={Styles.relative_image} />
 
-                  {/* <h4 className={Styles.percnt_color}>54%</h4>
-                  <h4 className={Styles.percnt_color1}>72%</h4>
-                  <h4 className={Styles.percnt_color2}>92%</h4>
-                  <h6 className={Styles.heading6_box}>IT DEVELOPMENT</h6>
-                  <h6 className={Styles.heading6_box1}>VOICE BLEND PROCESS</h6>
-
-                  <h6 className={Styles.heading6_box2}>E-COMMERCE PRODUCT UPLOADING</h6> */}
+                 
                 </div>
 
 
@@ -228,6 +219,24 @@ const Aboutus = () => {
           </div>
         </section>
 
+         {/* <div className={Styles.bannerImageMid}>
+          <Image
+            src="/intelligentautomationimages/brown.png"
+            width={1700}
+            height={700}
+            className={Styles.Imagestyle}
+            priority
+          />
+          <div className={Styles.absolutePart}>
+          <div className={`${Styles.content11} content1`}>
+            <p className={Styles.table_para}>
+              We push ourselves! We push technology! We push the boundaries of
+              conventional thinking!
+            </p>
+          </div>
+          </div>
+        </div> */}
+
         <section className={`${Styles.section01} new-about-section`}>
           {/* <div class="content">
             <h1 className="section_heading3">Unique Design</h1>
@@ -331,7 +340,7 @@ const Aboutus = () => {
                       <div className={Styles.full_box}>
                         <div>
                           <img src="/image/ECOM.png" alt="img" width="90px"
-                            height="90px" className={Styles.semi_imagebox} /></div>
+                            height="90px" className={Styles.semi_imagebox13} /></div>
 
                         <div className={Styles.semi_color}>E-COMMERCE</div>
                       </div>
@@ -340,7 +349,7 @@ const Aboutus = () => {
                       <div className={Styles.full_box}>
                         <div>
                           <img src="/image/bl.png" alt="img" width="90px"
-                            height="90px" className={Styles.semi_imagebox} /></div>
+                            height="90px" className={Styles.semi_imagebox13} /></div>
 
                         <div className={Styles.semi_color}>DATA ENRICHMENT</div>
                       </div>
@@ -349,7 +358,7 @@ const Aboutus = () => {
                       <div className={Styles.full_box}>
                         <div>
                           <img src="/image/yelow.png" alt="img" width="90px"
-                            height="90px" className={Styles.semi_imagebox} /></div>
+                            height="90px" className={Styles.semi_imagebox13} /></div>
 
                         <div className={Styles.semi_color}>IT DEVELOPMENT
                           & AUTOMATION</div>
@@ -359,7 +368,7 @@ const Aboutus = () => {
                       <div className={Styles.full_box}>
                         <div>
                           <img src="/image/chrome.png" alt="img" width="90px"
-                            height="90px" className={Styles.semi_imagebox} /></div>
+                            height="90px" className={Styles.semi_imagebox13} /></div>
 
                         <div className={Styles.semi_color}>OUTSOURCE</div>
                       </div>
@@ -374,7 +383,7 @@ const Aboutus = () => {
                       <div className={Styles.full_box}>
                         <div>
                           <img src="/image/vo.png" alt="img" width="90px"
-                            height="90px" className={Styles.semi_imagebox} /></div>
+                            height="90px" className={Styles.semi_imagebox13} /></div>
 
                         <div className={Styles.semi_color}>TELECOM</div>
                       </div>
@@ -383,7 +392,7 @@ const Aboutus = () => {
                       <div className={Styles.full_box}>
                         <div>
                           <img src="/image/pitch.png" alt="img" width="90px"
-                            height="90px" className={Styles.semi_imagebox} /></div>
+                            height="90px" className={Styles.semi_imagebox13} /></div>
 
                         <div className={Styles.semi_color}>VOICE PROCESS</div>
                       </div>
@@ -391,7 +400,7 @@ const Aboutus = () => {
                     <li>
                       <div className={Styles.full_box}>
                         <div>
-                          <img src="/image/bfsi.png" alt="img" width="90px"
+                          <img src="/image/sass.svg" alt="img" width="90px"
                             height="90px" className={Styles.semi_imagebox} /></div>
 
                         <div className={Styles.semi_color}>SAAS</div>
@@ -400,8 +409,8 @@ const Aboutus = () => {
                     <li>
                       <div className={Styles.full_box}>
                         <div>
-                          <img src="/image/sass.svg" alt="img" width="90px"
-                            height="90px" className={Styles.semi_imagebox} /></div>
+                          <img src="/image/bfsi.png" alt="img" width="90px"
+                            height="90px" className={Styles.semi_imagebox13} /></div>
 
                         <div className={Styles.semi_color}>BFSI</div>
                       </div>

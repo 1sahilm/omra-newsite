@@ -17,7 +17,7 @@ function Footer() {
                   <div>
                     <a href="">
                       <img
-                        src="../../images/cropped-Omra_Branding_logo.png"
+                         src="/images/newlogo.png"
                         alt="image1"
                         className="logofooter"
                       />
