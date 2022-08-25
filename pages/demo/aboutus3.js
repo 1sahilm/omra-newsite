@@ -218,6 +218,26 @@ const Aboutus = () => {
             </p>
           </div>
         </section>
+        
+
+        {/* <div className={Styles.bannerImage1}>
+          <Image
+            src="/intelligentautomationimages/brown.png"
+            width={1700}
+            height={700}
+            className={Styles.Imagestyle}
+            priority
+          />
+          <div className={Styles.absolutePart}>
+            <div className={` ${Styles.content3} row`}>
+              
+            <p className={Styles.table_para1}>
+              We push ourselves! We push technology! We push the boundaries of
+              conventional thinking!
+            </p>
+            </div>
+          </div>
+        </div> */}
 
          {/* <div className={Styles.bannerImageMid}>
           <Image

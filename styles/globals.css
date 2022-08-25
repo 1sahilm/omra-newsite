@@ -767,6 +767,8 @@ p.leader_leaderpara__2uIkn a {
     background-repeat: no-repeat;
     padding-left: 127px;
     height: 100vh;
+    padding: 200px 0px;
+    padding-left: 0;
 
 }
 
@@ -1223,6 +1225,9 @@ section.mydiv88 p .parastyle {
         font-size: 6vw;
         width: 100%;
     }
+
+   
+ 
 }
 
 .back_box {
@@ -1382,3 +1387,67 @@ section.mydiv88 p .parastyle {
     width: 14px;
     padding-right: 5px;
 }
+
+.mydiv009 {
+
+    /* background-image: url(./image/1.png); */
+    background-image: url(../public/image/bannere.png);
+    padding: 200px;
+    /* background-position: center center; */
+    background-position: 77% 46%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 127px;
+    height: 100vh;
+    padding: 200px 0px;
+    padding-left: 0;
+
+}
+
+.mydivspi {
+
+    /* background-image: url(./image/1.png); */
+    background-image: url(../public/image/spi.png);
+   
+    /* background-position: center center; */
+    background-position: 77% 46%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 127px;
+    height: inherit;
+    padding: 20px 0px;
+    padding-left: 0;
+
+}
+
+
+
+.hirecontentel {
+    margin-left: 0px !important;
+    margin-top: -198px;
+}
+
+.btn33 {
+    display: inline-block;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 1.5rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+@media (max-width:600px) {
+
+    .hirecontentel {
+        margin-left: 0px !important;
+        margin-top: -68px;
+    }}
