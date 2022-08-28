@@ -5,15 +5,13 @@ import "react-rangeslider/lib/index.css";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import useScrollPosition from "use-scroll-position";
-//import "../css/skin/skin-1.css";
-//import "../css/skin/skin-3.css";
 import "../css/style.css";
 import "../css/skin/skin-2.css";
 import "../styles/globals.css";
 import "../styles/switcher.css";
 import "../scss/abstract/thought-leadership.css";
 import "../scss/abstract/intelligent-automation.css";
-import "../component/tab/styles.css"
+import "../component/tab/styles.css";
 
 function MyApp({ Component, pageProps }) {
   const [toggle1, setToggle1] = useState(false);
@@ -55,16 +53,11 @@ function MyApp({ Component, pageProps }) {
     body_.style.padding = value + "px";
   };
 
- 
-
-    useEffect(() => {
-
-     header === "fixed" && scrollPosition > 10
-    ? header_ && header_[0].classList.add("is-fixed")
-    : header_ && header_[0].classList.remove("is-fixed");
-  
-    }, [])
-     
+  useEffect(() => {
+    header === "fixed" && scrollPosition > 10
+      ? header_ && header_[0].classList.add("is-fixed")
+      : header_ && header_[0].classList.remove("is-fixed");
+  }, []);
 
   return (
     <>

@@ -1,4 +1,4 @@
-// Header Logo
+
 .logo-header {
     display: table;
     float: left;
@@ -29,14 +29,14 @@
 		width: 100%;
 	}
 	
-	// Text Logo
+	
 	span{
 		font-size: 20px;
 		letter-spacing: 20px;
 	}
 }
 
-// Top Bar
+
 .top-bar {
 	background-color: $white;
     color: $dark;
@@ -89,7 +89,7 @@
 	}	
 }
 
-// Quik Search
+
 .dlab-quik-search{
 	background:rgba($black,0.9);
 	position:fixed;
@@ -131,7 +131,7 @@
 	}
 }
 
-// Site Header
+
 .site-header {
 	position:relative;
 	z-index:9999;
@@ -185,7 +185,7 @@
 	}
 }
 
-// Navbar Toggler
+
 .navbar-toggler {
     border: 0 solid #efbb20;
     font-size: 16px;
@@ -199,7 +199,7 @@
 	}
 }
 
-// Navicon
+
 .navicon{
 	width: 20px;
 	height: 18px;
@@ -265,12 +265,12 @@
 	}
 }
 
-// Header-tb
+
 .header-tb .navicon span{
 	background:#fff;
 }
 
-// Header Nav
+
 .header-nav {
     padding: 0;
 	
@@ -664,7 +664,7 @@
 	}
 }
 
-// Header Transparent{
+
 .header-transparent{
 	position:absolute;
 	width:100%;
@@ -682,7 +682,7 @@
 		}
 	}
 	
-	// Side Menu Btn
+
 	.side-menu-btn{
 		.menu-icon-in{
 			span{
@@ -728,7 +728,7 @@
 		}
 	}
 	
-	// Top Bar
+	
 	.top-bar{
 		border-color:$white;
 		.dlab-topbar-left,
@@ -741,7 +741,7 @@
 	}
 }
 
-// Is Fixed
+
 .is-fixed{
 	.main-bar {
 		position: fixed;
@@ -755,7 +755,7 @@
 	}
 }
 
-// Mobile Nav
+
 @include respond('tab-port'){
 	.mo-left{
 		.header-nav{
@@ -898,7 +898,7 @@
   }
 }
 
-/* Logo */
+
 .site-header{
 	.main-bar-wraper{
 		.logo-header{

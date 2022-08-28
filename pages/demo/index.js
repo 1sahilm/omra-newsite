@@ -34,20 +34,6 @@ const Demo = () => {
             </div>
           </div>
         </div>
-        {/* <section className={Styles.bannersection}>
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12">
-              <div className={Styles.bannertext}>
-                <h1> Best in E commerce uploading</h1>
-                <p>
-                Sell more with appealing product entry services from OMRA Solutions!
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
 
         <section className={Styles.sectiont}>
           <div className="container">
@@ -123,38 +109,6 @@ const Demo = () => {
                     Business Which Will Enable You To Get More Exposure For Your
                     Business At Global Level.
                   </li>
-                  {/* <li>
-                  <img src="image/4.png" alt="icon" /> For Telecom Industry –
-                  Service delivery Platform{" "}
-                </li>
-                <li>
-                  <img src="image/4.png" alt="icon" /> Developed Platform to
-                  Manage Mobile Content Delivery And Billing
-                </li>
-                <li>
-                  <img src="image/4.png" alt="icon" /> Sales & Marketing
-                  Experience to Handle Telecom Vas Business Operations.
-                </li>
-                <li>
-                  <img src="image/4.png" alt="icon" /> Pan India Merchant
-                  Onboarding Process For{" "}
-                </li>
-                <li>
-                  <img src="image/4.png" alt="icon" /> Manage The Business
-                  Operation For Merchant -Onboarding Process.{" "}
-                </li>
-                <li>
-                  <img src="image/4.png" alt="icon" /> Voice Call Process-
-                  Digital Catalogue Sales And Fulfillment{" "}
-                </li>
-                <li>
-                  <img src="image/4.png" alt="icon" /> Lead Generation for
-                  Various Industries.
-                </li>
-                <li>
-                  <img src="image/4.png" alt="icon" /> Voice Call Process To
-                  Generate Leads For Travel, Hospitals & Education Sectors.
-                </li> */}
                 </ul>
               </div>
               <div className="col-md-6">
@@ -169,8 +123,6 @@ const Demo = () => {
             <h3>Our</h3>
             <h2> Specialities </h2>
           </div>
-
-          {/* tab section  */}
 
           <ReusableTab
             tabData={[
@@ -416,8 +368,6 @@ const Demo = () => {
           </div>
         </section>
 
-      
-
         <section className="mydiv4">
           <div className="container">
             <div className="row">
@@ -525,7 +475,7 @@ const Demo = () => {
             </div>
           </div>
         </section>
-        {/*  FAQ  */}
+
         <section className={Styles.faq}>
           <div className="container">
             <div className="row">
@@ -618,5 +568,3 @@ const FAQArray = [
     },
   },
 ];
-
-

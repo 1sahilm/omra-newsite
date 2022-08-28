@@ -1,12 +1,11 @@
 {
-    "name": "samar",
+    "name": "omra",
     "version": "0.1.0",
     "private": true,
     "scripts": {
         "dev": "next dev -p 5000",
         "build": "next build",
-        "start": "next start",
-        "sass": "node-sass --watch scss/main.scss css/style.css --source-map css/style.css.map"
+        "start": "next start"
     },
     "browser": {
         "fs": false,

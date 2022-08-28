@@ -1,21 +1,4 @@
-/*
-    Name: Samar 
-    Author: DexignZone
-    Portfolio : https://themeforest.net/user/dexignzone/portfolio
-   
 
-    Table of Content: 
-
-    1. Abstract
-    2. Bootstrap CSS
-    3. Base
-    4. Layout
-    5. Component
-    6. Dashboard
-    7. Pages
-    
-    
-*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
 @import url("../icons/line-awesome/css/line-awesome.min.css");
 @import url("../icons/font-awesome/css/font-awesome.min.css");
@@ -25,12 +8,7 @@
   --gradient: linear-gradient(to right,#130065 0,#2b0ead 51%,#130065 100%);
   --gradient-sec: linear-gradient(to right,#130065 0,#2b0ead 51%,#130065 100%); }
 
-/*!
- * Bootstrap v4.3.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+
 :root {
   --blue: #5543d1;
   --indigo: #6610f2;
@@ -9792,7 +9770,7 @@ section {
   left: -15px;
   width: 90%; }
 
-/* Frame */
+
 .frame {
   padding: 30px; }
   .frame .page-wraper {
@@ -10036,7 +10014,7 @@ button:active,
 button:focus {
   outline: 0; }
 
-/*Styling Selectbox*/
+
 .toggle {
   cursor: pointer;
   display: block; }
@@ -11524,7 +11502,7 @@ textarea {
   height: 100%;
   opacity: 0.3; }
 
-/*  */
+
 .overlay-black-light,
 .overlay-black-middle,
 .overlay-black-dark,
@@ -11716,7 +11694,6 @@ textarea {
   height: 60px;
   line-height: 60px; }
 
-/* info box show */
 .dlab-info-has {
   position: absolute;
   bottom: 0;
@@ -13759,7 +13736,7 @@ button.scroltop {
     .banner-three .banner-inner {
       padding-top: 120px; } }
 
-/* Light Gallery */
+
 .lg-actions .lg-next,
 .lg-actions .lg-prev,
 .lg-sub-html,
@@ -14233,7 +14210,7 @@ button.scroltop {
 .blog-carousel1 .dlab-blog {
   margin: 10px; }
 
-/* Move Images */
+
 .move-box {
   position: relative; }
   .move-box img {
@@ -14626,7 +14603,7 @@ icon-bx-wraper style-4:hover .icon-cell i,
   .testimonials-wraper-2 .testimonial-content .swiper-pagination-bullet-active {
     background-color: #896eff; }
 
-/* Support and Buy Button */
+
 .theme-btn {
   background-color: #ffffff;
   border-radius: 40px;
@@ -14645,31 +14622,31 @@ icon-bx-wraper style-4:hover .icon-cell i,
   line-height: 50px; }
 
 .theme-btn.bt-support-now {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1ebbf0+8,39dfaa+100 */
+ 
   background: #1ebbf0;
-  /* Old browsers */
+ 
   background: -moz-linear-gradient(45deg, #1ebbf0 8%, #39dfaa 100%);
-  /* FF3.6-15 */
+
   background: -webkit-linear-gradient(45deg, #1ebbf0 8%, #39dfaa 100%);
-  /* Chrome10-25,Safari5.1-6 */
+ 
   background: linear-gradient(45deg, #1ebbf0 8%, #39dfaa 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1ebbf0', endColorstr='#39dfaa', GradientType=1);
-  /* IE6-9 fallback on horizontal gradient */
+ 
   bottom: 70px; }
 
 .theme-btn.bt-buy-now {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1fdf61+0,88BA46+100 */
+ 
   background: #1fdf61;
-  /* Old browsers */
+ 
   background: -moz-linear-gradient(top, #A3D179 0%, #88BA46 100%);
-  /* FF3.6-15 */
+ 
   background: -webkit-linear-gradient(top, #A3D179 0%, #88BA46 100%);
-  /* Chrome10-25,Safari5.1-6 */
+  
   background: linear-gradient(to bottom, #A3D179 0%, #88BA46 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1fdf61', endColorstr='#88BA46', GradientType=0);
-  /* IE6-9 */ }
+   }
 
 .theme-btn:hover {
   color: #fff;
@@ -14864,7 +14841,7 @@ icon-bx-wraper style-4:hover .icon-cell i,
   .comment-respond .comment-form .comment-form-url {
     width: 100% !important; } }
 
-/* Error Page */
+
 .error-page {
   padding: 150px 0; }
   .error-page .dlab_error {
@@ -14893,7 +14870,7 @@ icon-bx-wraper style-4:hover .icon-cell i,
         font-size: 24px;
         line-height: 34px; } }
 
-/* Coming Soon */
+
 .countdown {
   margin-bottom: 40px; }
   .countdown .date {
@@ -15780,7 +15757,7 @@ icon-bx-wraper style-4:hover .icon-cell i,
     transform: translateY(-100%); }
   51% {
     opacity: 1; } }
-/* Logo */
+
 .site-header .main-bar-wraper .logo-header .dark-logo {
   display: table-cell; }
 .site-header .main-bar-wraper .logo-header .light-logo {
@@ -16131,7 +16108,7 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* background-color: #896eff; */
+  
  }
   .site-footer.style-1 .footer-top {
     background: transparent; }
@@ -16181,4 +16158,4 @@ footer {
   .site-footer.style-3 .footer-top {
     background: transparent; }
 
-/*# sourceMappingURL=main.css.map */
+

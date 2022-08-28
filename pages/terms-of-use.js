@@ -2,25 +2,19 @@ import { useEffect } from "react";
 import Header2 from "../layout/header-2";
 import Footer from "../layout/footer";
 import Link from "next/link";
-// import "../css/skin/skin-1.css";
 
 function termsOfUse() {
   return (
     <>
       <Header2 />
 
-      <section >
+      <section>
         <div className="image-it">
           <div className="container">
             <h1 className="banner-title">Terms Of Use</h1>
-            {/* <p>
-              Deliver superior experiences through intelligent automation, with
-              AQT
-            </p> */}
           </div>
         </div>
       </section>
-      {/* <!-- Section 1 Starts --> */}
 
       <section className=" section45">
         <div className="container">
@@ -44,10 +38,10 @@ function termsOfUse() {
 
               <p className="terms">
                 Through your access to and use of this website, you accept the
-                terms & conditions set forth below. Please review the terms and
-                conditions concerning your use of our website. By accessing &
-                using any information and/or materials from our website, you
-                agree to be tied by our terms and conditions. We reserve the
+                terms &amp; conditions set forth below. Please review the terms
+                and conditions concerning your use of our website. By accessing
+                &amp; using any information and/or materials from our website,
+                you agree to be tied by our terms and conditions. We reserve the
                 right to change these terms and conditions at our sole
                 discernment, without issuing any notice, or informing you in any
                 manner. Please do not use our website or any resource/material
@@ -66,7 +60,7 @@ function termsOfUse() {
                 All the contents on our website are are possible by extent,
                 protected by copyright or otherwise proprietary. You may view
                 and copy material available in the public portions of our
-                website, solely for non-commercial, personal & informational
+                website, solely for non commercial, personal &amp; informational
                 use. No other use of the information is authorized. However,
                 such activity shall not be modified by you in any manner. If
                 such information needs to be reproduced, the same shall be

@@ -78,12 +78,14 @@
 }
 
 .h1box {
-  background-image: linear-gradient(90deg,
-      #e62222,
-      #e62222,
-      #ef6d35,
-      #ef6d35,
-      #ef6d35);
+  background-image: linear-gradient(
+    90deg,
+    #e62222,
+    #e62222,
+    #ef6d35,
+    #ef6d35,
+    #ef6d35
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -110,7 +112,7 @@
 .new_box3 {
   background-color: black;
   color: white;
-  /* z-index: -1; */
+
   position: relative;
   height: 335px;
   width: 90%;
@@ -144,8 +146,6 @@
 
   align-content: center;
 
-  /* justify-content: center; */
-
   align-items: center;
 
   gap: 4px;
@@ -164,7 +164,7 @@
 .image_flex3 {
   display: flex;
   align-content: center;
-  /* justify-content: center; */
+
   align-items: center;
   grid-gap: 10px;
   gap: 7px;
@@ -214,15 +214,17 @@
 
 .newsection2 {
   h2 {
-    background-image: linear-gradient(90deg,
-        #e62222,
-        #e62222,
-        #ef6d35,
-        #ef6d35,
-        #ef6d35);
+    background-image: linear-gradient(
+      90deg,
+      #e62222,
+      #e62222,
+      #ef6d35,
+      #ef6d35,
+      #ef6d35
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    /* margin: 7px 0px; */
+
     font-size: 18px;
     font-weight: 500;
     padding: 14px 0px 0px 0px;
@@ -234,7 +236,6 @@
 }
 
 .newsection2 {
-
   h1,
   h5,
   h6,
@@ -248,7 +249,6 @@
 }
 
 .fontbox3 {
-
   h6,
   h5 {
     padding: 0px;
@@ -297,7 +297,6 @@
 }
 
 .top_heading {
-
   h2,
   p {
     padding: 0px;
@@ -309,18 +308,14 @@
 }
 
 .video_box3 {
-
   width: 580px;
   height: 480px;
 }
-
-
 
 @media (max-width: 600px) {
   .Featurebox {
     height: 76vh;
     background: #0a0a0a;
-
   }
 
   .newsection1 {
@@ -329,11 +324,9 @@
   }
 
   .new_box3 {
-
-
     background-color: black;
     color: white;
-    /* z-index: -1; */
+
     position: relative;
     height: 100%;
     width: 100%;
@@ -341,7 +334,6 @@
     padding: 0px 9px 19px 9px;
     top: -150px;
     left: 2px;
-
   }
 
   .img_thumbnail1 {
@@ -351,7 +343,7 @@
     position: absolute;
     top: 0px;
     left: 203px;
-    /* border-radius: 0px; */
+
     height: 100%;
     width: 57%;
   }
@@ -360,8 +352,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-  
+  }
 
   .btn_primary {
     background-color: #7b45d9;
@@ -376,7 +367,7 @@
     display: flex;
     align-content: center;
     justify-content: space-evenly;
-    /* grid-gap: 14px; */
+
     grid-gap: -1px;
     gap: 7px;
     margin-top: -8px;
@@ -389,11 +380,10 @@
   .new_box {
     background-color: #212121;
     color: white;
-    /* z-index: -1; */
+
     position: relative;
     height: 87%;
     width: 80%;
-    // border-radius: 0px 69px 43px 0px;
   }
 
   .top_box {
@@ -414,8 +404,6 @@
       padding: 0px;
       padding-top: 10px;
     }
-
-    
   }
   .video_box3 {
     width: 100% !important;
@@ -424,45 +412,50 @@
     object-fit: cover;
   }
 
-  .bannerImage{
+  .bannerImage {
     img {
-    height: 380px !important;}
-}
+      height: 380px !important;
+    }
+  }
 
-.top_box3{
-  p {
-  font-size: 14px;
-}}
+  .top_box3 {
+    p {
+      font-size: 14px;
+    }
+  }
 
-.h1box {
-  background-image: linear-gradient(90deg, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 600;
-  font-size: 2rem;
-  padding: 0px 17px;
-}
+  .h1box {
+    background-image: linear-gradient(
+      90deg,
+      #e62222,
+      #e62222,
+      #ef6d35,
+      #ef6d35,
+      #ef6d35
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 0px 17px;
+  }
 
+  .mobileRes {
+    max-width: 100% !important;
+  }
 
-.mobileRes{
-  max-width: 100% !important;
-}
+  .row33 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
 
-
-.row33{
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  align-items: center;
-}
-
-
-.image_margin
-{h4 {
-  text-align: center;
-  font-weight: 100;
-  font-size: 18px;}
-}
-
-
+  .image_margin {
+    h4 {
+      text-align: center;
+      font-weight: 100;
+      font-size: 18px;
+    }
+  }
 }

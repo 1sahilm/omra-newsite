@@ -220,19 +220,7 @@
     padding-bottom: 15px;
 }
 
-/* .slider-texto a{
-    border-radius: 5px;
-    padding: 10px 25px;
-    color: #fff;
-    margin-top: 15px !important;
-    position: relative;
-    top: 50px;
-    -webkit-animation: second_color-change__2LWwo 2s linear infinite;
-    animation: second_color-change__2LWwo 2s linear infinite;
-    border: solid 3px #ff1493;
-    font-size: 18px;
-    font-family:sans-serif;
-  } */
+
 .slick-slider.leader_tht.slick-initialized .slick-prev:before {
     display: none;
 }
@@ -300,7 +288,7 @@
         line-height: 23px;
         font-size: 12px;
         color: #fff;
-        /* letter-spacing: -1px  !important; */
+      
         word-spacing: 6px !important;
     }
 
@@ -410,29 +398,10 @@
         background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        /* padding: 1px 15px; */
+       
     }
 
-    /* .carousel .slider-wrapper.axis-horizontal .slider .slide>div {
-    position: relative;
-    background-size: cover !important;
-}
-
-.slick-dots li {
-    margin: 0px 0px !important;
-    width: 20% !important;
-}
-
-ul.slick-dots {
-    left: 0;
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: nowrap;
-    max-width: 80%;
-    margin: 0 auto;
-    right: 0;
-} */
+   
 
 }
 
@@ -502,9 +471,9 @@ p.leader_leaderpara__2uIkn a {
     top: 116px;
     left: 706px;
     background: rgb(0, 0, 0);
-    /* Fallback color */
+   
     background: rgba(0, 0, 0, 0.5);
-    /* Black background with 0.5 opacity */
+  
     color: #f1f1f1;
     width: 40%;
     padding: 20px;
@@ -573,7 +542,7 @@ p.leader_leaderpara__2uIkn a {
     position: absolute;
     top: 0px !important;
     left: 656px;
-    /* background: rgb(0, 0, 0); */
+    
     background: rgb(11 7 7 / 67%);
     color: #f1f1f1;
     width: 38%;
@@ -625,7 +594,7 @@ p.leader_leaderpara__2uIkn a {
         background: rgba(0, 0, 0, 0.5);
         color: #f1f1f1;
         width: 84%;
-        /* padding: 20px; */
+       
         height: 420px;
         text-align: justify;
     }
@@ -660,8 +629,7 @@ p.leader_leaderpara__2uIkn a {
     }
 
     .paragraph-section-voice {
-        /* margin-top: 27px; */
-        /* margin-bottom: 2rem; */
+       
         text-align: justify !important;
         margin: 0px 0px 16px;
         padding: 20px 0px 0px;
@@ -758,10 +726,10 @@ p.leader_leaderpara__2uIkn a {
 
 .mydiv001 {
 
-    /* background-image: url(./image/1.png); */
+    
     background-image: url(../public/image/third.png);
     padding: 200px;
-    /* background-position: center center; */
+   
     background-position: 77% 46%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -773,7 +741,7 @@ p.leader_leaderpara__2uIkn a {
 }
 
 section.mydiv001 h1 {
-    /* text-align: center; */
+  
     margin: 0 !important;
     color: #fff;
     font-size: 35px;
@@ -782,7 +750,7 @@ section.mydiv001 h1 {
 }
 
 section.mydiv001 p {
-    /* text-align: center; */
+  
     font-size: 18px;
     color: #fff;
     font-weight: 100;
@@ -790,7 +758,7 @@ section.mydiv001 p {
 }
 
 section.mydiv11 p {
-    /* max-width: 460px; */
+ 
     font-family: sans-serif;
     font-size: 18px;
     color: #F5EEEE;
@@ -800,7 +768,7 @@ section.mydiv11 p {
 
 section.mydiv11 h1 {
     padding-top: 110px;
-    /* text-align: center; */
+   
     background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -809,9 +777,7 @@ section.mydiv11 h1 {
     margin-bottom: 0;
 }
 
-/* .valuecontent1 {
-margin-left: 200px;
-} */
+
 section.mydiv11 {
     background-color: #000000;
     padding-bottom: 70px;
@@ -862,15 +828,7 @@ section.mydiv11 {
 
 section.mydiv22 {
     background-color: #000;
-    /* background-color: #000;
-    padding-bottom: 30px;
-    color: white;
-    padding-left: 154px;
-    padding-right: 255px;
-    
-    padding-bottom: 246px;
-    margin-top: 0px;
-    padding-top: 36px; */
+   
 }
 
 img.hireimages1 {
@@ -1015,12 +973,7 @@ valuecontent1 {
     background-color: #000;
     padding-bottom: 30px;
     color: white;
-    /* padding-left: 154px;
-    padding-right: 756px;
-    padding-bottom: 246px;
-    margin-top: 0px;
-    line-height: 30px;
-    padding-top: 36px; */
+   
 
 }
 
@@ -1030,7 +983,7 @@ section.mydiv77 h1 {
     -webkit-text-fill-color: transparent;
     font-size: 50px;
     font-family: sans-serif;
-    /* margin-bottom: 30px; */
+   
     margin-top: 0px;
     padding-top: 30px;
 }
@@ -1071,12 +1024,11 @@ section.mydiv77 p img {
     background-color: #000;
     padding-bottom: 30px;
     color: white;
-    /* padding-left: 154px;
-    padding-right: 255px; */
+  
 
 
     margin-top: 0px;
-    /* padding-top: 36px; */
+  
 
 }
 
@@ -1087,7 +1039,7 @@ section.mydiv88 h1 {
     font-size: 50px;
 
     font-family: sans-serif;
-    /* margin-bottom: 30px; */
+   
 }
 
 section.mydiv88 p {
@@ -1124,7 +1076,7 @@ section.mydiv88 p .parastyle {
 .section9 {
     display: flex;
     gap: 43px;
-    /* justify-content: space-between; */
+    
 }
 
 .rightflex {
@@ -1355,9 +1307,7 @@ section.mydiv88 p .parastyle {
 }
 
 
-/* .tou_main{
-                margin: 5px 5px;
-            } */
+
 
 .section45 {
     margin: 5px 16px;
@@ -1390,10 +1340,10 @@ section.mydiv88 p .parastyle {
 
 .mydiv009 {
 
-    /* background-image: url(./image/1.png); */
+  
     background-image: url(../public/image/bannere.png);
     padding: 200px;
-    /* background-position: center center; */
+  
     background-position: 77% 46%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1406,10 +1356,10 @@ section.mydiv88 p .parastyle {
 
 .mydivspi {
 
-    /* background-image: url(./image/1.png); */
+ 
     background-image: url(../public/image/spi.png);
    
-    /* background-position: center center; */
+ 
     background-position: 77% 46%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1445,9 +1395,22 @@ section.mydiv88 p .parastyle {
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+.form-control3 {
+    box-shadow: 0 0px 10px 4px rgb(31 66 135 / 10%);
+    height: 49px;
+    border-radius: 1.5rem !important;
+    padding: 10px 20px;
+    position: relative;
+    font-size: 15px;
+    margin: 26px 0px;
+}
+
 @media (max-width:600px) {
 
     .hirecontentel {
         margin-left: 0px !important;
         margin-top: -68px;
     }}
+
+
+    

@@ -87,12 +87,9 @@
 
 
 }
-
-
-
 .valuecontent1 {
 
-  /* text-align: center; */
+
   background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -103,7 +100,7 @@
 
 .valuecontent3 {
 
-  /* text-align: center; */
+
   background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -111,7 +108,7 @@
   font-weight: 700;
   margin-bottom: 0;
   margin-top: 57px;
-  /* padding: 0px; */
+
 }
 
 .multi_para33 {
@@ -131,7 +128,7 @@
     -webkit-text-fill-color: transparent;
     font-size: 36px;
     margin-bottom: 0;
-    /* text-transform: uppercase; */
+
     text-align: center;
     font-weight: 500;
     padding: 0px;
@@ -152,7 +149,7 @@
   font-size: 18px;
   margin-left: 62px;
   display: flex;
-  /* justify-content: space-evenly; */
+
   gap: 47px;
 
 }
@@ -163,7 +160,7 @@
   -webkit-text-fill-color: transparent;
   font-size: 50px;
   font-family: sans-serif;
-  /* margin-bottom: 30px; */
+
   text-align: center;
 }
 
@@ -198,7 +195,7 @@
 .parea {
   margin-top: 0;
   margin-bottom: 1rem;
-  /* text-align: justify; */
+
   padding: 1px 58px;
 }
 
@@ -206,7 +203,7 @@
 .paraimg {
   margin-top: 0;
   margin-bottom: 1rem;
-  /* text-align: justify; */
+
   padding: 0px !important;
   background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
   -webkit-background-clip: text;
@@ -239,8 +236,6 @@
   border: 2px solid rgb(23, 162, 184);
   background: black;
 
-
-
 }
 
 .outline_button:hover {
@@ -260,8 +255,6 @@
   border: 2px solid #FF5617;
   background: black;
 
-
-
 }
 
 .requestButton:hover {
@@ -271,14 +264,12 @@
 
   background: #FF5617;
 
-
-
 }
 
 .flex1_box {
   display: flex;
   justify-content: center;
-  /* flex-direction: row; */
+
   gap: 24px;
 }
 
@@ -364,7 +355,7 @@
   .parea {
     margin-top: 0;
     margin-bottom: 1rem;
-    /* text-align: justify; */
+
     padding: 0px;
   }
 
@@ -374,7 +365,7 @@
 
 
   .top_Para {
-    /* margin-left: 17px !important; */
+
     display: flex;
     grid-gap: 0px;
     gap: 0px;

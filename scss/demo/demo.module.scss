@@ -358,8 +358,6 @@ section.deliversection h3 {
   }
 
   .mydiv001 {
-    /* background-image: url(./image/1.png); */
-
     padding: 200px 0px;
 
     padding-left: 0;
@@ -480,5 +478,52 @@ section.deliversection h3 {
   }
 }
 
-// aboutus
+.bgwgite {
+  background-color: white;
+  padding: 14px 5px 38px 5px;
+  margin: -107px 0px;
+  color: black;
+  border-radius: 18px;
+  text-align: center;
+  width: 90%;
+}
 
+.buttonViolet {
+  color: #fff;
+  background-color: #9858d5;
+  border: none;
+  padding: 14px 15px;
+  border-radius: 6px;
+  margin-top: 20px;
+  position: static;
+  cursor: pointer;
+}
+.blackHeading {
+  color: black !important;
+  padding-top: 25px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .bgwgite {
+    background-color: white;
+    padding: 0px 5px 23px 5px;
+    margin: -6px 21px;
+    color: black;
+    border-radius: 18px;
+    text-align: center;
+    width: 90%;
+  }
+
+  .buttonViolet {
+    color: #fff;
+    background-color: #9858d5;
+    border: none;
+    padding: 14px 15px;
+    border-radius: 6px;
+    margin-top: 20px;
+    position: static;
+    cursor: pointer;
+    font-size: 16px;
+  }
+}

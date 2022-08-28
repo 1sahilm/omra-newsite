@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import Header2 from "../layout/header-2";
 import Footer from "../layout/footer";
 import Link from "next/link";
-// import "../css/skin/skin-1.css";
 
 function privacyPolicy() {
   return (
@@ -13,14 +12,9 @@ function privacyPolicy() {
         <div className="image-it">
           <div className="container">
             <h1 className="banner-title">Privacy Policy </h1>
-            {/* <p>
-              Deliver superior experiences through intelligent automation, with
-              AQT
-            </p> */}
           </div>
         </div>
       </section>
-      {/* <!-- Section 1 Starts --> */}
 
       <section className=" section45">
         <div className="container">
@@ -28,7 +22,7 @@ function privacyPolicy() {
             <div className="">
               <h3 className="gradient-color">Our Privacy Statement</h3>
               <p className="privacy">
-                We respect your privacy & securities and the following
+                We respect your privacy &amp; securities and the following
                 information provides an overview of how your privacy is
                 protected on our website:
               </p>
@@ -38,7 +32,7 @@ function privacyPolicy() {
               </h3>
               <ul className="bullets space-section">
                 <li>
-                  Indirectly (for example, through our site’s technology);
+                  Indirectly (for example, through our site&apos;s technology);
                 </li>
                 <li>
                   Directly (for example, when you provide information on various
@@ -51,26 +45,27 @@ function privacyPolicy() {
                 Services website, your Internet address is automatically
                 collected and placed in our access logs. We collect information
                 in various ways. One way is through the use of cookies. Cookies
-                are tiny files that save & fetch information about your visit to
-                the OMRA Solutions website, such as how you entered & navigated
-                through our website. The cookies we use identify you by number,
-                not by name. If you are uncomfortable regarding the use of
-                cookies, you can disable cookies on your computer by changing
-                the settings in the preferences or options menu of your browser.
-                We also collect information when you voluntarily submit it to
-                us. Throughout our website, we provide the opportunity to fill
-                out a contact platform, register for an event/conference, order
-                a paper, or participate in a web-based survey. When we collect
-                this type of information, we notify you as to why we are asking
-                for the information and how this information will be used. It is
-                completely up to you whether or not you want to provide it.
+                are tiny files that save &amp; fetch information about your
+                visit to the OMRA Solutions website, such as how you entered
+                &amp; navigated through our website. The cookies we use identify
+                you by number, not by name. If you are uncomfortable regarding
+                the use of cookies, you can disable cookies on your computer by
+                changing the settings in the preferences or options menu of your
+                browser. We also collect information when you voluntarily submit
+                it to us. Throughout our website, we provide the opportunity to
+                fill out a contact platform, register for an event/conference,
+                order a paper, or participate in a web based survey. When we
+                collect this type of information, we notify you as to why we are
+                asking for the information and how this information will be
+                used. It is completely up to you whether or not you want to
+                provide it.
               </p>
               <h3 className="gradient-color">
                 How do we use your information?
               </h3>
               <p className="privacy">
                 We analyze information to establish what is most effective about
-                our website & to help us identify ways to improve it. If you
+                our website &amp; to help us identify ways to improve it. If you
                 freely submit information, we spread it internally to OMRA
                 Solutions' employees so that they can follow up with you or
                 process your information in accordance with the explanation of
@@ -102,10 +97,10 @@ function privacyPolicy() {
                 You are permitted to know whether we hold your information and,
                 if we do, to have access to this information. You may also
                 necessitate your information to be corrected if it is
-                inaccurate. You can e-mail to us info@omrasolutions.com
+                inaccurate. You can email to us info@omrasolutions.com
               </p>
               <h3 className="gradient-color">
-                What about your data security & privacy?
+                What about your data security &amp; privacy?
               </h3>
               <p className="privacy">
                 We take appropriate steps to maintain the security of your data

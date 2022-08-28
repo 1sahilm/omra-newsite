@@ -1,5 +1,4 @@
 import React from "react";
-// import Styles from "../../scss/demo/demo.module.scss";
 import Image from "next/image";
 import ReusableTab from "../../component/tab/tab";
 import AddIcon from "../../component/icons/Add";
@@ -20,20 +19,9 @@ const Blog = () => {
           />
           <div className={Styles.absolutePart}>
             <div className={` ${Styles.mobileRes} row`}>
-              <div className="col-md-12">
-                {/* <div className={Styles.bannertext}>
-                  <h1 className={Styles.mobileH1}>
-                    {" "}
-                    Best in E Commerce Uploading
-                  </h1>
-                  <p>
-                    Sell more with appealing product entry services from OMRA
-                    Solutions!
-                  </p>
-                </div> */}
-              </div>
+              <div className="col-md-12"></div>
             </div>
-          </div>{" "}
+          </div>
         </div>
       </div>
 
@@ -185,31 +173,11 @@ const Blog = () => {
       </section>
 
       <section>
-        {/* <div className="container">
-          <img
-            src="/image/bann.png"
-            alt="Cinque Terre"
-            width={1700}
-            height={800}
-          />
-        </div> */}
-
         <div className={Styles.bannerImage}>
           <Image src="/image/bann.png" width={1700} height={400} priority />
           <div className={Styles.absolutePart}>
             <div className={` ${Styles.mobileRes} row`}>
-              <div className="col-md-12">
-                {/* <div className={Styles.bannertext}>
-                  <h1 className={Styles.mobileH1}>
-                    {" "}
-                    Best in E Commerce Uploading
-                  </h1>
-                  <p>
-                    Sell more with appealing product entry services from OMRA
-                    Solutions!
-                  </p>
-                </div> */}
-              </div>
+              <div className="col-md-12"></div>
             </div>
           </div>{" "}
         </div>
@@ -291,8 +259,6 @@ const Blog = () => {
                 src="/image/midbanner.png"
                 className={Styles.video_box3}
                 alt="Cinque Terre"
-                // width="580px"
-                // height="480px"
               />
               <h2>CAREERS</h2>
               <h1 className={Styles.fontbox}>

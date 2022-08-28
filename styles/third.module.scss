@@ -1,352 +1,313 @@
 .mydiv {
-    
-    // background-image: url(./image/1.png);
-    background-image: url(../public/image/1.png);
-    padding: 200px;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-left: 127px;
-
+  background-image: url(../public/image/1.png);
+  padding: 200px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 127px;
 }
 section.mydiv h1 {
-margin: 0 !important;
-color: #fff;
-font-size: 35px;
-font-family: sans-serif;
-width: 446px;
+  margin: 0 !important;
+  color: #fff;
+  font-size: 35px;
+  font-family: sans-serif;
+  width: 446px;
 }
 section.mydiv p {
-/* text-align: center; */
-font-size: 18px;
-color: #fff;
-font-weight: 100;
-font-family: sans-serif;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 100;
+  font-family: sans-serif;
 }
 section.mydiv1 p {
-/* max-width: 460px; */
-font-family: sans-serif;
-font-size: 18px;
-color: #F5EEEE;
-line-height: 25px;
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #f5eeee;
+  line-height: 25px;
 }
 section.mydiv1 h1 {
-padding-top: 110px;
-/* text-align: center; */
-color: linear-gradient(#FF5818, #FF0000);
-color: #FF0000;
-font-family: sans-serif;
-font-size: 54px;
-margin-bottom: 0;
+  padding-top: 110px;
+
+  color: linear-gradient(#ff5818, #ff0000);
+  color: #ff0000;
+  font-family: sans-serif;
+  font-size: 54px;
+  margin-bottom: 0;
 }
-/* .valuecontent {
-margin-left: 200px;
-} */
+
 section.mydiv1 {
-background-color: #000000;
-padding-bottom: 70px;
+  background-color: #000000;
+  padding-bottom: 70px;
 }
 .valueimage:before {
-content: "";
-background-color: #7B45D9;
-position: absolute;
-top: 0;
-left: -400px;
-bottom: 0;
-right: 0;
-width: 100%;
-height: 112%;;
+  content: "";
+  background-color: #7b45d9;
+  position: absolute;
+  top: 0;
+  left: -400px;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 112%;
 }
 
 .valueimage {
-position: relative;
-left: -69px;
+  position: relative;
+  left: -69px;
 }
 .valueimage img {
-position: relative;
-padding: 90px 0 0 60px;
-width: 475px;
-right: 140px;
-
+  position: relative;
+  padding: 90px 0 0 60px;
+  width: 475px;
+  right: 140px;
 }
 .valueimage:after {
-content: "";
-border: 2px solid #fff;
-position: absolute;
-top: 200px;
-bottom: 0;
-left: 100px;
-right: 0;
-width: 340px;
-height: 300px;
+  content: "";
+  border: 2px solid #fff;
+  position: absolute;
+  top: 200px;
+  bottom: 0;
+  left: 100px;
+  right: 0;
+  width: 340px;
+  height: 300px;
 }
-
-
 
 section.mydiv2 {
-    background-color: #000;
-    /* background-color: #000;
-    padding-bottom: 30px;
-    color: white;
-    padding-left: 154px;
-    padding-right: 255px;
-    
-    padding-bottom: 246px;
-    margin-top: 0px;
-    padding-top: 36px; */
+  background-color: #000;
 }
 img.hireimages {
-    /* width: 585px; */
-    width: 807px;
-    position: relative;
-    left: 52px;
-    height: 620px;
-    /* width: auto; */
-    padding-top: 46px;
+  width: 807px;
+  position: relative;
+  left: 52px;
+  height: 620px;
+
+  padding-top: 46px;
 }
 .hirecontent ul {
-    margin-left: -40px;
+  margin-left: -40px;
 }
 .hirecontent ul li {
-    list-style: none;
-    color: #FFFCFC;
-    margin-bottom: 15px;
-    line-height: 24px;
-    font-size: 18px;
-    font-family: sans-serif;
+  list-style: none;
+  color: #fffcfc;
+  margin-bottom: 15px;
+  line-height: 24px;
+  font-size: 18px;
+  font-family: sans-serif;
 }
 .hirecontent h1 {
-    font-size: 27px;
-    color: #EFD135;
-    font-family: sans-serif;
-    max-width: 599px;
+  font-size: 27px;
+  color: #efd135;
+  font-family: sans-serif;
+  max-width: 599px;
 }
 .hirecontent p {
-    color: #FFFCFC;
-    font-family: sans-serif;
-    font-size: 18px;
-    line-height: 24px;
-    max-width: 761px;
+  color: #fffcfc;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  max-width: 761px;
 }
 .hirecontent ul li img {
-    width: 14px;
-    padding-right: 8px;
+  width: 14px;
+  padding-right: 8px;
 }
 section.mydiv4 {
-    background-color: #000;
-    margin-left: -358px;
+  background-color: #000;
+  margin-left: -358px;
 }
- 
+
 section.mydiv4 h1 {
-    color: #fff;
-    font-size: 35px;
-    font-family: sans-serif;
-    font-weight: 200;
+  color: #fff;
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight: 200;
 }
- 
+
 section.mydiv4 h2 {
-    color: #FF5818;
-    margin-left: 35px;
-    font-size: 50px;
-    margin-top: -28px;
-    font-family: sans-serif;
-} 
+  color: #ff5818;
+  margin-left: 35px;
+  font-size: 50px;
+  margin-top: -28px;
+  font-family: sans-serif;
+}
 section.mydiv5 {
-    background-color: #000;
-        margin-left: -358px;
+  background-color: #000;
+  margin-left: -358px;
 }
 section.mydiv5 h2 {
-    color: #FFFFFF;
-    font-family: sans-serif;
-    font-size: 19px;
-    padding-bottom: 6px;
-    font-weight: 500;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 19px;
+  padding-bottom: 6px;
+  font-weight: 500;
 }
- 
+
 section.mydiv5 h2.active {
-    border-bottom: 1px solid blue;
-    width: 153px;
+  border-bottom: 1px solid blue;
+  width: 153px;
 }
 .valueimage2:after {
-    content: "";
-    border: 2px solid #fff;
-    position: absolute;
-    top: 192px;
-    bottom: 0;
-    left: 55px;
-    right: 0;
-    width: 400px;
-    height: 180px;
+  content: "";
+  border: 2px solid #fff;
+  position: absolute;
+  top: 192px;
+  bottom: 0;
+  left: 55px;
+  right: 0;
+  width: 400px;
+  height: 180px;
 }
 .valueimage2 {
-    position: relative;
+  position: relative;
 }
 .valueimage2 img {
-    position: relative;
-    padding: 72px 0 0 60px;
-    right: 100px;
+  position: relative;
+  padding: 72px 0 0 60px;
+  right: 100px;
 }
 section.mydiv6 {
-    background-color: #000;
-    padding-bottom: 30px;
-    margin-left: -254px;
+  background-color: #000;
+  padding-bottom: 30px;
+  margin-left: -254px;
 }
 section.mydiv6 h1 {
-    color: #7B45D9;
-    font-size: 66px;
-    text-align: center;
-    font-family: sans-serif;
+  color: #7b45d9;
+  font-size: 66px;
+  text-align: center;
+  font-family: sans-serif;
 }
 .valuecontents p {
-    color: #dcadad;
-    font-family: sans-serif;
-    max-width: 440px;
-    line-height: 20px;
-
+  color: #dcadad;
+  font-family: sans-serif;
+  max-width: 440px;
+  line-height: 20px;
 }
-.valuecontents{
-    border: 1px solid #fff;
-    padding: 10px 28px;
-    width: 400px;
-    margin-left: 82px;
-
+.valuecontents {
+  border: 1px solid #fff;
+  padding: 10px 28px;
+  width: 400px;
+  margin-left: 82px;
 }
-.mydiv7{
-    background-color: #000;
-    padding-bottom: 30px;
-     color: white;
-     margin-left: -382px;
-    /* padding-left: 154px;
-    padding-right: 756px;
-    padding-bottom: 246px;
-    margin-top: 0px;
-    line-height: 30px;
-    padding-top: 36px; */ 
-
-  }
-  section.mydiv7 h1 {
-    color: #FF1305;
-    font-size: 91px;
-    font-family: sans-serif;
-    margin-bottom: 30px;
-    margin-top: 0px;
+.mydiv7 {
+  background-color: #000;
+  padding-bottom: 30px;
+  color: white;
+  margin-left: -382px;
+}
+section.mydiv7 h1 {
+  color: #ff1305;
+  font-size: 91px;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+  margin-top: 0px;
 }
 section.mydiv7 ul {
-    list-style: none;
+  list-style: none;
 }
-section.mydiv7 ul li{
-    color: #fff;
+section.mydiv7 ul li {
+  color: #fff;
 }
 section.mydiv7 h2 {
-    margin: 0px;
-    font-size: 28px;
+  margin: 0px;
+  font-size: 28px;
 }
-section.mydiv7 p{
-    margin-top: 10px;
-    margin-bottom: 30px;
-    font-size: 19px;
-    display: flex;
-    align-items: center;
-    line-height: 30px;
+section.mydiv7 p {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+  line-height: 30px;
 }
 section.mydiv7 h2 img {
-    padding: 7px;
-    padding-left: 0px;
+  padding: 7px;
+  padding-left: 0px;
 }
 section.mydiv7 p img {
-    padding: 7px;
-    padding-left: 0px;
+  padding: 7px;
+  padding-left: 0px;
 }
-.mydiv8{
-    background-color: #000;
-    padding-bottom: 30px;
-    color: white;
-    /* padding-left: 154px;
-    padding-right: 255px; */
-    margin-left: -382px;
-    
-  
-    margin-top: 0px;
-    padding-top: 36px;
+.mydiv8 {
+  background-color: #000;
+  padding-bottom: 30px;
+  color: white;
 
-  }
-  section.mydiv8 h1 {
-    color: #FF0000;
-    font-size: 91px;
-   
-    font-family: sans-serif;
-   margin-bottom: 30px;
+  margin-left: -382px;
+
+  margin-top: 0px;
+  padding-top: 36px;
+}
+section.mydiv8 h1 {
+  color: #ff0000;
+  font-size: 91px;
+
+  font-family: sans-serif;
+  margin-bottom: 30px;
 }
 section.mydiv8 p {
-    margin-top: 10px;
-    margin-bottom: 30px;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    line-height: 30px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  line-height: 30px;
 }
 section.mydiv8 p img {
-    padding: 7px;
-    padding-left: 0px;
+  padding: 7px;
+  padding-left: 0px;
 }
 section.mydiv8 p .parastyle {
-margin-top: 15px !important;
+  margin-top: 15px !important;
 }
-.mydiv9{
-    background-color: #000;
-    padding-bottom: 30px;
-    color: white;
-    padding-left: 154px;
-    padding-right: 255px;
-    
-  
-    margin-top: 0px;
-    padding-top: 36px;
+.mydiv9 {
+  background-color: #000;
+  padding-bottom: 30px;
+  color: white;
+  padding-left: 154px;
+  padding-right: 255px;
 
-  }
-  .section9{
-    display: flex;
-    gap: 43px;
-    /* justify-content: space-between; */
-  }
-  .rightflex{
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
+  margin-top: 0px;
+  padding-top: 36px;
+}
+.section9 {
+  display: flex;
+  gap: 43px;
+}
+.rightflex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.right {
+  padding-top: 11px;
+}
 
-  
-  }
-  .right{
-    padding-top: 11px;
-  }
+.left {
+  width: 25%;
+  font-size: 25px;
+  margin-left: 132px;
+  color: #ff260a;
+}
 
-  .left{
-   
-    width: 25%;
-    font-size: 25px;
-    margin-left: 132px;
-    color: #FF260A;
-  }
- 
 .hirecontent {
-    margin-left: -176px !important;
+  margin-left: -176px !important;
 }
-.right div h1{
-    font-size: 27px;
+.right div h1 {
+  font-size: 27px;
 }
-.pstyle{
-    max-width: 503px;
-    margin: 0px;
-    font-size: 20px;
+.pstyle {
+  max-width: 503px;
+  margin: 0px;
+  font-size: 20px;
 }
-.left h1{
-    margin-left: -254px;
-    max-width: 245px;
+.left h1 {
+  margin-left: -254px;
+  max-width: 245px;
 }
 
 .valuecontent ul li img {
-    width: 14px !important;
-    padding-right: 8px !important;
+  width: 14px !important;
+  padding-right: 8px !important;
 }

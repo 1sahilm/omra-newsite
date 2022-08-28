@@ -14,11 +14,65 @@ function Third() {
           <div className="container">
             <div className="row">
               <div className="col-md-6">
-                <h1>Any Voice Process! Any Language! On Any Technology!</h1>
+                <h1>
+                  Any Voice Process &#33; Any Language&#33; On Any
+                  Technology&#33;
+                </h1>
                 <p style={{ padding: "0" }}>
                   Connect with your customers through our dedicated team, who
-                  are ready to serve our clients at every milestone!
+                  are ready to serve our clients at every milestone &#33;
                 </p>
+              </div>
+              <div className="col-md-6">
+                <div className={Styles.bgwgite}>
+                  <div class="contact-form-wrapper d-flex justify-content-center">
+                    <form>
+                      <h1 className={Styles.blackHeading}>Contact us</h1>
+
+                      <div>
+                        <input
+                          type="text"
+                          className="form-control  mb-3 form-input"
+                          id="name"
+                          placeholder="Name"
+                          required
+                        />
+                      </div>
+                      <div>
+                        <input
+                          type="email"
+                          className="form-control  mb-3 form-input"
+                          placeholder="Email"
+                          required
+                        />
+                      </div>
+                      <div>
+                        <input
+                          type="tel"
+                          className="form-control  mb-3 form-input"
+                          placeholder="Phone"
+                          required
+                        />
+                      </div>
+                      <div>
+                        <input
+                          type="text"
+                          className="form-control  mb-3 form-input"
+                          placeholder="Company Name"
+                          required
+                        />
+                      </div>
+                      <div></div>
+                      <div className="submit-button-wrapper">
+                        <input
+                          type="submit"
+                          value="Get One Month Free Trail"
+                          className={Styles.buttonViolet}
+                        />
+                      </div>
+                    </form>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -35,21 +89,22 @@ function Third() {
                 <div className="valuecontent1">
                   <h1>Our Value proposition</h1>
                   <p style={{ padding: "0" }}>
-                    We have great experience in voice & on-field sales process.
-                    We, OMRA Solutions are an organization having
-                    Inbound/Outbound processes, as we are operating voice blend
-                    processes. We have our team to handle every sales and
-                    Inbound/Outbound process operation with the help of
+                    We have great experience in voice &amp; on field sales
+                    process. We, OMRA Solutions are an organization having
+                    Inbound&#47;Outbound processes, as we are operating voice
+                    blend processes. We have our team to handle every sales and
+                    Inbound&#47;Outbound process operation with the help of
                     automation. One can easily understand our experience by
-                    knowing the point that, we are handling Back-end sales
+                    knowing the point that, we are handling Back &#45;end sales
                     process for the renowned brands. We are one of the best
                     companies for Voice Blend Process in India, as we working in
                     top 5 metropolitan cities of India. We enhances our Customer
-                    Experience by putting our dedication into Inbound/Outbound
-                    processes, CRM and LMS through our diallers, as we are We
-                    are utilizing lower-cost channels to effectively and
-                    efficiently manage customer queries. We value our offerings
-                    to customers lead to increased loyalty and revenues.
+                    Experience by putting our dedication into
+                    Inbound&#47;Outbound processes, CRM and LMS through our
+                    diallers, as we are We are utilizing lower &#45;cost
+                    channels to effectively and efficiently manage customer
+                    queries. We value our offerings to customers lead to
+                    increased loyalty and revenues.
                   </p>
                 </div>
               </div>
@@ -73,10 +128,10 @@ function Third() {
                     role in revenue generation and strategic planning in their
                     sales process. We are helping them to receive higher revenue
                     in their business. We have the quality experience to
-                    understand the requirement of clients & pitching their
+                    understand the requirement of clients &amp; pitching their
                     products and services in a well-defined manner with detailed
-                    knowledge of products/services and they will surely achieve
-                    benefit on the same.
+                    knowledge of products&#47;services and they will surely
+                    achieve benefit on the same.
                   </p>
                   <p style={{ padding: "0" }}>Our globules dedicated team:</p>
                   <img src="/image/4.svg" alt="icon" />
@@ -92,73 +147,56 @@ function Third() {
                   &nbsp; Manage more calls <br />
                   <img src="/image/4.svg" alt="icon" />
                   &nbsp; Experts are available for Quality Check
-                  <br />   <br /> <br />
-                  
-                  {/* <img src="/image/side3.png" alt="img" className="hireimages1" /> */}
-
+                  <br /> <br /> <br />
                 </div>
               </div>
               <div className="col-md-6">
                 <img src="/image/2.SVG" alt="img" className="hireimages1" />
-                <br />  <br />
-                
+                <br /> <br />
               </div>
             </div>
           </div>
         </section>
-
 
         <section className="mydiv22">
           <div className="container">
             <div className="row">
               <div className="col-md-6">
                 <div className="hirecontent1" style={{ marginLeft: "-178p" }}>
-                 
-                  <br />   <br /> <br /><img src="/image/side3.png" alt="img" className="hireimages1" />
-
+                  <br /> <br /> <br />
+                  <img
+                    src="/image/side3.png"
+                    alt="img"
+                    className="hireimages1"
+                  />
                 </div>
               </div>
               <div className="col-md-6">
-               
-                <br />  <br />
+                <br /> <br />
                 <h1 className="hirecontent1333">
-                  OMRA SOLUTIONS ARE PROCESS-ORIENTED ORGANIZATION. WE ARE
+                  OMRA SOLUTIONS ARE PROCESS &#45;ORIENTED ORGANIZATION. WE ARE
                   CERTIFIED BY ISO 9001:2015
                 </h1>
                 <p style={{ padding: "0" }}>
                   We have a complete setup and experienced team to understand
-                  and execute any back-end sales process.{" "}
+                  and execute any back &#45;end sales process.{" "}
                 </p>
                 <img src="/image/4.svg" alt="icon" />
                 &nbsp; QUALITY, EXPERIENCE WITH RENOWNED BRANDS. <br /> <br />
                 <p style={{ padding: "0" }}>
-                  We have great experience in voice &amp; on-field sales
-                  process. We, OMRA Solutions are a leading organization in
-                  the space of IT and have on the team to handle every sales
+                  We have great experience in voice &amp; on &#45;field sales
+                  process. We, OMRA Solutions are a leading organization in the
+                  space of IT and have on the team to handle every sales
                   operation with the help of automation. One can easily
                   understand our experience by knowing the point that, we are
-                  handling Back-end sales process for Trade India, Stars Tell
-                  and other renowned brands. We are one of the best companies
-                  For Voice Blend Process in Delhi/NCR.
+                  handling Back &#45;end sales process for Trade India, Stars
+                  Tell and other renowned brands. We are one of the best
+                  companies For Voice Blend Process in Delhi&#47;NCR.
                 </p>
               </div>
             </div>
           </div>
         </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         <section className="mydiv44">
           <div className="container">
@@ -171,7 +209,7 @@ function Third() {
             </div>
           </div>
         </section>
-        {/* Tab  */}
+
         <ReusableTab
           tabData={[
             {
@@ -227,7 +265,7 @@ function Third() {
               <img src="/image/redicon.svg" alt="icon" /> We will set milestones
             </h2>
             <p>
-              Once we’ve defined the stages of your sales process, we will
+              Once we&apos;ve defined the stages of your sales process, we will
               establish the key steps and milestones within those stages. A
               milestone could be identified where you (buyer) are in the sales
               process with stakeholders within a time period. We will try to
@@ -239,43 +277,16 @@ function Third() {
               technology and systems with the sales process
             </h2>
             <p>
-              It’s very important to have a good CRM Software with technology
-              that enables our team members to perform each step of the sales
-              process in an efficient manner. Wherever software tools won’t make
-              team members more effectively or encourage them to follow best
-              practices. Only our team members need to combine the technology
-              with supportive systems, guidance, and resources. You will provide
-              technology that streamlines the sales process, collects and
-              organizes information on the customers & will list the required
-              activities for team members to follow it.
+              It&apos;s very important to have a good CRM Software with
+              technology that enables our team members to perform each step of
+              the sales process in an efficient manner. Wherever software tools
+              won&apos;t make team members more effectively or encourage them to
+              follow best practices. Only our team members need to combine the
+              technology with supportive systems, guidance, and resources. You
+              will provide technology that streamlines the sales process,
+              collects and organizes information on the customers &amp; will
+              list the required activities for team members to follow it.
             </p>
-            {/* <h2>
-              There are checklists to make sure all steps are performed in
-              order.
-            </h2>
-            <p>
-              <img src="/image/redicon.svg" alt="icon" />
-              Content and video to demonstrate the importance of the stages and
-              milestones.{" "}
-            </p>
-            <p>
-              <img src="/image/redicon.svg" alt="icon" />
-              Buyer-focused content is tied to where they are in the sales
-              process.
-            </p>
-            <p>
-              <img src="/image/redicon.svg" alt="icon" />
-              There are reminders to prevent salespeople from skipping steps{" "}
-            </p>
-            <p>
-              <img src="/image/redicon.svg" alt="icon" /> Training content for
-              each step in the sales process.{" "}
-            </p>
-            <p>
-              <img src="/image/redicon.svg" alt="icon" /># without a sales
-              process, the company’s sales team is unlikely to reach its true
-              potential{" "}
-            </p> */}
           </div>
         </section>
         <section className="mydiv88">
@@ -284,21 +295,22 @@ function Third() {
             <p>
               When you first meet, you should know each other, learn the way in
               which we work, and determine their goals. Along the way, you
-              decide if it works together & you are a match. If this is the
-              case, the relationship can proceed & can grow. At OMRA Solutions,
-              we have years of demonstrated experience in offering
+              decide if it works together &amp; you are a match. If this is the
+              case, the relationship can proceed &amp; can grow. At OMRA
+              Solutions, we have years of demonstrated experience in offering
               high-quality, cost-effective, and secure voice blend services to
               clients, helping them optimize operations, increase business
               efficiency and boost the bottom line, all this while improving the
-              customer’s experience and the perception of client brand. This
-              approach has benefited a lot of our clients across the globe. We
-              offer seamless inbound & outbound services that are customized to
-              specific client requirements while ensuring compliance with
-              industry-followed quality and security standards. Our strategy for
-              the voice blend process supports the entire customer lifecycle.
+              customer&apos;s experience and the perception of client brand.
+              This approach has benefited a lot of our clients across the globe.
+              We offer seamless inbound &amp; outbound services that are
+              customized to specific client requirements while ensuring
+              compliance with industry-followed quality and security standards.
+              Our strategy for the voice blend process supports the entire
+              customer lifecycle.
             </p>
             <p>
-              Let us take care of your customers – We take a multi-channel
+              Let us take care of your customers &#45; We take a multi-channel
               approach that empowers customers to interact with your brand via
               any media channel, any device, anywhere with a personalized,
               effortless, and consistent customer experience throughout their
@@ -307,7 +319,6 @@ function Third() {
           </div>
         </section>
 
-        {/*  FAQ  */}
         <section className={Styles.faq}>
           <div className="container">
             <div className="row">

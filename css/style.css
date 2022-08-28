@@ -14293,7 +14293,7 @@ label.error {
 }
 
 .form-control {
-  box-shadow: 0 0px 10px 4px rgba(31, 66, 135, 0.1);
+  box-shadow: 0 0px 1px 1px black;
   height: 45px;
   border-radius: 1.5rem !important;
   padding: 10px 20px;

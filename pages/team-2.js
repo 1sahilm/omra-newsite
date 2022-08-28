@@ -7,7 +7,6 @@ function Team2() {
     <>
       <Header2 />
       <div className="page-content bg-white">
-        {/* <!-- Banner  --> */}
         <div
           className="dlab-bnr-inr style-2 overlay-gradient-dark"
           style={{ backgroundImage: "url(images/banner/bnr1.jpg)" }}
@@ -15,7 +14,7 @@ function Team2() {
           <div className="container">
             <div className="dlab-bnr-inr-entry">
               <h1>Our Team</h1>
-              {/* <!-- Breadcrumb Row --> */}
+
               <nav aria-label="breadcrumb" className="breadcrumb-row">
                 <ul className="breadcrumb">
                   <li className="breadcrumb-item">
@@ -28,13 +27,10 @@ function Team2() {
                   </li>
                 </ul>
               </nav>
-              {/* <!-- Breadcrumb Row End --> */}
             </div>
           </div>
         </div>
-        {/* <!-- Banner End --> */}
 
-        {/* <!-- Team --> */}
         <section
           className="content-inner"
           style={{
@@ -51,9 +47,11 @@ function Team2() {
               >
                 <div className="dlab-team style-3 m-b30">
                   <div className="dlab-media">
-                    <Link href="#"><a>
-                      <img src="images/team/pic1.jpg" alt="" />
-                    </a></Link>
+                    <Link href="#">
+                      <a>
+                        <img src="images/team/pic1.jpg" alt="" />
+                      </a>
+                    </Link>
                     <div className="overlay-content">
                       <ul className="dlab-social-icon">
                         <li>
@@ -79,9 +77,7 @@ function Team2() {
                   </div>
                   <div className="dlab-content">
                     <div className="clearfix">
-                      <h3 className="dlab-name">
-                        Steve Johnson
-                      </h3>
+                      <h3 className="dlab-name">Steve Johnson</h3>
                       <span className="dlab-position">
                         Chief Exicutive Officer
                       </span>
@@ -96,9 +92,11 @@ function Team2() {
               >
                 <div className="dlab-team style-3 m-b30">
                   <div className="dlab-media">
-                    <Link href="#"><a>
-                      <img src="images/team/pic2.jpg" alt="" />
-                    </a></Link>
+                    <Link href="#">
+                      <a>
+                        <img src="images/team/pic2.jpg" alt="" />
+                      </a>
+                    </Link>
                     <div className="overlay-content">
                       <ul className="dlab-social-icon">
                         <li>
@@ -124,9 +122,7 @@ function Team2() {
                   </div>
                   <div className="dlab-content">
                     <div className="clearfix">
-                      <h3 className="dlab-name">
-                        Olivia Jackson
-                      </h3>
+                      <h3 className="dlab-name">Olivia Jackson</h3>
                       <span className="dlab-position">
                         Chief Exicutive Officer
                       </span>
@@ -141,9 +137,11 @@ function Team2() {
               >
                 <div className="dlab-team style-3 m-b30">
                   <div className="dlab-media">
-                    <Link href="#"><a>
-                      <img src="images/team/pic3.jpg" alt="" />
-                    </a></Link>
+                    <Link href="#">
+                      <a>
+                        <img src="images/team/pic3.jpg" alt="" />
+                      </a>
+                    </Link>
                     <div className="overlay-content">
                       <ul className="dlab-social-icon">
                         <li>
@@ -169,9 +167,7 @@ function Team2() {
                   </div>
                   <div className="dlab-content">
                     <div className="clearfix">
-                      <h3 className="dlab-name">
-                       Tamerlan Aziev
-                      </h3>
+                      <h3 className="dlab-name">Tamerlan Aziev</h3>
                       <span className="dlab-position">
                         Chief Exicutive Officer
                       </span>
@@ -186,9 +182,11 @@ function Team2() {
               >
                 <div className="dlab-team style-3 m-b30">
                   <div className="dlab-media">
-                    <Link href="#"><a>
-                      <img src="images/team/pic4.jpg" alt="" />
-                    </a></Link>
+                    <Link href="#">
+                      <a>
+                        <img src="images/team/pic4.jpg" alt="" />
+                      </a>
+                    </Link>
                     <div className="overlay-content">
                       <ul className="dlab-social-icon">
                         <li>
@@ -214,9 +212,7 @@ function Team2() {
                   </div>
                   <div className="dlab-content">
                     <div className="clearfix">
-                      <h3 className="dlab-name">
-                       John Kenny
-                      </h3>
+                      <h3 className="dlab-name">John Kenny</h3>
                       <span className="dlab-position">
                         Chief Exicutive Officer
                       </span>
@@ -231,9 +227,11 @@ function Team2() {
               >
                 <div className="dlab-team style-3 m-b30">
                   <div className="dlab-media">
-                    <Link href="#"><a>
-                      <img src="images/team/pic5.jpg" alt="" />
-                    </a></Link>
+                    <Link href="#">
+                      <a>
+                        <img src="images/team/pic5.jpg" alt="" />
+                      </a>
+                    </Link>
                     <div className="overlay-content">
                       <ul className="dlab-social-icon">
                         <li>
@@ -259,9 +257,7 @@ function Team2() {
                   </div>
                   <div className="dlab-content">
                     <div className="clearfix">
-                      <h3 className="dlab-name">
-                        Silvia Perry
-                      </h3>
+                      <h3 className="dlab-name">Silvia Perry</h3>
                       <span className="dlab-position">
                         Chief Exicutive Officer
                       </span>
@@ -276,9 +272,11 @@ function Team2() {
               >
                 <div className="dlab-team style-3 m-b30">
                   <div className="dlab-media">
-                    <Link href="#"><a>
-                      <img src="images/team/pic6.jpg" alt="" />
-                    </a></Link>
+                    <Link href="#">
+                      <a>
+                        <img src="images/team/pic6.jpg" alt="" />
+                      </a>
+                    </Link>
                     <div className="overlay-content">
                       <ul className="dlab-social-icon">
                         <li>
@@ -304,9 +302,7 @@ function Team2() {
                   </div>
                   <div className="dlab-content">
                     <div className="clearfix">
-                      <h3 className="dlab-name">
-                        David Schwimmer
-                      </h3>
+                      <h3 className="dlab-name">David Schwimmer</h3>
                       <span className="dlab-position">
                         Chief Exicutive Officer
                       </span>
@@ -321,9 +317,11 @@ function Team2() {
               >
                 <div className="dlab-team style-3 m-b30">
                   <div className="dlab-media">
-                    <Link href="#"><a>
-                      <img src="images/team/pic7.jpg" alt="" />
-                    </a></Link>
+                    <Link href="#">
+                      <a>
+                        <img src="images/team/pic7.jpg" alt="" />
+                      </a>
+                    </Link>
                     <div className="overlay-content">
                       <ul className="dlab-social-icon">
                         <li>
@@ -349,9 +347,7 @@ function Team2() {
                   </div>
                   <div className="dlab-content">
                     <div className="clearfix">
-                      <h3 className="dlab-name">
-                        Titian Silva
-                      </h3>
+                      <h3 className="dlab-name">Titian Silva</h3>
                       <span className="dlab-position">
                         Chief Exicutive Officer
                       </span>
@@ -366,9 +362,11 @@ function Team2() {
               >
                 <div className="dlab-team style-3 m-b30">
                   <div className="dlab-media">
-                    <Link href="#"><a>
-                      <img src="images/team/pic8.jpg" alt="" />
-                    </a></Link>
+                    <Link href="#">
+                      <a>
+                        <img src="images/team/pic8.jpg" alt="" />
+                      </a>
+                    </Link>
                     <div className="overlay-content">
                       <ul className="dlab-social-icon">
                         <li>
@@ -394,9 +392,7 @@ function Team2() {
                   </div>
                   <div className="dlab-content">
                     <div className="clearfix">
-                      <h3 className="dlab-name">
-                        Sakura Chen
-                      </h3>
+                      <h3 className="dlab-name">Sakura Chen</h3>
                       <span className="dlab-position">
                         Chief Exicutive Officer
                       </span>
@@ -411,9 +407,11 @@ function Team2() {
               >
                 <div className="dlab-team style-3 m-b30">
                   <div className="dlab-media">
-                    <Link href="#"><a>
-                      <img src="images/team/pic9.jpg" alt="" />
-                    </a></Link>
+                    <Link href="#">
+                      <a>
+                        <img src="images/team/pic9.jpg" alt="" />
+                      </a>
+                    </Link>
                     <div className="overlay-content">
                       <ul className="dlab-social-icon">
                         <li>
@@ -439,9 +437,7 @@ function Team2() {
                   </div>
                   <div className="dlab-content">
                     <div className="clearfix">
-                      <h3 className="dlab-name">
-                        Neo Jackson
-                      </h3>
+                      <h3 className="dlab-name">Neo Jackson</h3>
                       <span className="dlab-position">
                         Chief Exicutive Officer
                       </span>
