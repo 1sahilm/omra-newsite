@@ -69,7 +69,7 @@ function Header2() {
                         </Link>
                       </li>
                       <li>
-                        <Link href="/ecommerce-product-uploading">
+                        <Link href="/e-commerce-product-uploading">
                           <a>E-Commerce Product Uploading</a>
                         </Link>
                       </li>

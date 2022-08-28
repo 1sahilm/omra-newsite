@@ -1,10 +1,10 @@
 import React from "react";
-import Styles from "../../scss/demo/demo.module.scss";
+import Styles from "../scss/demo/demo.module.scss";
 import Image from "next/image";
-import ReusableTab from "../../component/tab/tab";
-import AddIcon from "../../component/icons/Add";
-import Header2 from "../../layout/header-2";
-import Footer from "../../layout/footer";
+import ReusableTab from "../component/tab/tab";
+import AddIcon from "../component/icons/Add";
+import Header2 from "../layout/header-2";
+import Footer from "../layout/footer";
 const Demo = () => {
   return (
     <>
@@ -111,8 +111,9 @@ const Demo = () => {
                   </li>
                 </ul>
               </div>
+
               <div className="col-md-6">
-                <img src="/image/newbg.SVG" />{" "}
+                <img src="/image/newbg.SVG" />
               </div>
             </div>
           </div>
