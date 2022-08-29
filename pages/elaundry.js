@@ -86,7 +86,7 @@ function Elaundry() {
               </div>
               <div className="col-md-7">
                 <img
-                  src="/image/elaundry.SVG"
+                  src="/image/elaundry3.svg"
                   alt="img"
                   className="hireimages1"
                 />

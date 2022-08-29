@@ -4,8 +4,66 @@ import ReusableTab from "../component/tab/tab";
 import Footer from "../layout/footer";
 import Header2 from "../layout/header-2";
 import Styles from "../scss/demo/demo.module.scss";
+import { useState } from "react";
 
-function Third() {
+function VoiceProcess() {
+  const [inputs, setInputs] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    company: "",
+  });
+
+  const [loading, setLoading] = useState("");
+
+  const handleChange = (e) => {
+    setInputs((prev) => ({
+      ...prev,
+      [e.target.id]: e.target.value,
+    }));
+  };
+
+  const onSubmitForm = async (e) => {
+    e.preventDefault();
+    setLoading("loading");
+    try {
+      const res = await fetch(`api/contact`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(inputs),
+      });
+      const data = await res.json();
+      console.log(data);
+      setLoading("done");
+    } catch (error) {
+      setLoading("error");
+      console.log(error);
+    }
+  };
+
+  console.log(inputs);
+
+  const RedirectToThankYou = () => {
+    switch (loading) {
+      case "loading":
+        return <div>Sending....</div>;
+      case "done":
+        return (
+          <div className={Styles.mail_sucess}>
+            Sent successfully
+            <meta httpEquiv="refresh" content="1; url = /thanku" />
+          </div>
+        );
+      case "error":
+        return <div>Error</div>;
+
+      default:
+        return null;
+    }
+  };
+
   return (
     <div>
       <>
@@ -26,40 +84,49 @@ function Third() {
               <div className="col-md-6">
                 <div className={Styles.bgwgite}>
                   <div class="contact-form-wrapper d-flex justify-content-center">
-                    <form>
+                    <form onSubmit={onSubmitForm}>
                       <h1 className={Styles.blackHeading}>Contact us</h1>
-
                       <div>
                         <input
                           type="text"
                           className="form-control  mb-3 form-input"
                           id="name"
+                          value={inputs.text}
                           placeholder="Name"
                           required
+                          onChange={handleChange}
                         />
                       </div>
                       <div>
                         <input
+                          id="email"
                           type="email"
                           className="form-control  mb-3 form-input"
                           placeholder="Email"
                           required
+                          value={inputs.email}
+                          onChange={handleChange}
                         />
                       </div>
                       <div>
                         <input
+                          id="phone"
                           type="tel"
+                          value={inputs.tel}
                           className="form-control  mb-3 form-input"
                           placeholder="Phone"
                           required
+                          onChange={handleChange}
                         />
                       </div>
                       <div>
                         <input
+                          id="company"
                           type="text"
                           className="form-control  mb-3 form-input"
                           placeholder="Company Name"
                           required
+                          onChange={handleChange}
                         />
                       </div>
                       <div></div>
@@ -70,6 +137,7 @@ function Third() {
                           className={Styles.buttonViolet}
                         />
                       </div>
+                      <RedirectToThankYou />
                     </form>
                   </div>
                 </div>
@@ -341,7 +409,7 @@ function Third() {
   );
 }
 
-export default Third;
+export default VoiceProcess;
 
 const FAQList = ({ question, answer, index }) => {
   const [isOpen, setOpen] = React.useState(index === 0 || false);

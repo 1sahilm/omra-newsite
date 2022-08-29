@@ -1,0 +1,64 @@
+.bannerImage {
+  position: relative;
+  .absolutePart {
+    position: absolute;
+    top: 53%;
+    left: 7%;
+  }
+}
+
+.bannerImage {
+  .bannertext {
+    position: relative;
+    h1 {
+      position: relative;
+      margin: 0;
+      padding: 0;
+      font-size: 43px;
+    }
+    p {
+      position: relative;
+      padding: 0;
+      font-weight: 400;
+      font-size: 18px !important;
+    }
+  }
+}
+
+.mobileRes {
+  max-width: 100% !important;
+}
+
+.imageSection13 {
+  background-image: url("/intelligentautomationimages/thanku1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 99vh;
+}
+.bannerTitle {
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff !important;
+  padding-top: 483px;
+  /* padding-left: 30px; */
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .imageSection13 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 52vh;
+    background-position: 50% 51%;
+  }
+
+  .bannerTitle {
+    font-size: 21px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 382px;
+    padding-left: 9px;
+  }
+}
