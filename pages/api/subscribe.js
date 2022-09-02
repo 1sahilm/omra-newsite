@@ -19,8 +19,7 @@ export default async (req, res) => {
       cc: "sachin@omrasolutions.com",
       bcc: "alka@omrasolutions.com",
       bcc: "anupam.singh@epicglobal.co.in",
-      bcc: "anamika.tomar33321@gmail.com",
-      bcc: "msahil76640@gmail.com",
+
       subject: `You successfully subscribe our newslater`,
       html: `<h1>Thank you for the subscription!</h1>
         <p>We will try to find only quality content based on our new recommendation system. And now we already have something interesting for you:</p>
