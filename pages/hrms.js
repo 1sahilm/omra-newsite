@@ -51,9 +51,12 @@ const Hrms = () => {
                   </button>
                 </div>
                 <div className={Styles.requestButton}>
-                  <button type="button" className="btn33 ">
-                    Request Demo
-                  </button>
+                  <a href="/hrms-page">
+                    {" "}
+                    <button type="button" className="btn33 ">
+                      Request Demo
+                    </button>
+                  </a>
                 </div>
               </div>
               <p className={Styles.midPara}>Get 30 days of free trials</p>

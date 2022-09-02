@@ -40,7 +40,6 @@
   }
 }
 
-
 @media (max-width: 600px) {
   .bannerImage {
     img {
@@ -55,7 +54,14 @@
   }
 
   .h1box {
-    background-image: linear-gradient(90deg, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
+    background-image: linear-gradient(
+      90deg,
+      #e62222,
+      #e62222,
+      #ef6d35,
+      #ef6d35,
+      #ef6d35
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 600;
@@ -63,11 +69,9 @@
     padding: 0px 17px;
   }
 
-
   .mobileRes {
     max-width: 100% !important;
   }
-
 
   .row33 {
     display: flex;
@@ -76,7 +80,6 @@
     align-items: center;
   }
 
-
   .image_margin {
     h4 {
       text-align: center;
@@ -84,13 +87,16 @@
       font-size: 18px;
     }
   }
-
-
 }
 .valuecontent1 {
-
-
-  background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
+  background-image: linear-gradient(
+    to right,
+    #e62222,
+    #e62222,
+    #ef6d35,
+    #ef6d35,
+    #ef6d35
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 43px;
@@ -99,16 +105,20 @@
 }
 
 .valuecontent3 {
-
-
-  background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
+  background-image: linear-gradient(
+    to right,
+    #e62222,
+    #e62222,
+    #ef6d35,
+    #ef6d35,
+    #ef6d35
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 33px;
   font-weight: 700;
   margin-bottom: 0;
   margin-top: 57px;
-
 }
 
 .multi_para33 {
@@ -122,8 +132,14 @@
   height: inherit;
 
   h1 {
-
-    background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
+    background-image: linear-gradient(
+      to right,
+      #e62222,
+      #e62222,
+      #ef6d35,
+      #ef6d35,
+      #ef6d35
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 36px;
@@ -132,17 +148,13 @@
     text-align: center;
     font-weight: 500;
     padding: 0px;
-
   }
 
   h2 {
-
     border: 2px solid orange;
     padding: 10px;
     text-align: center;
   }
-
-
 }
 
 .top_Para {
@@ -151,11 +163,17 @@
   display: flex;
 
   gap: 47px;
-
 }
 
 .center_box {
-  background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
+  background-image: linear-gradient(
+    to right,
+    #e62222,
+    #e62222,
+    #ef6d35,
+    #ef6d35,
+    #ef6d35
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 50px;
@@ -167,7 +185,6 @@
 .titile_box {
   text-align: center;
   font-weight: 100;
-
 }
 
 .rotateimg180 {
@@ -199,20 +216,25 @@
   padding: 1px 58px;
 }
 
-
 .paraimg {
   margin-top: 0;
   margin-bottom: 1rem;
 
   padding: 0px !important;
-  background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
+  background-image: linear-gradient(
+    to right,
+    #e62222,
+    #e62222,
+    #ef6d35,
+    #ef6d35,
+    #ef6d35
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 32px;
 }
 
 .hireimages1 {
-
   position: relative;
   z-index: 0;
 }
@@ -225,7 +247,6 @@
 }
 
 .outline_button {
-
   padding: 0px 13px;
   display: inline-block;
   border-radius: 0px;
@@ -235,7 +256,6 @@
   color: white;
   border: 2px solid rgb(23, 162, 184);
   background: black;
-
 }
 
 .outline_button:hover {
@@ -244,7 +264,6 @@
 }
 
 .requestButton {
-
   padding: 0px 3px;
   display: inline-block;
   border-radius: 0px;
@@ -252,18 +271,14 @@
   font-family: sans-serif !important;
   font-weight: 500;
   color: white;
-  border: 2px solid #FF5617;
+  border: 2px solid #ff5617;
   background: black;
-
 }
 
 .requestButton:hover {
-
-
   color: white;
 
-  background: #FF5617;
-
+  background: #ff5617;
 }
 
 .flex1_box {
@@ -281,7 +296,6 @@
 }
 
 .midPara {
-
   text-align: center;
 }
 
@@ -290,15 +304,11 @@
     padding: 0px 0px;
   }
 
-
   .top_Para {
     font-size: 17px;
     margin-left: 0px;
   }
 }
-
-
-
 
 .bannerImageMid {
   position: relative;
@@ -338,15 +348,9 @@
       color: black;
     }
   }
-
-
-
-
 }
 
 @media (max-width: 600px) {
-
-
   .bannerImage1 {
     position: relative;
     height: 117vh !important;
@@ -363,14 +367,11 @@
     padding-top: 13px;
   }
 
-
   .top_Para {
-
     display: flex;
     grid-gap: 0px;
     gap: 0px;
     flex-direction: column;
     font-size: 16px;
   }
-
 }

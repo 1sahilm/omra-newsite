@@ -58,16 +58,7 @@ function Header2() {
                           <a>Voice Blend Process</a>
                         </Link>
                       </li>
-                      <li>
-                        <Link href="/hire-developers">
-                          <a>Hire Developers</a>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/resources-management">
-                          <a>Resource Management</a>
-                        </Link>
-                      </li>
+
                       <li>
                         <Link href="/e-commerce-product-uploading">
                           <a>E-Commerce Product Uploading</a>

@@ -1,6 +1,61 @@
 import Link from "next/link";
-
+import { useEffect, useState } from "react";
 function Footer() {
+  const [inputs, setInputs] = useState({
+    email: "",
+  });
+
+  const [loading, setLoading] = useState("");
+
+  const handleChange = (e) => {
+    setInputs((prev) => ({
+      ...prev,
+      [e.target.id]: e.target.value,
+    }));
+  };
+
+  const onSubmitForm = async (e) => {
+    console.log("KKKK");
+    e.preventDefault();
+    setLoading("loading");
+    try {
+      const res = await fetch(`api/subscribe`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(inputs),
+      });
+      const data = await res.json();
+      console.log(data);
+      setLoading("done");
+    } catch (error) {
+      setLoading("error");
+      console.log(error);
+    }
+  };
+
+  console.log(inputs);
+
+  const RedirectToThankYou = () => {
+    switch (loading) {
+      case "loading":
+        return <div>Sending....</div>;
+      case "done":
+        return (
+          <div>
+            Sent successfully
+            <meta httpEquiv="refresh" content="1; url = /thanku" />
+          </div>
+        );
+      case "error":
+        return <div>Error</div>;
+
+      default:
+        return null;
+    }
+  };
+
   return (
     <>
       {/* <!-- Footer --> */}
@@ -17,7 +72,7 @@ function Footer() {
                   <div>
                     <a href="">
                       <img
-                         src="/images/newlogo.png"
+                        src="/images/newlogo.png"
                         alt="image1"
                         className="logofooter"
                       />
@@ -30,19 +85,23 @@ function Footer() {
               <div className="row">
                 <div className="col-md-6 footernewssection">
                   <div className="footer-txt-1">
-                    <form className="form-section">
+                    <form className="form-section" onSubmit={onSubmitForm}>
                       <input
                         type="email"
                         placeholder="Email address"
                         className="news-section-box"
+                        id="email"
+                        value={inputs.email}
+                        onChange={handleChange}
                       />
-                      <button type="button" className="newsletter-button">
+                      <button type="submit" className="newsletter-button">
                         Submit
                       </button>
+                      <RedirectToThankYou />
                     </form>
 
                     <h4>Subscribe</h4>
-                    <p>
+                    <p className="footerPara">
                       Select topics and stay current with our latest insights
                     </p>
                     <br />
@@ -78,7 +137,7 @@ function Footer() {
                       target="_blank"
                       className="fa fa-youtube-play"
                       aria-hidden="true"
-                      href="https://www.youtube.com"
+                      href="https://www.youtube.com/channel/UCHAvY_F3UWz2R43gkYS3lTg"
                     ></a>
                     <a
                       target="_blank"

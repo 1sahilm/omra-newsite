@@ -1,0 +1,380 @@
+.bgwgite {
+  background-color: white;
+  padding: 14px 5px 38px 5px;
+  margin: -107px 0px;
+  color: black;
+  border-radius: 18px;
+  text-align: center;
+  width: 90%;
+}
+.mobileImage {
+  border-radius: 20px;
+}
+.blackHeading {
+  color: black !important;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.buttonViolet {
+  color: #fff;
+  background-color: #9858d5;
+  border: none;
+  padding: 14px 15px;
+  border-radius: 6px;
+  margin-top: 20px;
+  position: static;
+  cursor: pointer;
+}
+
+.mail_sucess {
+  text-align: center;
+  color: green;
+  margin-top: 10px;
+}
+
+.blackHeading {
+  color: black !important;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.imageSize {
+  border-radius: 30px;
+}
+
+.bannerImageMid {
+  position: relative;
+
+  .absolutePart33 {
+    position: absolute;
+    top: 35%;
+    left: 2%;
+    width: 62%;
+
+    h1 {
+      position: relative;
+      margin: 0;
+      padding: 0;
+      font-size: 45px;
+      font-weight: 100;
+      color: black;
+    }
+
+    p {
+      position: relative;
+      padding: 5px 0px;
+
+      color: black;
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    h5 {
+      color: black;
+    }
+  }
+
+  .mobileRes {
+    max-width: 100% !important;
+  }
+
+  .bannertext33 {
+    position: relative;
+
+    h1 {
+      position: relative;
+      margin: 0;
+      padding: 0;
+      font-size: 43px;
+
+      color: black;
+    }
+
+    p {
+      position: relative;
+      padding: 0;
+      font-weight: 400;
+      font-size: 18px !important;
+      color: black;
+    }
+
+    h5 {
+      color: black;
+    }
+  }
+}
+
+.valuecontent1 {
+  background-image: linear-gradient(
+    to right,
+    #e62222,
+    #e62222,
+    #ef6d35,
+    #ef6d35,
+    #ef6d35
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 43px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.paraimg {
+  margin-top: 0;
+  margin-bottom: 1rem;
+
+  padding: 0px !important;
+  background-image: linear-gradient(
+    to right,
+    #e62222,
+    #e62222,
+    #ef6d35,
+    #ef6d35,
+    #ef6d35
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 43px;
+}
+
+.valuecontentth {
+  h4 {
+    padding: 11px 12px;
+    font-weight: 500;
+    font-size: 24px;
+  }
+}
+
+.packageOne {
+  background-color: #fff;
+  color: black;
+  padding: 20px 12px;
+  font-size: 19px;
+  /* margin: 6px; */
+  border-radius: 10px;
+  text-align: center;
+  height: 100%;
+
+  h3,
+  h4 {
+    color: black;
+    text-align: center;
+  }
+
+  li {
+    padding: 8px;
+  }
+}
+
+.packageTwo {
+  background-color: #fff;
+  color: black;
+  padding: 20px 12px;
+  font-size: 19px;
+  /* margin: 6px; */
+  border-radius: 10px;
+  text-align: center;
+  height: 100%;
+
+  h3,
+  h4 {
+    color: black;
+    text-align: center;
+  }
+
+  li {
+    padding: 8px;
+  }
+}
+
+.outline_button {
+  padding: 0px 13px;
+  display: inline-block;
+  border-radius: 29px;
+  font-size: 15px;
+  font-family: sans-serif !important;
+  font-weight: 500;
+  color: white;
+  border: 2px solid #eb4f2d;
+  background: #eb4f2d;
+}
+.btn33 {
+  display: inline-block;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 1.5rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.checkPara {
+  text-align: center;
+  font-size: 20px;
+}
+.outline_buttonGreen {
+  padding: 4px 16px;
+  display: inline-block;
+  border-radius: 29px;
+  font-size: 23px;
+  font-family: sans-serif !important;
+  font-weight: 500;
+  color: white;
+  border: 2px solid rgb(64, 196, 64);
+  background: rgb(64, 196, 64);
+}
+
+.hrmsColor {
+  background-image: linear-gradient(
+    to right,
+    #e62222,
+    #e62222,
+    #ef6d35,
+    #ef6d35,
+    #ef6d35
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-size: 35px;
+  margin-bottom: 11px;
+
+  text-align: center;
+}
+
+.hrmsBox {
+  padding-bottom: 20px;
+}
+
+.priceSection {
+  text-align: center;
+  font-size: 50px !important;
+  font-weight: 200 !important;
+  color: #b5b5b5 !important;
+}
+@media (max-width: 600px) {
+  .bgwgite {
+    background-color: white;
+    padding: 0px 5px 23px 5px;
+    margin: -6px 21px;
+    color: black;
+    border-radius: 18px;
+    text-align: center;
+    width: 90%;
+  }
+  .valuecontentth {
+    h4 {
+      padding: 9px 12px;
+      font-weight: 500;
+      font-size: 17px;
+    }
+  }
+
+  .buttonViolet {
+    color: #fff;
+    background-color: #9858d5;
+    border: none;
+    padding: 14px 15px;
+    border-radius: 6px;
+    margin-top: 20px;
+    position: static;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .mobileImage {
+    width: 100%;
+    height: 100%;
+  }
+
+  .imageSize {
+    width: 100%;
+    height: 100%;
+  }
+  .priceSection {
+    text-align: center;
+    font-size: 36px !important;
+    font-weight: 200 !important;
+    color: #b5b5b5 !important;
+  }
+  section.mydiv00133 {
+    h1 {
+      font-size: 6vw;
+      width: 100%;
+    }
+  }
+  .absolutePart33 {
+    position: absolute !important;
+    top: 3% !important;
+    left: 2% !important;
+    width: 62% !important;
+
+    h1 {
+      position: relative !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      font-size: 20px !important;
+      font-weight: 100 !important;
+      color: black !important;
+    }
+
+    p {
+      position: relative !important;
+      padding: 2px 0px !important;
+      color: black !important;
+      font-size: 10px !important;
+      font-weight: 500 !important;
+    }
+  }
+
+  .hrmsBox {
+    padding-bottom: 20px;
+  }
+
+  .packageTwo {
+    background-color: #fff;
+    color: black;
+    padding: 20px 12px;
+    font-size: 19px;
+    margin-top: 9px;
+    border-radius: 10px;
+    text-align: center;
+    height: 100%;
+    margin-bottom: -2px;
+  }
+}
+
+.mydivhrms {
+  padding-top: 30px;
+  font-size: 14px;
+  padding-bottom: 30px;
+  h1 {
+    /* padding-top: 110px; */
+    background-image: linear-gradient(
+      to right,
+      #e62222,
+      #e62222,
+      #ef6d35,
+      #ef6d35,
+      #ef6d35
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: sans-serif;
+    font-size: 40px;
+  }
+
+  p {
+    padding: 0px;
+  }
+}

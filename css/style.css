@@ -23288,7 +23288,7 @@ a.linkBtn span {
 
 @media only screen and (max-width: 767px) {
   .carousel .control-dots .dot {
-    width: 62px !important;
+    width: 51px !important;
     height: 5px !important;
   }
 }
