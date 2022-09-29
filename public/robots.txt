@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.omrasolutions.com/
+
+# Sitemaps
+Sitemap: https://www.omrasolutions.com/sitemap.xml
