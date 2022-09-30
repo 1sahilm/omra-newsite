@@ -6,7 +6,6 @@
         "dev": "next dev -p 5000",
         "build": "next build",
         "start": "next start"
-      
     },
     "browser": {
         "fs": false,
@@ -18,6 +17,7 @@
         "moment": "^2.29.1",
         "mongoose": "^6.3.5",
         "next": "^10.0.6",
+        "nextjs-sitemap-generator": "^1.3.1",
         "node-sass": "^5.0.0",
         "nodemailer": "^6.7.8",
         "react": "^17.0.1",
