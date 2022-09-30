@@ -5,8 +5,8 @@
     "scripts": {
         "dev": "next dev -p 5000",
         "build": "next build",
-        "start": "next start",
-        "postbuild": "next-sitemap"
+        "start": "next start"
+      
     },
     "browser": {
         "fs": false,
