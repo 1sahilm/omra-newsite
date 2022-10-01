@@ -12,7 +12,6 @@ import "../styles/switcher.css";
 import "../scss/abstract/thought-leadership.css";
 import "../scss/abstract/intelligent-automation.css";
 import "../component/tab/styles.css";
-// import Script from "next/script";
 
 function MyApp({ Component, pageProps }) {
   const [toggle1, setToggle1] = useState(false);
@@ -70,12 +69,12 @@ function MyApp({ Component, pageProps }) {
           sizes="16x16"
           href="/images/favicon.png"
         />
-        {/* <Script
+        <script
           strategy="lazyOnload"
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
         />
 
-        <Script strategy="lazyOnload">
+        <script strategy="lazyOnload">
           {`
       window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -85,7 +84,7 @@ function MyApp({ Component, pageProps }) {
     page_path: window.location.pathname,
     });
       `}
-        </Script> */}
+        </script>
       </Head>
       <div className="page-wraper">
         <Component {...pageProps} />
