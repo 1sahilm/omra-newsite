@@ -1,4 +1,5 @@
 import fs from "fs";
+import path from "path";
 
 const Sitemap = () => {};
 
@@ -13,10 +14,16 @@ export const getServerSideProps = async ({ res }) => {
         "_document.js",
         "_error.js",
         "sitemap.xml.js",
+        "api/*",
       ].includes(staticPage);
     })
     .map((staticPagePath) => {
-      return `${baseUrl}/${staticPagePath}`;
+      const filter = path.basename(
+        staticPagePath,
+        path.extname(staticPagePath)
+      );
+      console.log(filter);
+      return `${baseUrl}/${filter}`;
     });
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
