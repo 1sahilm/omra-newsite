@@ -12,7 +12,6 @@ import "../styles/switcher.css";
 import "../scss/abstract/thought-leadership.css";
 import "../scss/abstract/intelligent-automation.css";
 import "../component/tab/styles.css";
-import Script from "next/script";
 
 function MyApp({ Component, pageProps }) {
   const [toggle1, setToggle1] = useState(false);
