@@ -1,12 +1,22 @@
 import Link from "next/link";
 import { useState } from "react";
 import Image from "next/image";
+
 function Header2() {
   const [show, setShow] = useState(false);
   const [open, setOpen] = useState("home");
   return (
     <>
-      <header className="site-header mo-left header-transparent">
+      <header
+        style={{
+          top: "0px",
+          width: "100%",
+          zIndex: "100",
+          position: "sticky",
+          background: "#000",
+        }}
+        className="site-header mo-left header-transparent"
+      >
         <div className="sticky-header main-bar-wraper navbar-expand-lg">
           <div className="main-bar clearfix ">
             <div className="container clearfix">
@@ -23,7 +33,6 @@ function Header2() {
                   </a>
                 </Link>
               </div>
-
               <button
                 className={`navbar-toggler collapsed navicon justify-content-end ${
                   show ? "open" : ""

@@ -9,9 +9,9 @@ function Blog2() {
             <h6 className="sub-title text-primary bgl-primary m-b15">
               Our Blog
             </h6>
-            {/* <h2 className="title">Latest News & Blog</h2> */}
           </div>
           <BlogSlider2 />
+          <button>View More Blog</button>
         </div>
       </section>
     </>

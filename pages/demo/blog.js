@@ -1,7 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import ReusableTab from "../../component/tab/tab";
-import AddIcon from "../../component/icons/Add";
 import Header2 from "../../layout/header-2";
 import Footer from "../../layout/footer";
 import Styles from "../../scss/demo/blog.module.scss";

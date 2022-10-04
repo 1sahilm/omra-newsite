@@ -1,28 +1,39 @@
-
-
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Slider from "react-slick";
 
+const baseUrl = `https://newblog.omrasolutions.com/wp-json/wp/v2/posts`;
+
 function BlogSlider({ data }) {
-  const [asd, setAsd] = useState();
-  const [blogsData, setblogsData] = useState([]);
+  const [sliderOpt, setSliderOpt] = useState();
+  const [blogsArray, setBlogData] = useState([]);
+
+  const safeRef = React.useRef(false);
+
+  const getData = async () => {
+    try {
+      const res = await fetch(baseUrl);
+      const data = await res.json();
+      console.log({ SIMPLE: data });
+      setBlogData(data);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
   useEffect(() => {
-    fetch("https://newblog.omrasolutions.com/wp-json/wp/v2/posts")
-      .then((res) => res.json())
-      .then((data) => {
-        setblogsData(data);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
+    safeRef.current = true;
+    if (safeRef.current) {
+      void getData();
+    }
+    return () => {
+      safeRef.current = false;
+    };
   }, []);
 
   //   console.log({"syamwala":blogsData})
 
-  const blogs = blogsData.map((item) => item);
-  const blogs1 = blogs.map((item) => item);
-  console.log(blogs1);
+  const blogs = blogsArray.map((item) => item);
 
   const settings = {
     dots: false,
@@ -58,10 +69,10 @@ function BlogSlider({ data }) {
   const renderArrows = () => {
     return (
       <div className="owl-nav">
-        <div className="owl-prev" onClick={() => asd.slickPrev()}>
+        <div className="owl-prev" onClick={() => sliderOpt.slickPrev()}>
           <i className="fa fa-arrow-left"></i>
         </div>
-        <div className="owl-next" onClick={() => asd.slickNext()}>
+        <div className="owl-next" onClick={() => sliderOpt.slickNext()}>
           <i className="fa fa-arrow-right"></i>
         </div>
       </div>
@@ -73,7 +84,7 @@ function BlogSlider({ data }) {
         className="blog-carousel1 owl-btn-1 owl-btn-center-lr  owl-btn-primary"
         style={{ position: "relative" }}
       >
-        <Slider ref={(c) => setAsd(c)} {...settings}>
+        <Slider ref={(c) => setSliderOpt(c)} {...settings}>
           {blogs.map((item) => {
             console.log({ amit: item });
             return (

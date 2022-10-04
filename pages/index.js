@@ -8,26 +8,21 @@ import ReportSection from "../element/reportsection";
 import Leadership from "../element/leader";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-function Index2() {
+function HomePage() {
   return (
     <>
       <Header2 />
       <div className="page-content bg-white">
         <HomeSlider />
-
         <Secondsec />
-
         <Fourthsection />
         <Leadership />
-
         <ReportSection />
-
         <Blog2 />
       </div>
-
       <Footer />
     </>
   );
 }
 
-export default Index2;
+export default HomePage;
