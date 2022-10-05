@@ -9,6 +9,7 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
+    "@wordpress/block-serialization-spec-parser": "^4.19.0",
     "axios": "^0.27.2",
     "moment": "^2.29.4",
     "mongoose": "^6.6.4",
@@ -27,7 +28,6 @@
     "react-multi-carousel": "^2.8.2",
     "react-rangeslider": "^2.2.0",
     "react-responsive-carousel": "^3.2.23",
-    "react-router-dom": "^6.4.1",
     "react-scroll-to-top": "^3.0.0",
     "react-slick": "^0.29.0",
     "react-visibility-sensor": "^5.1.1",
