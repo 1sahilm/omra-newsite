@@ -1,9 +1,8 @@
 import moment from "moment";
-import Link from "next/link";
 import React from "react";
 import Layout from "../../layout";
 import css from "../../styles/blog.module.scss";
-import BlogCard from "./card";
+import BlogCard from "../../component/blog/card";
 
 /**
  * Blogs Page

@@ -1,11 +1,7 @@
 import Header2 from "../layout/header-2";
-import Image from "next/image";
-import Link from "next/link";
 import Styles from "../scss/contact-page/contact.module.scss";
-import axios from "axios";
 import Footer from "./../layout/footer";
-import { useEffect, useState } from "react";
-import { sendData } from "next/dist/next-server/server/api-utils";
+import { useState } from "react";
 
 function Contact() {
   const [inputs, setInputs] = useState({

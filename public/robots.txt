@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.omrasolutions.com/
+Host: https://omrasolutions.com/
 
 # Sitemaps
-Sitemap: https://www.omrasolutions.com/sitemap.xml
+Sitemap: https://omrasolutions.com/sitemap.xml
