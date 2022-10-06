@@ -22,7 +22,12 @@ function Header2() {
             <div className="container clearfix">
               <div className="logo-header mostion logo-dark">
                 <Link href="/">
-                  <a>
+                  <a
+                    style={{
+                      zIndex: 10000990,
+                      position: "relative",
+                    }}
+                  >
                     <Image
                       width={100}
                       height={70}
