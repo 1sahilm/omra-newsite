@@ -68,23 +68,22 @@ function MyApp({ Component, pageProps }) {
           href="/images/favicon.png"
         />
         <Script
-          strategy="lazyOnload"
+          async
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
         />
-
         <Script
-          id="google-analytics"
-          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
-    page_path: window.location.pathname,
-    });
+  gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}')
     `,
           }}
+        />
+        <meta
+          name="google-site-verification"
+          content="miO7qBo6rWBWDfdtk4zmaveMZluOzYN9VdEekDBkbRg"
         />
       </Head>
       <div className="page-wraper">
@@ -123,3 +122,25 @@ export default MyApp;
         <span>Support</span>
       </a>
  */
+
+/**
+       *    <Script
+          strategy="lazyOnload"
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+        />
+
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', 
+  {
+    page_path: window.location.pathname,
+    });
+    `,
+          }}
+       */
