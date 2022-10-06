@@ -60,7 +60,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Omra Solution</title>
+        <title>Omra Solutions</title>
         <link
           rel="icon"
           type="image/png"
