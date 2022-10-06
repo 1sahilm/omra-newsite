@@ -13,12 +13,12 @@ function HomePage() {
     <>
       <Header2 />
       <div className="page-content bg-white">
-        {/* <HomeSlider /> */}
-        {/* <Secondsec /> */}
-        {/* <Fourthsection /> */}
+        <HomeSlider />
+        <Secondsec />
+        <Fourthsection />
         <Leadership />
-        {/* <ReportSection /> */}
-        {/* <Blog2 /> */}
+        <ReportSection />
+        <Blog2 />
       </div>
       <Footer />
     </>

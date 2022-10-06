@@ -7,39 +7,10 @@ function Leadership() {
 
   const [slider1, setSlider1] = useState();
   const [slider2, setSlider2] = useState();
+
   const settings = {
-    dots: false,
-    arrows: false,
-    // centerMode: true,
-    slidesToShow: 1,
-    dots: true,
-    infinite: true,
-    slidesToScroll: 1,
     autoplay: true,
     responsive: [
-      {
-        breakpoint: 1320,
-        settings: {
-          dots: false,
-          arrows: false,
-          // centerMode: true,
-          slidesToShow: 1,
-          // dots: true,
-          infinite: true,
-          slidesToScroll: 1,
-          autoplay: true,
-        },
-      },
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: false,
-          // centerMode: false,
-        },
-      },
       {
         breakpoint: 280,
         settings: {
@@ -64,7 +35,7 @@ function Leadership() {
         }}
       >
         <div className="omra-leadersection">
-          <div className="container">
+          <div className="container responsive-container">
             <div className="row">
               <div className="col-2 omra-leadership">
                 <h1 className={Styles.leaderheading}>Thought Leadership</h1>
@@ -74,55 +45,34 @@ function Leadership() {
                   asNavFor={slider2}
                   ref={(slider) => setSlider1(slider)}
                   className="leader_tht"
-                  {...settings}
+                  // {...settings}
                 >
-                  <div>
-                    <img src="/images/background/leader1.jpg" alt="" />
-                    <p className={Styles.leaderpara}>
-                      <a href="/leadership-1" target="_blank">
-                        <span>
-                          WHY INDIAN SMEs MARKETING IS LENDING BEHIND IN SALES?
-                        </span>
-                        <i></i>
-                      </a>
-                    </p>
-                  </div>
-
-                  <div>
-                    <img src="/images/background/leader2.jpg" alt="" />
-                    <p className={Styles.leaderpara}>
-                      <a href="/leadership-2" target="_blank">
-                        <span>
-                          Indian SMEs: What should they learn from our
-                          Leadership Thoughts?
-                        </span>
-                        <i></i>
-                      </a>
-                    </p>
-                  </div>
-                  <div>
-                    <img src="/images/background/leader3.jpg" alt="" />
-                    <p className={Styles.leaderpara}>
-                      <a href="/leadership-2" target="_blank">
-                        <span>
-                          Here are some key pointers for your marketing
-                          technique:-
-                        </span>
-                        <i></i>
-                      </a>
-                    </p>
-                  </div>
-                  <div>
-                    <img src="/images/background/leader4.jpg" alt="" />
-                    <p className={Styles.leaderpara}>
-                      <a href="/leadership-1" target="_blank">
-                        <span>
-                          WHY INDIAN SMEs MARKETING IS LENDING BEHIND IN SALES?
-                        </span>
-                        <i></i>
-                      </a>
-                    </p>
-                  </div>
+                  <SliderCard
+                    href={`/leadership-1`}
+                    source={`/images/background/leader1.jpg`}
+                    title={`WHY INDIAN SMEs MARKETING IS LENDING BEHIND IN SALES?`}
+                    key={0}
+                  />{" "}
+                  <SliderCard
+                    href={`/leadership-2`}
+                    source={`/images/background/leader2.jpg`}
+                    title={`Indian SMEs: What should they learn from our
+                          Leadership Thoughts?`}
+                    key={0}
+                  />{" "}
+                  <SliderCard
+                    href={`/leadership-2`}
+                    source={`/images/background/leader3.jpg`}
+                    title={`Here are some key pointers for your marketing
+                          technique:-`}
+                    key={0}
+                  />{" "}
+                  <SliderCard
+                    href={`/leadership-1`}
+                    source={`/images/background/leader4.jpg`}
+                    title={`WHY INDIAN SMEs MARKETING IS LENDING BEHIND IN SALES?`}
+                    key={0}
+                  />
                 </Slider>
               </div>
               <div className="col-6">
@@ -132,14 +82,39 @@ function Leadership() {
                   slidesToShow={2}
                   swipeToSlide={true}
                   focusOnSelect={true}
+                  {...settings}
                 >
-                  <div>
+                  <SliderCard
+                    href={`/leadership-1`}
+                    source={`/images/background/leader2.jpg`}
+                    title={`WHY INDIAN SMEs MARKETING IS LENDING BEHIND IN SALES?`}
+                    key={0}
+                  />
+                  <SliderCard
+                    href={`/leadership-2`}
+                    source={`/images/background/leader3.jpg`}
+                    title={`Indian SMEs: What should they learn from our
+                          Leadership Thoughts?`}
+                    key={1}
+                  />
+                  <SliderCard
+                    href={`/leadership-2`}
+                    source={`/images/background/leader4.jpg`}
+                    title={`Here are some key pointers for your marketing
+                          technique:-`}
+                    key={1}
+                  />
+                  <SliderCard
+                    href={`/leadership-1`}
+                    source={`/images/background/leader1.jpg`}
+                    title={`WHY INDIAN SMEs MARKETING IS LENDING BEHIND IN SALES?`}
+                    key={0}
+                  />
+                  {/* <div>
                     <img src="/images/background/leader2.jpg" alt="" />
                     <p className={Styles.leaderpara}>
                       <a href="/leadership-1" target="_blank">
-                        <span>
-                          WHY INDIAN SMEs MARKETING IS LENDING BEHIND IN SALES?
-                        </span>
+                        <span></span>
                         <i></i>
                       </a>
                     </p>
@@ -149,8 +124,7 @@ function Leadership() {
                     <p className={Styles.leaderpara}>
                       <a href="/leadership-2" target="_blank">
                         <span>
-                          Indian SMEs: What should they learn from our
-                          Leadership Thoughts?
+                         
                         </span>
                         <i></i>
                       </a>
@@ -178,10 +152,8 @@ function Leadership() {
                         <i></i>
                       </a>
                     </p>
-                  </div>
+                  </div> */}
                 </Slider>
-                {/* <div className={Styles.leaderarrow}> <img src="https://files.techmahindra.com/static/img/nxt/arrow-right-nxt-now.png" alt="" /> </div>
-        <div className={Styles.leaderarrow}> <img src="https://files.techmahindra.com/static/img/nxt/arrow-left-nxt-now.png" alt="" /> </div> */}
               </div>
             </div>
           </div>
@@ -192,3 +164,79 @@ function Leadership() {
 }
 
 export default Leadership;
+
+const SliderCard = ({ source, href, title }) => {
+  return (
+    <div className="slider-card">
+      <img src={source} alt="" />
+      <p className={Styles.leaderpara}>
+        <a href={href} target="_blank">
+          <span>{title}</span>
+          <i></i>
+        </a>
+      </p>
+    </div>
+  );
+};
+
+// const data=[
+//   {
+//     source:'/images/background/leader2.jpg',
+//     href:'/leadership-1',
+//     title:'WHY INDIAN SMEs MARKETING IS LENDING BEHIND IN SALES?'
+//   }
+// ]
+
+{
+  /* <div className={Styles.leaderarrow}> <img src="https://files.techmahindra.com/static/img/nxt/arrow-right-nxt-now.png" alt="" /> </div>
+        <div className={Styles.leaderarrow}> <img src="https://files.techmahindra.com/static/img/nxt/arrow-left-nxt-now.png" alt="" /> </div> */
+}
+
+{
+  /* <div>
+                    <img src="/images/background/leader1.jpg" alt="" />
+                    <p className={Styles.leaderpara}>
+                      <a href="/leadership-1" target="_blank">
+                        <span>
+                          WHY INDIAN SMEs MARKETING IS LENDING BEHIND IN SALES?
+                        </span>
+                        <i></i>
+                      </a>
+                    </p>
+                  </div>
+                  <div>
+                    <img src="/images/background/leader2.jpg" alt="" />
+                    <p className={Styles.leaderpara}>
+                      <a href="/leadership-2" target="_blank">
+                        <span>
+                          Indian SMEs: What should they learn from our
+                          Leadership Thoughts?
+                        </span>
+                        <i></i>
+                      </a>
+                    </p>
+                  </div>
+                  <div>
+                    <img src="/images/background/leader3.jpg" alt="" />
+                    <p className={Styles.leaderpara}>
+                      <a href="/leadership-2" target="_blank">
+                        <span>
+                          Here are some key pointers for your marketing
+                          technique:-
+                        </span>
+                        <i></i>
+                      </a>
+                    </p>
+                  </div>
+                  <div>
+                    <img src="/images/background/leader4.jpg" alt="" />
+                    <p className={Styles.leaderpara}>
+                      <a href="/leadership-1" target="_blank">
+                        <span>
+                          WHY INDIAN SMEs MARKETING IS LENDING BEHIND IN SALES?
+                        </span>
+                        <i></i>
+                      </a>
+                    </p>
+                  </div> */
+}
