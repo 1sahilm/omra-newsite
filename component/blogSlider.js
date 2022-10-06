@@ -86,16 +86,16 @@ function BlogSlider({ data }) {
       >
         <Slider ref={(c) => setSliderOpt(c)} {...settings}>
           {blogs.map((item) => {
-            console.log({ amit: item });
             return (
-              <div
-                className="item wow fadeInUp"
-                data-wow-duration="2s"
-                data-wow-delay="0.6s"
-              >
-                <div className="dlab-blog style-1 bg-white text-center">
-                  <div className="dlab-media">
-                    <Link href="blog-details-1">
+              <Link href={`/blog/${item?.id}`}>
+                <a
+                  className="item wow fadeInUp"
+                  data-wow-duration="2s"
+                  data-wow-delay="0.6s"
+                >
+                  <div className="dlab-blog style-1 bg-white text-center">
+                    <div className="dlab-media">
+                      {/* <Link href="blog-details-1"> */}
                       <a>
                         <img
                           // src="images/blog/blog-grid-1/pic3.jpg"
@@ -103,62 +103,63 @@ function BlogSlider({ data }) {
                           alt=""
                         />
                       </a>
-                    </Link>
-                  </div>
-                  <div className="dlab-info">
-                    <h5 className="dlab-title">
-                      <Link href="blog-details-1">
+                      {/* </Link> */}
+                    </div>
+                    <div className="dlab-info">
+                      <h5 className="dlab-title">
+                        {/* <Link href="blog-details-1"> */}
                         <a>
                           {/* Quisque sem tortor, convallis in arcu eu,
                                         accumsan finibus. */}
                           {item.title.rendered.slice(0, 50)}...
                         </a>
-                      </Link>
-                    </h5>
-                    <p className="m-b0">
-                      {item.excerpt.rendered.slice(3, 200)}...
-                    </p>
+                        {/* </Link> */}
+                      </h5>
+                      <p className="m-b0">
+                        {item.excerpt.rendered.slice(3, 200)}...
+                      </p>
 
-                    <div className="dlab-meta meta-bottom">
-                      <ul>
-                        <li className="post-date">
-                          <i className="flaticon-clock m-r10"></i>
-                          {item.date.slice(0, 10)}
-                        </li>
-                        <li className="post-comment">
-                          <a href="javascript:void(0);">
-                            <i className="flaticon-speech-bubble"></i>
-                            <span>15</span>
-                          </a>
-                        </li>
-                        <li className="post-share">
-                          <i className="flaticon-share"></i>
-                          <ul>
-                            <li>
-                              <a
-                                className="fa fa-facebook"
-                                href="https://www.facebook.com/"
-                              ></a>
-                            </li>
-                            <li>
-                              <a
-                                className="fa fa-twitter"
-                                href="https://twitter.com/login?lang=en"
-                              ></a>
-                            </li>
-                            <li>
-                              <a
-                                className="fa fa-linkedin"
-                                href="https://www.linkedin.com/login"
-                              ></a>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
+                      <div className="dlab-meta meta-bottom">
+                        <ul>
+                          <li className="post-date">
+                            <i className="flaticon-clock m-r10"></i>
+                            {item.date.slice(0, 10)}
+                          </li>
+                          <li className="post-comment">
+                            <a href="javascript:void(0);">
+                              <i className="flaticon-speech-bubble"></i>
+                              <span>15</span>
+                            </a>
+                          </li>
+                          <li className="post-share">
+                            <i className="flaticon-share"></i>
+                            <ul>
+                              <li>
+                                <a
+                                  className="fa fa-facebook"
+                                  href="https://www.facebook.com/"
+                                ></a>
+                              </li>
+                              <li>
+                                <a
+                                  className="fa fa-twitter"
+                                  href="https://twitter.com/login?lang=en"
+                                ></a>
+                              </li>
+                              <li>
+                                <a
+                                  className="fa fa-linkedin"
+                                  href="https://www.linkedin.com/login"
+                                ></a>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </div>
+                </a>
+              </Link>
             );
           })}
         </Slider>
