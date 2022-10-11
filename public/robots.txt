@@ -1,7 +1,16 @@
-# *
-User-agent: *
-Allow: /
+user-agent : *
+disallow: /wp-admin/
+allow:  https://omrasolutions.com/
+            https://omrasolutions.com/elaundry
+            https://omrasolutions.com/it-development
+            https://omrasolutions.com/voice-process
+            https://omrasolutions.com/e-commerce-product-uploading
+            https://omrasolutions.com/hrms
+            https://omrasolutions.com/crm
+            https://omrasolutions.com/about-us
+            https://omrasolutions.com/new-contact-us
 
+# *
 # Host
 Host: https://omrasolutions.com/
 

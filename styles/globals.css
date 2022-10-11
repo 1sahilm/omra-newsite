@@ -719,7 +719,7 @@ p.leader_leaderpara__2uIkn a {
   background-size: cover;
   background-repeat: no-repeat;
   padding-left: 127px;
-  height: 100vh;
+  /* height: 100vh; */
   padding: 200px 0px;
   padding-left: 0;
 }
@@ -1401,10 +1401,15 @@ section.mydiv00133 p {
   .mydiv00133 h1 {
     margin: 0px !important;
     color: #fff;
-    font-size: 35px;
+    font-size: 25px !important;
     font-family: sans-serif;
     width: 100% !important;
   }
+
+  .mydiv00133 {
+    
+    padding: 21px 0;
+}
 }
 
 .container9 {

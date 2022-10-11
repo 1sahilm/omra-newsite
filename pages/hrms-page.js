@@ -7,6 +7,7 @@ import Header2 from "../layout/header-2";
 import Styles from "../scss/demo/hrmspage.module.scss";
 import { useState } from "react";
 import image from "next/image";
+import Image from "next/image";
 
 function HrmsPage() {
   const [inputs, setInputs] = useState({
@@ -151,7 +152,7 @@ function HrmsPage() {
             <div className="row">
               <div className="col-md-5">
                 <div>
-                  <img
+                  <Image
                     src="/image/single.jpg"
                     width={450}
                     height={400}

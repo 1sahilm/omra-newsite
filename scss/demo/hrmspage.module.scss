@@ -9,6 +9,7 @@
 }
 .mobileImage {
   border-radius: 20px;
+  width: 100%;
 }
 .blackHeading {
   color: black !important;
@@ -263,6 +264,32 @@
   color: #b5b5b5 !important;
 }
 @media (max-width: 600px) {
+  .paraimg {
+    font-size: 25px;
+  }
+
+  .mydivhrms {
+    h1 {
+      /* padding-top: 110px; */
+      background-image: linear-gradient(
+        to right,
+        #e62222,
+        #e62222,
+        #ef6d35,
+        #ef6d35,
+        #ef6d35
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: sans-serif;
+      font-size: 25px !important;
+    }
+  }
+  .checkPara {
+    text-align: left !important;
+    font-size: 20px;
+  }
+
   .bgwgite {
     background-color: white;
     padding: 0px 5px 23px 5px;
@@ -321,7 +348,7 @@
 
     h1 {
       position: relative !important;
-      margin: 0 !important;
+      margin: 9px 0px !important;
       padding: 0 !important;
       font-size: 20px !important;
       font-weight: 100 !important;
@@ -351,6 +378,23 @@
     text-align: center;
     height: 100%;
     margin-bottom: -2px;
+  }
+
+  .hrmsColor {
+    background-image: linear-gradient(
+      to right,
+      #e62222,
+      #e62222,
+      #ef6d35,
+      #ef6d35,
+      #ef6d35
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    /* margin-bottom: 11px; */
+    text-align: center;
+    padding: 3px;
   }
 }
 
