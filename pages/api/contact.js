@@ -21,6 +21,7 @@ export default async (req, res) => {
       cc: "sachin@omrasolutions.com",
       bcc: "alka@omrasolutions.com",
       bcc: "anupam.singh@epicglobal.co.in",
+      bcc: "sahil.mishra@epicglobal.co.in",
 
       subject: `Contact form submission from ${name}`,
       html: `<p>You have a contact form submission</p>
