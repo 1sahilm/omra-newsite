@@ -1,3 +1,7 @@
+.formBox3 {
+  width: 100% !important;
+}
+
 .bgwgite {
   background-color: white;
   padding: 14px 5px 38px 5px;
@@ -42,6 +46,7 @@
 
 .imageSize {
   border-radius: 30px;
+  width: 100%;
 }
 
 .bannerImageMid {
@@ -420,5 +425,28 @@
 
   p {
     padding: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .hrmspage_paraimg__W6oFg {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 0px !important;
+    background-image: linear-gradient(
+      to right,
+      #e62222,
+      #e62222,
+      #ef6d35,
+      #ef6d35,
+      #ef6d35
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px !important;
+  }
+
+  .imageSize {
+    border-radius: 30px;
+    width: 100% !important;
   }
 }

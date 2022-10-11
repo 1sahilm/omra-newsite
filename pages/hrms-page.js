@@ -85,7 +85,7 @@ function HrmsPage() {
               <div className="col-md-6">
                 <div className={Styles.bgwgite}>
                   <div class="contact-form-wrapper d-flex justify-content-center">
-                    <form onSubmit={onSubmitForm}>
+                    <form onSubmit={onSubmitForm} className={Styles.formBox3}>
                       <h1 className={Styles.blackHeading}>Contact us</h1>
                       <div>
                         <input
