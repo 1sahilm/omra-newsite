@@ -311,7 +311,7 @@ function HrmsPage() {
                 <div className={Styles.packageOne}>
                   <h3>PACKAGE 1 </h3>
 
-                  <h4 className={Styles.priceSection}>INR45 /employee</h4>
+                  <h4 className={Styles.priceSection}>INR45 / User</h4>
                   <ul>
                     <li>
                       <span>&#10003;</span>
@@ -357,7 +357,7 @@ function HrmsPage() {
                 <div className={Styles.packageTwo}>
                   <h3>PACKAGE 2 </h3>
 
-                  <h4 className={Styles.priceSection}>INR85 /employee</h4>
+                  <h4 className={Styles.priceSection}>INR85 / User</h4>
                   <ul>
                     <li>
                       <span>&#10003;</span>
