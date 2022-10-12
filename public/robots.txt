@@ -9,10 +9,3 @@ allow:  https://omrasolutions.com/
             https://omrasolutions.com/crm
             https://omrasolutions.com/about-us
             https://omrasolutions.com/new-contact-us
-
-# *
-# Host
-Host: https://omrasolutions.com/
-
-# Sitemaps
-Sitemap: https://omrasolutions.com/sitemap.xml
