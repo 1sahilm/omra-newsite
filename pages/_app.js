@@ -60,7 +60,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Omra Solutions</title>
+        <title>IT & Software Company - OMRA Solutions</title>
         <link
           rel="icon"
           type="image/png"
@@ -85,6 +85,28 @@ function MyApp({ Component, pageProps }) {
           name="google-site-verification"
           content="miO7qBo6rWBWDfdtk4zmaveMZluOzYN9VdEekDBkbRg"
         />
+
+        <meta name="google-site-verification" content="" />
+        <meta name="author" content="OMRA Solutions" />
+        <meta name="robots" content="index,follow" />
+        <meta name="robots" content="noodp,noydir" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="IT & Software Company  - OMRA Solutions"
+        />
+        <meta property="og:url" content="https://omrasolutions.com" />
+        <meta property="og:site_name" content="OMRA Solutions" />
+        <meta
+          name="description"
+          content="we our leading IT & Software Company in india.we help you grow and manege your business with our software like crm,hrms,elaundry and more. contact       us for get on top in your sector."
+        />
+        <meta
+          name="keywords"
+          content="IT & Software Company,crm software,drycleaning software,hrms software,elaundary software,best software company,digital marketing service,app         development company "
+        />
+        <link rel="canonical" href="https://omrasolutions.com" />
       </Head>
       <div className="page-wraper">
         <Component {...pageProps} />
