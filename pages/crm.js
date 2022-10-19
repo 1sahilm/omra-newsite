@@ -3,9 +3,16 @@ import Image from "next/image";
 import Header2 from "../layout/header-2";
 import Footer from "../layout/footer";
 import Styles from "../scss/demo/crm.module.scss";
+import NextSeo from "../layout/next-seo";
 const Crm = () => {
   return (
     <>
+      <NextSeo
+        title="CRM software - OMRA Solutions"
+        canonical="https://omrasolutions.com/crm"
+        description="Our CRM software customer relationship management system here you enables to manage you business smoothly and you get better manage customer interactions, provide support, and maintain  relationships with your customer through CRM software."
+        keywords="CRM software, crm software services, crm software, Customer Relationship Management system, Lead management System, CRM analytics"
+      />
       <Header2 />
       <div className="mainpage">
         <div className={Styles.bannerImage}>

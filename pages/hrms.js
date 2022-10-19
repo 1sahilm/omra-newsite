@@ -3,9 +3,16 @@ import Image from "next/image";
 import Header2 from "../layout/header-2";
 import Footer from "../layout/footer";
 import Styles from "../scss/demo/hrms.module.scss";
+import NextSeo from "../layout/next-seo";
 const Hrms = () => {
   return (
     <>
+      <NextSeo
+        title="HR Management System - OMRA Solutions"
+        description={`We offer HR Management System.Here you can manage all these things smoothly Recruitment & Hiring, Employee Portal, Payroll, Workflows, Time Tracking and Leave Entitlement`}
+        keywords={`HR Management System, HRMS Software, Best HR Software, Recruitment & Hiring Management System,People management`}
+        canonical="https://www.omrasolutions.com/hrms"
+      />
       <Header2 />
       <div className="mainpage">
         <div className={Styles.bannerImage}>

@@ -4,6 +4,5 @@ module.exports = {
   generateRobotsTxt: true, // (optional)
   generateIndexSitemap: true,
   sitemapBaseFileName: "sitemap",
-
   // ...other options
 };
