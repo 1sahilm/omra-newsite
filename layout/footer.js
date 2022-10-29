@@ -121,12 +121,12 @@ function Footer() {
                       aria-hidden="true"
                       href="https://www.facebook.com/omrasolution"
                     ></a>
-                    <a
+                    {/* <a
                       target="_blank"
                       className="fa fa-twitter"
                       aria-hidden="true"
                       href="https://twitter.com/SolutionsOmra"
-                    ></a>
+                    ></a> */}
                     <a
                       target="_blank"
                       className="fa fa-linkedin"
