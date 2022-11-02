@@ -3,11 +3,18 @@ import AddIcon from "../component/icons/Add";
 import ReusableTab from "../component/tab/tab";
 import Footer from "../layout/footer";
 import Header2 from "../layout/header-2";
+import NextSeo from "../layout/next-seo";
 import Styles from "../scss/demo/demo.module.scss";
 
 function Second() {
   return (
     <>
+      <NextSeo
+        title="It Development - OMRA Solutions"
+        description={``}
+        keywords={``}
+        canonical="https://www.omrasolutions.com/it-development"
+      />
       <Header2 />
       <section className="mydiv">
         <div className="container">

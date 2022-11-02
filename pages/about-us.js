@@ -5,9 +5,16 @@ import Header2 from "../layout/header-2";
 import Footer from "../layout/footer";
 import Blog2 from "../element/blog-2";
 import Slider33 from "../component/slider33.js";
+import NextSeo from "../layout/next-seo";
 const Aboutus = () => {
   return (
     <>
+      <NextSeo
+        title="About Us - OMRA Solutions"
+        description={``}
+        keywords={``}
+        canonical="https://www.omrasolutions.com/it-development"
+      />
       <Header2 />
       <div className="mainpage">
         <div className={Styles.bannerImage}>

@@ -1,7 +1,8 @@
 import Header2 from "../layout/header-2";
 import Styles from "../scss/contact-page/contact.module.scss";
-import Footer from "./../layout/footer";
+import Footer from "../layout/footer";
 import { useState } from "react";
+import NextSeo from "../layout/next-seo";
 
 function Contact() {
   const [inputs, setInputs] = useState({
@@ -64,6 +65,12 @@ function Contact() {
 
   return (
     <>
+      <NextSeo
+        title="Contact Us - OMRA Solutions"
+        description={``}
+        keywords={``}
+        canonical="https://www.omrasolutions.com/it-development"
+      />
       <Header2 />
 
       <div className={` ${Styles.omracontact} container-fluid`}>

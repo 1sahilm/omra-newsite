@@ -110,7 +110,7 @@ function Header2() {
                   </li>
 
                   <li>
-                    <Link href="/new-contact-us">
+                    <Link href="/contact-us">
                       <a>Contact Us</a>
                     </Link>
                   </li>

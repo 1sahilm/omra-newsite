@@ -5,9 +5,16 @@ import ReusableTab from "../component/tab/tab";
 import AddIcon from "../component/icons/Add";
 import Header2 from "../layout/header-2";
 import Footer from "../layout/footer";
+import NextSeo from "../layout/next-seo";
 const Demo = () => {
   return (
     <>
+      <NextSeo
+        title="E-Commerce Product Uploading - OMRA Solutions"
+        description={``}
+        keywords={``}
+        canonical="https://www.omrasolutions.com/it-development"
+      />
       <Header2 />
       <div className="whole_width">
         <div className={Styles.bannerImage}>

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Slider from "react-slick";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Link from "next/link";
 
 function ReportSlider() {
   const [asd, setAsd] = useState();
@@ -89,11 +90,12 @@ function ReportSlider() {
                       Sustainable Organizations 2021 by Corporate Knights
                     </p>
                     <div className="slidertextblock1 slidertextblock1_a">
-                      {" "}
-                      <a href="#" className="sldrr3">
-                        <span className="sldr3">Know More</span>
-                        <i></i>
-                      </a>
+                      <Link href="/hrms" className="sldrr3">
+                        <a>
+                          <span className="sldr3">Know More</span>
+                          <i></i>
+                        </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -116,11 +118,12 @@ function ReportSlider() {
                       Sustainable Organizations 2021 by Corporate Knights
                     </p>
                     <div className="slidertextblock1">
-                      {" "}
-                      <a href="#" className="sldrr3">
-                        <span className="sldr3">Know More</span>
-                        <i></i>
-                      </a>
+                      <Link href="/hrms" className="sldrr3">
+                        <a>
+                          <span className="sldr3">Know More</span>
+                          <i></i>
+                        </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -145,10 +148,12 @@ function ReportSlider() {
                     </p>
                     <div className="slidertextblock1">
                       {" "}
-                      <a href="hrmsknowmore" className="sldrr3">
-                        <span className="sldr3">Know More</span>
-                        <i></i>
-                      </a>
+                      <Link href="/hrms" className="sldrr3">
+                        <a>
+                          <span className="sldr3">Know More</span>
+                          <i></i>
+                        </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
