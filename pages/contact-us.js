@@ -10,7 +10,7 @@ function Contact() {
     lname: "",
     email: "",
     phone: "",
-    enquiry: "",
+    company: "",
   });
 
   const [loading, setLoading] = useState("");
@@ -26,7 +26,7 @@ function Contact() {
     e.preventDefault();
     setLoading("loading");
     try {
-      const res = await fetch(`api/contact`, {
+      const res = await fetch(`api/contact-us`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -151,16 +151,18 @@ function Contact() {
                     <label for="any">Enquiry Type*</label>
                     <br></br>
                     <select
-                      name="any"
-                      id="any"
+                      // name="any"
+                      // id="any"
+                      name="company"
+                      id="company"
                       class="form-control"
                       onChange={handleChange}
                     >
                       <option value>Select</option>
-                      <option value={"a"}>VOICE PROCESS</option>
-                      <option value={"b"}>HRMS</option>
-                      <option value={"c"}>ELAUNDRY</option>
-                      <option value={"d"}>CRM</option>
+                      <option value={"VOICE PROCESS"}>VOICE PROCESS</option>
+                      <option value={"HRMS"}>HRMS</option>
+                      <option value={"ELAUNDRY"}>ELAUNDRY</option>
+                      <option value={"CRM"}>CRM</option>
                     </select>
                   </div>{" "}
                 </div>
