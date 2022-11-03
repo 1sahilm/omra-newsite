@@ -13,6 +13,7 @@ function VoiceProcess() {
     email: "",
     phone: "",
     company: "",
+    country: "",
   });
 
   const [loading, setLoading] = useState("");
@@ -130,6 +131,16 @@ function VoiceProcess() {
                         type="text"
                         className="form-control  mb-3 form-input"
                         placeholder="Company Name"
+                        required
+                        onChange={handleChange}
+                      />
+                    </div>
+                    <div>
+                      <input
+                        id="country"
+                        type="text"
+                        className="form-control  mb-3 form-input"
+                        placeholder="Country Name"
                         required
                         onChange={handleChange}
                       />
