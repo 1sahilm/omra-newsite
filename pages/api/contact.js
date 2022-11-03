@@ -23,8 +23,7 @@ export default async (req, res) => {
       bcc: "anupam.singh@epicglobal.co.in",
       bcc: "sahil.mishra@epicglobal.co.in",
       bcc: "omra.digitalsolution@gmail.com",
-
-      subject: `HRMS ${name}`,
+      subject: `Voice Process ${name}`,
       html: `<p>You have a contact form submission</p>
       <p><strong>Name: </strong> ${name}</p>
         <p><strong>Email: </strong> ${email}</p>
