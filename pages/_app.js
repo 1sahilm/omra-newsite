@@ -8,7 +8,9 @@ import "react-rangeslider/lib/index.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../scss/abstract/thought-leadership.css";
 import "../scss/abstract/intelligent-automation.css";
+
 import Script from "next/script";
+
 import NextSeo from "../layout/next-seo";
 import Head from "next/head";
 
