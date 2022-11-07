@@ -42,8 +42,6 @@ function Contact() {
     }
   };
 
-  console.log(inputs);
-
   const RedirectToThankYou = () => {
     switch (loading) {
       case "loading":
@@ -138,7 +136,7 @@ function Contact() {
                       onChange={handleChange}
                     ></input>
                     <br></br>
-                    <label for="lname">Last Name*</label>
+                    <label htmlFor="lname">Last Name*</label>
                     <br></br>
                     <input
                       type="text"
@@ -148,7 +146,7 @@ function Contact() {
                       onChange={handleChange}
                     ></input>
                     <br></br>
-                    <label for="any">Enquiry Type*</label>
+                    <label htmlFor="any">Enquiry Type*</label>
                     <br></br>
                     <select
                       // name="any"
@@ -163,12 +161,13 @@ function Contact() {
                       <option value={"HRMS"}>HRMS</option>
                       <option value={"ELAUNDRY"}>ELAUNDRY</option>
                       <option value={"CRM"}>CRM</option>
+                      <option value={"IT DEVELOPMENT"}>IT DEVELOPMENT</option>
                     </select>
                   </div>{" "}
                 </div>
                 <div className="col-4">
                   <div className="Second">
-                    <label for="phone">Phone* </label>
+                    <label htmlFor="phone">Phone* </label>
                     <br></br>{" "}
                     <input
                       type="tel"
@@ -178,7 +177,7 @@ function Contact() {
                       onChange={handleChange}
                     ></input>
                     <br></br>
-                    <label for="mail" onChange={handleChange}>
+                    <label htmlFor="mail" onChange={handleChange}>
                       Email Address*
                     </label>
                     <br></br>
@@ -190,7 +189,7 @@ function Contact() {
                       onChange={handleChange}
                     ></input>
                     <br></br>
-                    <label for="formTerms" className={Styles.formTerms}>
+                    <label htmlFor="formTerms" className={Styles.formTerms}>
                       By clicking on the submit button, I agree with the Privacy
                       Policy.
                     </label>
