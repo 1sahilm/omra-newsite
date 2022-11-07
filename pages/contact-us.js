@@ -162,6 +162,7 @@ function Contact() {
                       <option value={"ELAUNDRY"}>ELAUNDRY</option>
                       <option value={"CRM"}>CRM</option>
                       <option value={"IT DEVELOPMENT"}>IT DEVELOPMENT</option>
+                      <option value={"CAREER"}>CAREER</option>
                     </select>
                   </div>{" "}
                 </div>
