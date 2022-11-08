@@ -109,10 +109,10 @@ function Footer() {
                 </div>
                 <div className="col-md-6">
                   <div className="footer-terms">
-                    <a href="#">Contact us</a>
-                    <a href="#">About us</a>
-                    <a href="privacy-policy">Privacy policy</a>
-                    <a href="terms-of-use">Terms of use</a>
+                    <a href="/contact-us">Contact us</a>
+                    <a href="/about-us">About us</a>
+                    <a href="/privacy-policy">Privacy policy</a>
+                    <a href="/terms-of-use">Terms of use</a>
                   </div>
                   <div className="socail">
                     <a
