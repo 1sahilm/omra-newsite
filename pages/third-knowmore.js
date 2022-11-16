@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Header2 from "./../layout/header-2";
 import Footer from "./../layout/footer";
 import Link from "next/link";
+import NextSeo from "../layout/next-seo";
 
 function first_knowmore() {
   return (
