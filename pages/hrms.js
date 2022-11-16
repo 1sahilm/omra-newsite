@@ -12,7 +12,14 @@ const Hrms = () => {
         description={`We offer HR Management System.Here you can manage all these things smoothly Recruitment & Hiring, Employee Portal, Payroll, Workflows, Time Tracking and Leave Entitlement`}
         keywords={`HR Management System, HRMS Software, Best HR Software, Recruitment & Hiring Management System,People management`}
         canonical="https://www.omrasolutions.com/hrms"
-      />
+      >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: hrmssch,
+          }}
+        ></script>
+      </NextSeo>
       <Header2 />
       <div className="mainpage">
         <div className={Styles.bannerImage}>
@@ -183,3 +190,45 @@ const Hrms = () => {
 };
 
 export default Hrms;
+
+const hrmssch = `{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "HR Management System - OMRA Solutions",
+  "image":"https://omrasolutions.com/images/newlogo.png",
+"description": "We offer HR Management System.Here you can manage all these things smoothly Recruitment & Hiring, Employee Portal, Payroll, Workflows, Time Tracking and Leave Entitlement",
+  "@id": "https://omrasolutions.com/",
+ "url": "https://omrasolutions.com/hrms", 
+"telephone": " +91 79825 18911",
+  "priceRange": "Ask",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Office- 103 and 105, D-20, Sector 63 Rd",
+    "addressLocality": "Noida",
+    "postalCode": "201305",
+    "addressCountry": "+91",
+    "addressRegion": "91"
+  },
+"openingHoursSpecification": 
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "10:00",
+      "closes": "18:30"
+  },
+  "sameAs": [
+    "https://www.facebook.com/omrasolution",
+    "https://twitter.com/SolutionsOmra",
+    "https://www.instagram.com/omra.digitalsolution/",
+"https://www.linkedin.com/company/omra-solutions",
+"https://www.youtube.com/channel/UCHAvY_F3UWz2R43gkYS3lTg"
+  ] 
+
+}`;
