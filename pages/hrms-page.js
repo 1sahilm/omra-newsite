@@ -8,6 +8,7 @@ import Styles from "../scss/demo/hrmspage.module.scss";
 import { useState } from "react";
 import image from "next/image";
 import Image from "next/image";
+import NextSeo from "../layout/next-seo";
 
 function HrmsPage() {
   const [inputs, setInputs] = useState({
@@ -70,6 +71,19 @@ function HrmsPage() {
   return (
     <div>
       <>
+        <NextSeo
+          title="HRMS - OMRA Solutions"
+          description={``}
+          keywords={``}
+          canonical="https://www.omrasolutions.com/hrms-page"
+        >
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: hrmspagesch,
+            }}
+          ></script>
+        </NextSeo>
         <Header2 />
         <section className="mydiv00133">
           <div className="container">
@@ -420,3 +434,45 @@ function HrmsPage() {
 }
 
 export default HrmsPage;
+
+const hrmspagesch = `{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Experience our delightful cloud based HRM software - OMRA Solutions",
+  "image":"https://omrasolutions.com/images/newlogo.png",
+"description": "Let's get engaged with our HRM software in a smoother way with our easy-to-use & affordable HRM and payroll outsourcing services.",
+  "@id": "https://omrasolutions.com/",
+ "url": "https://omrasolutions.com/hrms-page", 
+"telephone": " +91 79825 18911",
+  "priceRange": "Ask",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Office- 103 and 105, D-20, Sector 63 Rd",
+    "addressLocality": "Noida",
+    "postalCode": "201305",
+    "addressCountry": "+91",
+    "addressRegion": "91"
+  },
+"openingHoursSpecification": 
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "10:00",
+      "closes": "18:30"
+  },
+  "sameAs": [
+    "https://www.facebook.com/omrasolution",
+    "https://twitter.com/SolutionsOmra",
+    "https://www.instagram.com/omra.digitalsolution/",
+"https://www.linkedin.com/company/omra-solutions",
+"https://www.youtube.com/channel/UCHAvY_F3UWz2R43gkYS3lTg"
+  ] 
+
+}`;

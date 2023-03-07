@@ -72,8 +72,15 @@ function VoiceProcess() {
         title="Voice Process - OMRA Solutions"
         description={``}
         keywords={``}
-        canonical="https://www.omrasolutions.com/it-development"
-      />
+        canonical="https://www.omrasolutions.com/voice-process"
+      >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: voicesch,
+          }}
+        ></script>
+      </NextSeo>
       <Header2 />
       <section className="mydiv001">
         <div className="container">
@@ -486,3 +493,45 @@ const FAQArray = [
     },
   },
 ];
+
+const voicesch = `{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Any Voice Process ! Any Language! On Any Technology! - Omra Solutions",
+  "image":"https://omrasolutions.com/images/newlogo.png",
+"description": "Connect with your customers through our dedicated team, who are ready to serve our clients at every milestone !",
+  "@id": "https://omrasolutions.com/",
+ "url": "https://omrasolutions.com/voice-process", 
+"telephone": " +91 79825 18911",
+  "priceRange": "Ask",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Office- 103 and 105, D-20, Sector 63 Rd",
+    "addressLocality": "Noida",
+    "postalCode": "201305",
+    "addressCountry": "+91",
+    "addressRegion": "91"
+  },
+"openingHoursSpecification": 
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "10:00",
+      "closes": "18:30"
+  },
+  "sameAs": [
+    "https://www.facebook.com/omrasolution",
+    "https://twitter.com/SolutionsOmra",
+    "https://www.instagram.com/omra.digitalsolution/",
+"https://www.linkedin.com/company/omra-solutions",
+"https://www.youtube.com/channel/UCHAvY_F3UWz2R43gkYS3lTg"
+  ] 
+
+}`;

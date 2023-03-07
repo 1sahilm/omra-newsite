@@ -2,10 +2,24 @@ import { useEffect } from "react";
 import Header2 from "../layout/header-2";
 import Footer from "../layout/footer";
 import Link from "next/link";
+import NextSeo from "../layout/next-seo";
 
 function second_knowmore() {
   return (
     <>
+      <NextSeo
+        title="Oure Parent Ecosystme- OMRA Solutions"
+        description={``}
+        keywords={``}
+        canonical="https://www.omrasolutions.com/our-partner-ecosystem"
+      >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ecosystemsch,
+          }}
+        ></script>
+      </NextSeo>
       <Header2 />
 
       <section>
@@ -149,3 +163,45 @@ function second_knowmore() {
   );
 }
 export default second_knowmore;
+
+const ecosystemsch = `{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Our partner ecosystem - Omra Solutions",
+  "image":"https://omrasolutions.com/images/newlogo.png",
+"description": "A platform to manage all aspects of your digital and traditional partnerships. We partner with over 34+ projects so that we can dynamically bring you best-of-breed technology, to not only help you deliver today's business outcomes, but also be ready for tomorrow.",
+  "@id": "https://omrasolutions.com/",
+ "url": "https://omrasolutions.com/our-partner-ecosystem", 
+"telephone": " +91 79825 18911",
+  "priceRange": "Ask",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Office- 103 and 105, D-20, Sector 63 Rd",
+    "addressLocality": "Noida",
+    "postalCode": "201305",
+    "addressCountry": "+91",
+    "addressRegion": "91"
+  },
+"openingHoursSpecification": 
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "10:00",
+      "closes": "18:30"
+  },
+  "sameAs": [
+    "https://www.facebook.com/omrasolution",
+    "https://twitter.com/SolutionsOmra",
+    "https://www.instagram.com/omra.digitalsolution/",
+"https://www.linkedin.com/company/omra-solutions",
+"https://www.youtube.com/channel/UCHAvY_F3UWz2R43gkYS3lTg"
+  ] 
+
+}`;

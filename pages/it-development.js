@@ -14,7 +14,14 @@ function Second() {
         description={``}
         keywords={``}
         canonical="https://www.omrasolutions.com/it-development"
-      />
+      >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: itsch,
+          }}
+        ></script>
+      </NextSeo>
       <Header2 />
       <section className="mydiv">
         <div className="container">
@@ -609,3 +616,45 @@ const FAQArray = [
     },
   },
 ];
+
+const itsch = `{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Let we Digitize your Business to Grow - OMRA Solutions",
+  "image":"https://omrasolutions.com/images/newlogo.png",
+"description": "OMRA Solutions have extensive experience in developing applications for iPhone using Swift and Objective C. We are developing an iOS mobile app in a tactic that captures the essence of your business while increasing your targeted visitors.",
+  "@id": "https://omrasolutions.com/",
+ "url": "https://omrasolutions.com/it-development", 
+"telephone": " +91 79825 18911",
+  "priceRange": "Ask",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Office- 103 and 105, D-20, Sector 63 Rd",
+    "addressLocality": "Noida",
+    "postalCode": "201305",
+    "addressCountry": "+91",
+    "addressRegion": "91"
+  },
+"openingHoursSpecification": 
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "10:00",
+      "closes": "18:30"
+  },
+  "sameAs": [
+    "https://www.facebook.com/omrasolution",
+    "https://twitter.com/SolutionsOmra",
+    "https://www.instagram.com/omra.digitalsolution/",
+"https://www.linkedin.com/company/omra-solutions",
+"https://www.youtube.com/channel/UCHAvY_F3UWz2R43gkYS3lTg"
+  ] 
+
+}`;

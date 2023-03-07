@@ -9,6 +9,7 @@ import ReportSection from "../element/reportsection";
 import Leadership from "../element/leader";
 import NextSeo from "../layout/next-seo";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Script from "next/script";
 
 function HomePage() {
   return (

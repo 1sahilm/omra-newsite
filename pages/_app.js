@@ -13,12 +13,31 @@ import Script from "next/script";
 
 import NextSeo from "../layout/next-seo";
 import Head from "next/head";
+import * as ga from "../lib/ga";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 
 function RootApp({ Component, pageProps }) {
+  const router = useRouter();
+
+  useEffect(() => {
+    const handleRouteChange = (url) => {
+      ga.pageview(url);
+    };
+    //When the component is mounted, subscribe to router changes
+    //and log those page views
+    router.events.on("routeChangeComplete", handleRouteChange);
+
+    // If the component is unmounted, unsubscribe
+    // from the event with the `off` method
+    return () => {
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
   return (
     <>
       <Head>
-        <Script
+        {/* <Script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
         />
@@ -30,7 +49,7 @@ function RootApp({ Component, pageProps }) {
   gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}')
     `,
           }}
-        />
+        /> */}
       </Head>
       <div className="page-wraper">
         <Component {...pageProps} />

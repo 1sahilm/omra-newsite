@@ -12,7 +12,14 @@ function Elaundry() {
         canonical="https://www.omrasolutionss.com/elaundry"
         keywords="LaundryManagement Software,Laundry & Dry Cleaning Software,Dry Cleaning Software"
         description="We offer Laundry Management Software. Here you manage Single/Multi Stores smoothly with amazing features like  Home Pickup and Delivery facility                 Rider-POS Mobile, Application and Online Booking through Customer with this software on your device"
-      />
+      >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: elaundrysch,
+          }}
+        ></script>
+      </NextSeo>
       <Header2 />
       <section className="mydiv009">
         <div className="container">
@@ -307,3 +314,45 @@ function Elaundry() {
 }
 
 export default Elaundry;
+
+const elaundrysch = `{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Laundry Management Software - OMRA Solutions",
+  "image":"https://omrasolutions.com/images/newlogo.png",
+"description": "We offer Laundry Management Software. Here you manage Single/Multi Stores smoothly with amazing features like Home Pickup and Delivery facility Rider-POS Mobile, Application and Online Booking through Customer with this software on your device",
+  "@id": "https://omrasolutions.com/",
+ "url": "https://omrasolutions.com/elaundry", 
+"telephone": " +91 79825 18911",
+  "priceRange": "Ask",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Office- 103 and 105, D-20, Sector 63 Rd",
+    "addressLocality": "Noida",
+    "postalCode": "201305",
+    "addressCountry": "+91",
+    "addressRegion": "91"
+  },
+"openingHoursSpecification": 
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "10:00",
+      "closes": "18:30"
+  },
+  "sameAs": [
+    "https://www.facebook.com/omrasolution",
+    "https://twitter.com/SolutionsOmra",
+    "https://www.instagram.com/omra.digitalsolution/",
+"https://www.linkedin.com/company/omra-solutions",
+"https://www.youtube.com/channel/UCHAvY_F3UWz2R43gkYS3lTg"
+  ] 
+
+}`;

@@ -2,10 +2,24 @@ import { useEffect } from "react";
 import Header2 from "./../layout/header-2";
 import Footer from "./../layout/footer";
 import Link from "next/link";
+import NextSeo from "../layout/next-seo";
 
 function first_leadership() {
   return (
     <>
+      <NextSeo
+        title="Leadership- OMRA Solutions"
+        description={``}
+        keywords={``}
+        canonical="https://www.omrasolutions.com/leadership-1"
+      >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: leadersch,
+          }}
+        ></script>
+      </NextSeo>
       <Header2 />
 
       <section>
@@ -330,3 +344,45 @@ function first_leadership() {
   );
 }
 export default first_leadership;
+
+const leadersch = `{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "WHY INDIAN SMEs MARKETING IS LENDING BEHIND IN SALES?",
+  "image":"https://omrasolutions.com/images/newlogo.png",
+"description": "One of the fastest growing economies of the world is of India. In the last half decade, the economic growth has steadily accelerated and most importantly, remained very stable. This growth has been driven by robust socio-economic policies of the government, an influx in the domestic and foreign capital and rise in disposable income and consumption among many other positive attributes.",
+  "@id": "https://omrasolutions.com/",
+ "url": "https://omrasolutions.com/leadership-1", 
+"telephone": " +91 79825 18911",
+  "priceRange": "Ask",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Office- 103 and 105, D-20, Sector 63 Rd",
+    "addressLocality": "Noida",
+    "postalCode": "201305",
+    "addressCountry": "+91",
+    "addressRegion": "91"
+  },
+"openingHoursSpecification": 
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "10:00",
+      "closes": "18:30"
+  },
+  "sameAs": [
+    "https://www.facebook.com/omrasolution",
+    "https://twitter.com/SolutionsOmra",
+    "https://www.instagram.com/omra.digitalsolution/",
+"https://www.linkedin.com/company/omra-solutions",
+"https://www.youtube.com/channel/UCHAvY_F3UWz2R43gkYS3lTg"
+  ] 
+
+}`;

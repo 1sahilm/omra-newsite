@@ -2,10 +2,24 @@ import { useEffect } from "react";
 import Header2 from "./../layout/header-2";
 import Footer from "./../layout/footer";
 import Link from "next/link";
+import NextSeo from "../layout/next-seo";
 
 function thought_leadership() {
   return (
     <>
+      <NextSeo
+        title="Know More - OMRA Solutions"
+        canonical="https://www.omrasolutionss.com/fourth-knowmore"
+        keywords=""
+        description=""
+      >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: knowsch,
+          }}
+        ></script>
+      </NextSeo>
       <Header2 />
 
       <section>
@@ -216,3 +230,45 @@ function thought_leadership() {
   );
 }
 export default thought_leadership;
+
+const knowsch = `{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Lets Help Technology, to Navigate Your Next - OMRA Solutions",
+  "image":"https://omrasolutions.com/images/newlogo.png",
+"description": "Businesses are constantly driven by their inherent instincts to survive, grow, sustain and flourish. The concept of an enterprise operating as a living, breathing organism has been explored for several decades now. Many organizations aren't experiencing the full value that technology can deliver.",
+  "@id": "https://omrasolutions.com/",
+ "url": "https://omrasolutions.com/fourth-knowmore", 
+"telephone": " +91 79825 18911",
+  "priceRange": "Ask",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Office- 103 and 105, D-20, Sector 63 Rd",
+    "addressLocality": "Noida",
+    "postalCode": "201305",
+    "addressCountry": "+91",
+    "addressRegion": "91"
+  },
+"openingHoursSpecification": 
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "10:00",
+      "closes": "18:30"
+  },
+  "sameAs": [
+    "https://www.facebook.com/omrasolution",
+    "https://twitter.com/SolutionsOmra",
+    "https://www.instagram.com/omra.digitalsolution/",
+"https://www.linkedin.com/company/omra-solutions",
+"https://www.youtube.com/channel/UCHAvY_F3UWz2R43gkYS3lTg"
+  ] 
+
+}`;
