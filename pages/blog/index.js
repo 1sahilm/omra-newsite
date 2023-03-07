@@ -16,13 +16,12 @@ const BlogPage = ({ blogData }) => {
         <h1>Our Popular Blogs </h1>
         <div className={css["grid-list"]}>
           {blogData.map((data, index) => {
-            console.log(data);
             return (
               <BlogCard
                 key={index}
                 category={data?.categories[0]}
                 date={moment(data?.date).format("LL")}
-                href={`/blog/${data?.id}`}
+                href={`/blog/${data?.slug}`}
                 source={data?.jetpack_featured_media_url}
                 title={data?.title?.rendered}
               />

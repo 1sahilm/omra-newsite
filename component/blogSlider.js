@@ -87,7 +87,7 @@ function BlogSlider({ data }) {
         <Slider ref={(c) => setSliderOpt(c)} {...settings}>
           {blogs.map((item) => {
             return (
-              <Link href={`/blog/${item?.id}`}>
+              <Link href={`/blog/${item?.slug}`}>
                 <a
                   className="item wow fadeInUp"
                   data-wow-duration="2s"
@@ -111,12 +111,15 @@ function BlogSlider({ data }) {
                         <a>
                           {/* Quisque sem tortor, convallis in arcu eu,
                                         accumsan finibus. */}
-                          {item.title.rendered.slice(0, 50)}...
+                          {item.title.rendered.slice(0, 25)}...
                         </a>
                         {/* </Link> */}
                       </h5>
-                      <p className="m-b0">
-                        {item.excerpt.rendered.slice(3, 200)}...
+                      <p
+                        //  className="m-b0"
+                        style={{ fontSize: "16px", marginTop: "0px" }}
+                      >
+                        {item.excerpt.rendered?.slice(3, 35)}...
                       </p>
 
                       <div className="dlab-meta meta-bottom">
