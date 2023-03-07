@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import Slider from "react-slick";
 
@@ -47,9 +48,12 @@ export default function SimpleSlider() {
                   We are in platform development; SaaS based platforms &
                   mobile application development.
                 </p>
-                <a href="" className="newslider333">
+                <Link href="/it-development">
+                <a  className="newslider333">
                   View more
                 </a>
+                </Link>
+               
               </div>
 
               <div className="div_boxslider">
@@ -57,9 +61,12 @@ export default function SimpleSlider() {
                   <p>
                   We are working on Inbound/Outbound process, business process outsourcing, and Sales processes with amazing & great experience & dedicated team.
                   </p>
-                <a href="" className="newslider333">
+                  <Link href="/voice-process">
+                  <a  className="newslider333">
                 View more
                 </a>
+                  </Link>
+                
               </div>
          
              
@@ -69,9 +76,12 @@ export default function SimpleSlider() {
                   <p>
                   We work on e-commerce product uploading for renowned brands, where we are responsible for digital catalog uploading with elegant product descriptions. 
                   </p>
-                <a href="" className="newslider333">
+                  <Link href="/e-commerce-product-uploading">
+                  <a  className="newslider333">
                 View more
                 </a>
+                  </Link>
+               
               </div>
               
             
