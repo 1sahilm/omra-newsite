@@ -15,7 +15,7 @@ function HomePage() {
   return (
     <React.Fragment>
       <NextSeo
-        title="IT & Software Company  - OMRA Solutions"
+        title="Home - OMRA Solutions"
         canonical="https://omrasolutions.com"
         description="we our leading IT & Software Company in india.we help you grow and manege your business with our software like crm,hrms,elaundry and more. contact us for get on top in your sector."
         keywords="IT & Software Company,crm software,drycleaning software,hrms software,elaundary software,best software company,digital marketing service,app development company"
